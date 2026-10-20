@@ -24,9 +24,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kaynaklar import KAYNAKLAR  # noqa: E402
+import olaylar  # noqa: E402
 
 KOK = Path(__file__).resolve().parent
-VERI, RAPOR, DURUM = KOK / "veri", KOK / "raporlar", KOK / "durum.json"
+VERI, RAPOR, DURUM, OLAY = KOK / "veri", KOK / "raporlar", KOK / "durum.json", KOK / "olaylar.json"
 SITE = KOK.parent / "index.html"
 TSI = dt.timezone(dt.timedelta(hours=3))
 ALANLAR = ("ad", "hukum", "kapsam", "cati", "metin", "kaynaklar", "url", "ek")
@@ -120,25 +121,12 @@ def kirp(s, n):
     return s if len(s) <= n else s[: n - 1].rstrip() + "…"
 
 
-def metin_farki(a, b, baglam=70, en=350):
-    """Değişen bölümü bağlamıyla gösterir: ~~silinen~~ / **eklenen**."""
-    a, b = re.sub(r"\s+", " ", a or "").strip(), re.sub(r"\s+", " ", b or "").strip()
-    sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
-    ops = [o for o in sm.get_opcodes() if o[0] != "equal"]
-    if not ops:
+def metin_farki(a, b):
+    """Değişen bölümler bağlamıyla: ~~silinen~~ **eklenen**."""
+    f = olaylar.metin_farki(a, b)
+    if not f:
         return "Yalnız boşluk/biçim farkı."
-    i1, j1 = ops[0][1], ops[0][3]
-    i2, j2 = ops[-1][2], ops[-1][4]
-    while i1 > 0 and j1 > 0 and not a[i1 - 1].isspace():           # sınırları kelime başına/sonuna genişlet
-        i1, j1 = i1 - 1, j1 - 1
-    while i2 < len(a) and j2 < len(b) and not a[i2].isspace():
-        i2, j2 = i2 + 1, j2 + 1
-    on = ("…" if i1 > baglam else "") + kac(a[max(0, i1 - baglam):i1])
-    son = kac(a[i2:i2 + baglam]) + ("…" if len(a) - i2 > baglam else "")
-    sil, ekl = kac(kirp(a[i1:i2], en)), kac(kirp(b[j1:j2], en))
-    eski = f"Eski: {on}{'~~' + sil + '~~' if sil else ''}{son}"
-    yeni = f"Yeni: {on}{'**' + ekl + '**' if ekl else ''}{son}"
-    return f"> {eski}\n>\n> {yeni}"
+    return "> " + " ".join(kac(t) if op == "=" else f"~~{kac(t)}~~" if op == "-" else f"**{kac(t)}**" for op, t in f["p"])
 
 
 def ayrinti(d, k, db):
@@ -223,7 +211,7 @@ def main():
     simdi = dt.datetime.now(TSI)
     zaman = simdi.isoformat(timespec="seconds")
     durum = oku(DURUM, {})
-    sonuc, hatalar, uyarilar = {}, {}, {}
+    sonuc, hatalar, uyarilar, yeni_olay = {}, {}, {}, []
     for k in ks:
         K = KAYNAKLAR[k]
         onceki = oku(VERI / f"{k}.json", {})
@@ -262,15 +250,17 @@ def main():
         if f:
             dk["son_degisiklik"] = zaman
             sonuc[k] = f
+            yeni_olay += olaylar.uret(k, f, simdi.date().isoformat())
         print(f"[{k}] {len(f)} değişiklik ({sum(map(etkili, f))} kapsamda)", flush=True)
     yaz(DURUM, durum)
+    n_olay = olaylar.ekle(OLAY, yeni_olay)
 
     db = veritabani()
     tarih = simdi.strftime("%Y-%m-%d %H:%M")
     kisa = ", ".join(f"{KAYNAKLAR[k]['ad']} {len(v)}" for k, v in sonuc.items())
     ust = [f"Kontrol edilen kaynaklar: {', '.join(KAYNAKLAR[k]['ad'] for k in ks)}."]
     if sonuc:
-        ust.append(f"Değişiklik bulunan: {kisa}.")
+        ust.append(f"Değişiklik bulunan: {kisa}. Olay kaydına (sitenin Güncellemeler sekmesi) {n_olay} olay eklendi.")
     else:
         ust.append("Değişiklik yok.")
     if hatalar:

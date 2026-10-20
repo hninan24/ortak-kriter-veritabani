@@ -34,6 +34,7 @@ BM OHCHR listesi (A/HRC/63/20) yıllık bir rapor olduğu için izlenmez.
 
 ## Değişiklikler nereye yazılır
 
+- **Olay kaydı ve sitenin Güncellemeler sekmesi:** `olaylar.json`, listelerin her adımını tarihiyle tutar: ekleme, çıkarma, seviye yükseltme ya da düşürme, metin düzeltme, kaynak güncelleme, çatı ve ad değişikliği. Yalnız veritabanının kapsamına dokunan değişiklikler olaydır. Sitenin **Güncellemeler** sekmesi bu kaydı gösterir. GitHub Pages'teki site kaydı her açılışta yeniden okur, böylece sitenin son derlenmesinden sonra tespit edilen olaylar da “henüz işlenmedi” durumuyla görünür.
 - **Issue:** Değişiklik bulunan her çalışma, `izleme` etiketli açık Issue'ya yorum ekler. Açık Issue yoksa yenisini açar. Depoyu izleyenlere (Watch) GitHub bildirimi gider. Değişiklikler işlendikten sonra Issue kapatılabilir; sonraki değişiklik yeni bir Issue açar.
 - **Rapor:** `raporlar/YYYY-MM-DD-SSDD.md`. Bildirimde kaynak başına en çok 25 madde gösterilir; tam liste rapordadır.
 - **Anlık görüntü:** `veri/<kaynak>.json`, her kaynağın son okunan hâli. Git geçmişi aynı zamanda değişiklik arşividir.
@@ -54,9 +55,15 @@ Kapsam dışındaki değişiklikler (ör. bykt'de Alınabilir markalar) en sonda
 
 Her maddedeki **veritabanında** notu, kaydın adının sitedeki bir kuruluşun adıyla ya da diğer adlarından biriyle eşleşip eşleşmediğini gösterir. Eşleşme yalnız yazıma bakar. “Veritabanında yok” bir markanın yeni olduğunu, ya da veritabanında başka bir yazımla geçtiğini gösterebilir.
 
+## Geri çekilen kanıtlar
+
+Bir liste bir kaydı çıkardığında ya da hükmünü veritabanının kapsamı dışına indirdiğinde (ör. bykt'de “Kesin Boykot” → “Alınabilir”), kuruluş veritabanından silinmez. Listenin kaydı, ayrıntı panelinde geri çekilme tarihiyle ve geri çekilmeden önceki metniyle **“geri çekildi”** diye işaretli kalır. Bu kayıt kanıt sayılmaz, kod vermez ve liste sayısına girmez. Kuruluşun başka listelerdeki kayıtları geçerliliğini korur. Başka listede kaydı olmayan kuruluş da veritabanında kalır ve “geri çekildi” rozetiyle görünür. İlk örnekler: Who Profits'in 20.10.2026'da kaldırdığı Aldo (Boykot Dedektifi kaydıyla duruyor) ve SEMI.
+
 ## Değişiklikler veritabanına nasıl işlenir
 
 Veritabanı bu depoda değil, yerel çalışma klasöründe üretilir (`listeler/Ortak Kriter Veritabanı/kaynak/`):
+
+Geri çekmeler, veritabanı derlenirken olay kaydından kendiliğinden işaretlenir (`olay_uygula.py`). Diğer değişiklikler listenin yeni verisiyle gelir:
 
 1. Değişen listenin güncel verisi indirilir ya da yeniden taranır (bykt ve Bilinçli Tüketim için `listeler/bykt/kod/disa_aktar.py` ve `listeler/bilinclituketim/kod/disa_aktar.py`).
 2. `variants.py`'de V ve VI'nın kaynak dosyası yeni dışa aktarıma çevrilir.

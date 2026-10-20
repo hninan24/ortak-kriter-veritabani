@@ -9,6 +9,7 @@ metin (gerekçe/açıklama), kaynaklar (kanıt bağlantıları), url, ek (kayna�
 `normalle_*` işlevleri hem canlı çekimde hem de ilk anlık görüntüyü yerel dışa aktarımlardan kurarken kullanılır; böylece
 ikisi aynı biçimde karşılaştırılır.
 """
+import datetime as dt
 import hashlib
 import html as H
 import json
@@ -71,9 +72,11 @@ def bos(x):
     return x or None
 
 
-def kayit(ad, hukum=None, kapsam=True, cati=None, metin=None, kaynaklar=(), url=None, **ek):
+def kayit(ad, hukum=None, kapsam=True, cati=None, metin=None, kaynaklar=(), url=None, *, tarih=None, eklenme=None, **ek):
+    """tarih / eklenme: kaydın listedeki son güncelleme ve eklenme tarihi (biliniyorsa). Karşılaştırmaya girmez, yalnız
+    olay tarihinde kullanılır."""
     r = {"ad": bos(ad), "hukum": bos(hukum), "kapsam": bool(kapsam), "cati": bos(cati), "metin": bos(metin),
-         "kaynaklar": tekil(kaynaklar), "url": bos(url)}
+         "kaynaklar": tekil(kaynaklar), "url": bos(url), "tarih": bos(tarih), "eklenme": bos(eklenme)}
     ek = {k: v for k, v in ek.items() if v not in (None, "", [], {})}
     if ek:
         r["ek"] = ek
@@ -90,6 +93,12 @@ def bykt_url(ad):
     return "https://bykt.org/marka/" + urllib.parse.quote(s)
 
 
+def _fb_tarih(u):
+    if isinstance(u, dict) and "_seconds" in u:
+        return dt.datetime.fromtimestamp(u["_seconds"], dt.timezone(dt.timedelta(hours=3))).date().isoformat()
+    return None
+
+
 def normalle_bykt(veri):
     out = {}
     for b in veri:
@@ -98,7 +107,8 @@ def normalle_bykt(veri):
             continue
         out[b["id"]] = kayit(ad, BYKT_DURUM.get(b.get("status"), b.get("status")), b.get("status") in ("red", "orange"),
                              b.get("parentCompany"), b.get("reason"),
-                             [s.get("url") for s in (b.get("reasonSources") or [])], bykt_url(ad))
+                             [s.get("url") for s in (b.get("reasonSources") or [])], bykt_url(ad),
+                             tarih=_fb_tarih(b.get("updatedAt")), eklenme=_fb_tarih(b.get("createdAt")))
     return out
 
 
@@ -135,7 +145,8 @@ def normalle_bt(d):
             b["name"], derece.get(b["rate"]) or f"Listede değil ({b['rate']})",
             k["rate"] in (1, 2, 3) and k["id"] in goster, ust["name"] if ust else None, b.get("explanation"),
             list(b.get("other_links") or []) + list(b.get("image_links") or []),
-            "https://bilinclituketim.com/brand/" + b["key"], sitede="Evet" if b["id"] in goster else "Hayır")
+            "https://bilinclituketim.com/brand/" + b["key"], tarih=(b.get("date_updated") or "")[:10],
+            eklenme=(b.get("date_added") or "")[:10], sitede="Evet" if b["id"] in goster else "Hayır")
     return out
 
 

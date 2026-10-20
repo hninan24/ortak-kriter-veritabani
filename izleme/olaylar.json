@@ -1,0 +1,1297 @@
+[
+ {
+  "id": "2026-10-20|wp|3788|cikarma",
+  "tespit": "2026-10-20",
+  "liste": "wp",
+  "kimlik": "3788",
+  "marka": "SEMI (Sociedad Espanola de Montajes Industrial)",
+  "cati": null,
+  "tur": "cikarma",
+  "url": "https://www.whoprofits.org/companies/company/3788",
+  "kapsam": "cikti",
+  "eski": {
+   "url": "https://www.whoprofits.org/companies/company/3788"
+  }
+ },
+ {
+  "id": "2026-10-20|wp|7349|cikarma",
+  "tespit": "2026-10-20",
+  "liste": "wp",
+  "kimlik": "7349",
+  "marka": "Aldo",
+  "cati": null,
+  "tur": "cikarma",
+  "url": "https://www.whoprofits.org/companies/company/7349",
+  "kapsam": "cikti",
+  "eski": {
+   "url": "https://www.whoprofits.org/companies/company/7349"
+  }
+ },
+ {
+  "id": "2026-10-20|bykt|mCaAb2JJAKGvmjrxLxjS|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "mCaAb2JJAKGvmjrxLxjS",
+  "marka": "Yıldız Holding",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/y%C4%B1ld%C4%B1z-holding",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Yıldız Holding, Türkiye kökenli olup i̇şletme sektöründe bisküvi, çikolata, market göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "Yıldız Holding ve bağlı markalar hakkında kamuoyuna yansıyan … ve sorgulayıcı bir tutum sergilemesi anlaşılabilir bir yaklaşımdır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|j8t3wMbpmofiu8H6BLdC|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "j8t3wMbpmofiu8H6BLdC",
+  "marka": "Teknosa",
+  "cati": "Sabancı Holding",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/teknosa",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Teknosa, Türkiye kökenli olup elektronik perakende sektöründe perakende tüketici elektroniği göstermektedir. Mülkiyeti Sabancı Holding bünyesindedir."
+    ],
+    [
+     "=",
+     "Teknosa, 2000 yılında Hacı Ömer Sabancı Holding A.Ş. … da, boykotlu teknoloji devlerinin ürünlerini nihai tüketiciye ulaştıran"
+    ],
+    [
+     "-",
+     "\"ana"
+    ],
+    [
+     "+",
+     "\"\"ana"
+    ],
+    [
+     "=",
+     "dağıtım kanallarından ve ikincil kâr"
+    ],
+    [
+     "-",
+     "ortaklarından\""
+    ],
+    [
+     "+",
+     "ortaklarından\"\""
+    ],
+    [
+     "=",
+     "biri olması sebebiyle"
+    ],
+    [
+     "-",
+     "\"İnsafa Bağlı\""
+    ],
+    [
+     "+",
+     "\"\"İnsafa Bağlı\"\""
+    ],
+    [
+     "=",
+     "(İkincil Boykot / Distribütör Sorumluluğu) kategorisinde değerlendirilmiştir. Teknosa … A.Ş.'ye aittir; geri kalan kısım ise fiili dolaşımdadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|zXDT9IdCppTPahuQUelB|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "zXDT9IdCppTPahuQUelB",
+  "marka": "Tecno",
+  "cati": "Transsion Holdings",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/tecno",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Tecno, Çin kökenli olup teknoloji sektöründe akıllı telefon, laptop, kulaklık göstermektedir. Mülkiyeti Transsion Holdings bünyesindedir."
+    ],
+    [
+     "=",
+     "1. Doğu Türkistan Durumu (Temiz) Tecno'nun çatı şirketi … olmadığı için, Çin Komünist Partisi'nin Doğu Türkistan'da kurduğu"
+    ],
+    [
+     "-",
+     "\"dijital"
+    ],
+    [
+     "+",
+     "\"\"dijital"
+    ],
+    [
+     "=",
+     "gözetim ve"
+    ],
+    [
+     "-",
+     "fişleme\""
+    ],
+    [
+     "+",
+     "fişleme\"\""
+    ],
+    [
+     "=",
+     "sistemlerinde (Huawei veya ZTE gibi) rol almamıştır. Zorla … yayınladığı ve Oppo, Xiaomi gibi devlerin ifşa edildiği"
+    ],
+    [
+     "-",
+     "\"Uyghurs"
+    ],
+    [
+     "+",
+     "\"\"Uyghurs"
+    ],
+    [
+     "=",
+     "for"
+    ],
+    [
+     "-",
+     "Sale\""
+    ],
+    [
+     "+",
+     "Sale\"\""
+    ],
+    [
+     "=",
+     "raporunda Tecno veya Transsion markasının adı geçmemektedir. 2. …"
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|eATAgzjyjJyQmOsQbZSP|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "eATAgzjyjJyQmOsQbZSP",
+  "marka": "Superfresh",
+  "cati": "Yıldız Holding",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/superfresh",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Superfresh, Türkiye kökenli olup gıda sektöründe hazır gıda göstermektedir. Mülkiyeti Yıldız Holding bünyesindedir."
+    ],
+    [
+     "=",
+     "SuperFresh, 1990 yılında dondurulmuş gıda sektörüne adım atmıştır. … pazarını inşa eden ve bu alanda pek çok"
+    ],
+    [
+     "-",
+     "\"ilk\"e"
+    ],
+    [
+     "+",
+     "\"\"ilk\"\"e"
+    ],
+    [
+     "=",
+     "imza atan köklü bir markadır. Özellikle 90'lı yıllardan … sıra, fason olarak market zincirlerine de üretim yapmaktadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|98x5qQpzChzHIC7ilnzD|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "98x5qQpzChzHIC7ilnzD",
+  "marka": "Sharpstar",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/sharpstar",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Sharpstar, Çin kökenli olup optik sektöründe teleskop, mercek göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "Çin merkezli Jiaxing Sharpstar Optical Instrument Co., Ltd. … marka olduğu için temkinli bir yaklaşım göstermek gerekir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|i17XJIAMALAGYXn2Ww9D|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "i17XJIAMALAGYXn2Ww9D",
+  "marka": "SC Johnson (Johnson & Son)",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/sc-johnson-johnson-son",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "SC Johnson (Johnson & Son), ABD kökenli olup i̇şletme sektöründe kişisel bakım ürünleri ve çeşitli kimyasal ürünleri üreticisi göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "SC Johnson (S.C. Johnson & Son, Inc.), 1886 … tamamen aile mülkiyetinde olan nadir dev şirketlerden biridir."
+    ],
+    [
+     "-",
+     "\"A"
+    ],
+    [
+     "+",
+     "\"\"A"
+    ],
+    [
+     "=",
+     "Family"
+    ],
+    [
+     "-",
+     "Company\""
+    ],
+    [
+     "+",
+     "Company\"\""
+    ],
+    [
+     "=",
+     "(Bir Aile Şirketi) sloganıyla bilinen firma, tüketici kimyasalları … bir şirket olduğu için bu kategoride yer alıyor."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|Q1GPoNeQFQ7Y4l7ZzlRY|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "Q1GPoNeQFQ7Y4l7ZzlRY",
+  "marka": "Remax",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/remax",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Remax, ABD kökenli olup i̇şletme sektöründe emlak şirketi göstermektedir."
+    ],
+    [
+     "=",
+     "ABD menşeli REMAX gayrimenkul şirketi, Yahudi yerleşim birimlerinde gayrimenkul satışı ve kiralaması yapmaktadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|gtIEra8aZV5jUjbrekLJ|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "gtIEra8aZV5jUjbrekLJ",
+  "marka": "Redbull",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/redbull",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Redbull, Avusturya kökenli olup i̇çecek sektöründe enerji i̇çeceği / medya / motor sporları göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "Red Bull, küresel enerji içeceği pazarında Coca-Cola ve … bulunmamakla birlikte; küresel ortaklık tercihleri ve kriz bölgelerindeki"
+    ],
+    [
+     "-",
+     "\"duyarsız\""
+    ],
+    [
+     "+",
+     "\"\"duyarsız\"\""
+    ],
+    [
+     "=",
+     "ticaret politikası, markayı"
+    ],
+    [
+     "-",
+     "\"Güvenli\""
+    ],
+    [
+     "+",
+     "\"\"Güvenli\"\""
+    ],
+    [
+     "=",
+     "statüsünden uzaklaştırıp TURUNCU (Riskli/Dikkat) kategorisine itmektedir. Markanın bu … yapmakta ve ona meşruiyet kazandırmaktadır. Bu durum, markayı"
+    ],
+    [
+     "-",
+     "\"suçun finansörü\""
+    ],
+    [
+     "+",
+     "\"\"suçun finansörü\"\""
+    ],
+    [
+     "=",
+     "yapmasa da"
+    ],
+    [
+     "-",
+     "\"suçlunun reklamcısı\""
+    ],
+    [
+     "+",
+     "\"\"suçlunun reklamcısı\"\""
+    ],
+    [
+     "=",
+     "konumuna sokmaktadır. Öte yandan markanın Doğu Türkistan, Arakan, … Libya ve Sudan gibi diğer kriz bölgelerindeki duruşu"
+    ],
+    [
+     "-",
+     "\"Mutlak"
+    ],
+    [
+     "+",
+     "\"\"Mutlak"
+    ],
+    [
+     "=",
+     "Ticari"
+    ],
+    [
+     "-",
+     "Pragmatizm\""
+    ],
+    [
+     "+",
+     "Pragmatizm\"\""
+    ],
+    [
+     "=",
+     "(Savaş olsa da ticaret sürer) ilkesine dayanır. Şirket; … rejimle olan ticari bağlarını insan hakları gerekçesiyle sınırlandırmamış,"
+    ],
+    [
+     "-",
+     "\"politikaya"
+    ],
+    [
+     "+",
+     "\"\"politikaya"
+    ],
+    [
+     "=",
+     "karışmadan kâr"
+    ],
+    [
+     "-",
+     "etme\""
+    ],
+    [
+     "+",
+     "etme\"\""
+    ],
+    [
+     "=",
+     "stratejisini izlemiştir. Savaş ve kaos bölgelerinde herhangi bir … insani krizlere karşı tamamen sessiz kalarak ticarete odaklanmıştır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|gp2QnRSlVwDRx448X3bG|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "gp2QnRSlVwDRx448X3bG",
+  "marka": "Petrol Ofisi",
+  "cati": "Vitol Group",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/petrol-ofisi",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "1. Vitol Group Hissedarlığı Petrol Ofisi'nin %100 hissesi İsviçre merkezli Vitol Group'a aittir . Vitol,"
+    ],
+    [
+     "+",
+     "Şirketin hisselerinin %100'ü, merkezi İsviçre'de bulunan ve"
+    ],
+    [
+     "=",
+     "dünyanın en büyük"
+    ],
+    [
+     "-",
+     "bağımsız"
+    ],
+    [
+     "+",
+     "özel enerji tüccarlarından biri olan Vitol Group'a aittir. Markayı doğrudan kırmızı listeye sokan asıl unsur, çatı şirket Vitol'ün işgal devleti İsrail ile olan organik askeri tedarik bağıdır. Uluslararası enerji gözlemcilerinin 2026 yılı (Eylül) güncel raporlarına göre; Gazze'deki soykırım süreci boyunca Vitol, İsrail'in devlete ait Avrupa Asya Boru Hattı Şirketi'ne (EAPC) milyonlarca varil ham"
+    ],
+    [
+     "=",
+     "petrol"
+    ],
+    [
+     "-",
+     "tüccarıdır"
+    ],
+    [
+     "+",
+     "sevk eden en büyük küresel tedarikçilerden biridir. Daha da kritik olanı, Vitol sadece ham petrol değil, doğrudan işgalci ordunun (IDF) kullandığı savaş uçakları için jet yakıtı (havacılık yakıtı) tedariki de sağlamaktadır. İsrail içindeki rafineriler üzerinden askeriyeye aktarılan bu sevkiyatlar, doğrudan Vitol'ün kiraladığı tankerlerle işgal limanlarına ulaşmaktadır. 2024 yılının son aylarında Petrol Ofisi Grubu, küresel sömürü ağının demirbaşlarından BP'nin Türkiye'deki tüm operasyonlarını"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "yıllık 2 trilyon dolarlık ticaret hacmine sahiptir. Şirket, Sudan, Güney Sudan, Libya ve Venezuela gibi kriz bölgelerinden petrol ithal ederek küresel piyasalara dağıtmaktadır . Vitol'un Sudan petrolüyle bağlantısı, BM Güvenlik Konseyi yaptırımları kapsamında 2018'de soruşturulmuştur; şirket Sudan'dan doğrudan ihracat yapmasa da, üçüncü ülke aracılığıyla Sudan petrolünün Avrupa piyasalarına karışması iddiaları gündeme gelmiştir ."
+    ],
+    [
+     "+",
+     "700'den fazla istasyonunu resmen satın almıştır. Tüketicinin BP'yi boykot edip"
+    ],
+    [
+     "=",
+     "Petrol"
+    ],
+    [
+     "-",
+     "Ofisi'nin Vitol üzerinden"
+    ],
+    [
+     "+",
+     "Ofisi'nden yakıt alması, finansal olarak hiçbir şeyi değiştirmemektedir; çünkü günün sonunda her iki istasyondan da"
+    ],
+    [
+     "=",
+     "elde edilen"
+    ],
+    [
+     "-",
+     "kâr payları, bu küresel ticaret ağına dolaylı olarak katkı sağlamaktadır. 3. Sermaye Yapısı"
+    ],
+    [
+     "+",
+     "kâr, İsrail jetlerine yakıt taşıyan İsviçre merkezli Vitol'ün kasasına akmaktadır. İşgal ordusunun fiili lojistik"
+    ],
+    [
+     "=",
+     "ve"
+    ],
+    [
+     "-",
+     "Borsa Bilgisi"
+    ],
+    [
+     "+",
+     "yakıt destekçisi olan bir sermayenin %100 iştiraki olduğu için"
+    ],
+    [
+     "=",
+     "Petrol"
+    ],
+    [
+     "-",
+     "Ofisi A.Ş., Borsa İstanbul'da işlem görmektedir (Hisse kodu: POAGS). Hissedar Yapısı: Vitol Group (İsviçre): %51 SOCAR Türkiye (Azerbaycan devleti iştiraki): %49 Halka açık olması nedeniyle BlackRock (%2.1) ve Vanguard (%1.8) gibi küresel fonların minimal hissedarlığı mevcuttur . 2019 öncesinde %51 hisse Tüpraş'a aitti; bu satış sonrası yabancı sermaye kontrolü artmıştır. 4. Türkiye Operasyonları Türkiye genelinde 1.900'den fazla istasyonu bulunmaktadır. Tüm istasyonlar Türkiye sınırları içinde faaliyet göstermekte; uluslararası pazarda operasyonu yoktur."
+    ],
+    [
+     "+",
+     "Ofisi, kesinlikle kaçınılması gereken (Kırmızı) firmalar arasındadır."
+    ]
+   ]
+  },
+  "tarih": "2026-10-05"
+ },
+ {
+  "id": "2026-10-20|bykt|gp2QnRSlVwDRx448X3bG|kaynak",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "gp2QnRSlVwDRx448X3bG",
+  "marka": "Petrol Ofisi",
+  "cati": "Vitol Group",
+  "tur": "kaynak",
+  "url": "https://bykt.org/marka/petrol-ofisi",
+  "baglanti": {
+   "eklenen": [
+    "https://oilchange.org/publications/vitol-heritage-fzco-israel-oil/",
+    "https://www.credin.com.tr/en/about-us/who-we-are",
+    "https://t24.com.tr/ekonomi/petrol-ofisi-ile-anlasma-yapildi-bp-turkiye-den-tamamen-cekildi,1194323?_t=1791181232903",
+    "https://thecradle.co/articles/iraq-oil-exports-recover-amid-sales-of-discounted-oil-to-israel-linked-firm"
+   ],
+   "cikan": [
+    "https://www.ekonomigazetesi.com/dunya/ingiliz-energean-israilin-ilk-ham-petrol-ihracatini-gerceklestirdi-7361",
+    "https://www.aa.com.tr/tr/ekonomi/petrol-ofisi-hollandali-vitol-groupa-satilacak/763684"
+   ]
+  },
+  "tarih": "2026-10-05"
+ },
+ {
+  "id": "2026-10-20|bykt|oIpDxc9VOw68bDM5gEBX|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "oIpDxc9VOw68bDM5gEBX",
+  "marka": "Nestea",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/nestea",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Nestea, İsviçre kökenli olup i̇çecek sektöründe soğuk çay göstermektedir."
+    ],
+    [
+     "=",
+     "Nestle Coca Cola ortaklığıyla üretilen bir soğuk çay markası."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|im1UIxOGpIxq3GUGbyFZ|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "im1UIxOGpIxq3GUGbyFZ",
+  "marka": "Mis",
+  "cati": "Şok Market",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/mis",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Mis, Türkiye kökenli olup gıda sektöründe süt ve süt ürünleri göstermektedir. Mülkiyeti Şok Market bünyesindedir."
+    ],
+    [
+     "=",
+     "Mis, Türkiye’nin en büyük organize perakende zincirlerinden biri … kategorisine yerleştirdik. Alacaksanız üretici firmayı kontrol etmeyi unutmayınız."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|umcANgpbEiRzUzpTEhSh|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "umcANgpbEiRzUzpTEhSh",
+  "marka": "Mediamarkt",
+  "cati": "Ceconomy AG",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/mediamarkt",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Mediamarkt, Almanya kökenli olup elektronik perakende sektöründe perakende tüketici elektroniği göstermektedir. Mülkiyeti Ceconomy AG bünyesindedir."
+    ],
+    [
+     "=",
+     "MediaMarkt, Almanya merkezli tüketici elektroniği perakende grubu Ceconomy … olsa da, boykotlu ana markaların nihai tüketiciye ulaştırılmasında"
+    ],
+    [
+     "-",
+     "\"ana"
+    ],
+    [
+     "+",
+     "\"\"ana"
+    ],
+    [
+     "=",
+     "dağıtım kanalı ve ikincil kâr"
+    ],
+    [
+     "-",
+     "ortağı\""
+    ],
+    [
+     "+",
+     "ortağı\"\""
+    ],
+    [
+     "=",
+     "görevi görmesi sebebiyle"
+    ],
+    [
+     "-",
+     "\"İnsafa Bağlı\""
+    ],
+    [
+     "+",
+     "\"\"İnsafa Bağlı\"\""
+    ],
+    [
+     "=",
+     "kategorisinde değerlendirilmesi uygun görülmüştür. Media-Saturn-Holding GmbH'nin ana şirketi … Beisheim Group gibi Almanya merkezli kurumsal yapılar bulunmaktadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|Q4YtF5RFobTugeJe2rPd|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "Q4YtF5RFobTugeJe2rPd",
+  "marka": "Little Caesars",
+  "cati": "Ilitch Holdings",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/little-caesars",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Little Caesars, ABD kökenli olup gıda sektöründe pizza,fast food göstermektedir. Mülkiyeti Ilitch Holdings bünyesindedir."
+    ],
+    [
+     "=",
+     "Little Caesars, Ilitch ailesine ait bir Amerikan şirketidir. … itibarıyla gelirinin bir kısmı ABD'ye aktarılmaktadır. Sonuç: Doğrudan"
+    ],
+    [
+     "-",
+     "\"İşgalin finansörü\""
+    ],
+    [
+     "+",
+     "\"\"İşgalin finansörü\"\""
+    ],
+    [
+     "=",
+     "denilemez, ancak"
+    ],
+    [
+     "-",
+     "\"Paramın"
+    ],
+    [
+     "+",
+     "\"\"Paramın"
+    ],
+    [
+     "=",
+     "1 kuruşu bile ABD'ye"
+    ],
+    [
+     "-",
+     "gitmesin\""
+    ],
+    [
+     "+",
+     "gitmesin\"\""
+    ],
+    [
+     "=",
+     "diyenler için Terra Pizza veya yerel pizzacılar gibi %100 yeşil bir alternatif de değildir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|PS48bgQ4hZa4Amr2iydL|ekleme",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "PS48bgQ4hZa4Amr2iydL",
+  "marka": "Lefties",
+  "cati": "Inditex",
+  "tur": "ekleme",
+  "url": "https://bykt.org/marka/lefties",
+  "sonraki": "Kesin Boykot",
+  "tarih": "2026-10-05"
+ },
+ {
+  "id": "2026-10-20|bykt|TKhTfbiyHZTjEOr7WUcT|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "TKhTfbiyHZTjEOr7WUcT",
+  "marka": "Kuveyt Türk",
+  "cati": "Kuwait Finance House",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/kuveyt-t%C3%BCrk",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Kuveyt Türk, Kuveyt kökenli olup finans sektöründe katılım bankacılığı ve finansal hizmetler göstermektedir. Mülkiyeti Kuwait Finance House bünyesindedir."
+    ],
+    [
+     "=",
+     "Kuveyt Türk kendisini faizli mevduat ve nakit kredi … ilişkisi birlikte değerlendirildiğinde en dengeli kategori İnsafa Bağlıdır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|ACHSm4FQJ0ZjJKo9FD2r|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "ACHSm4FQJ0ZjJKo9FD2r",
+  "marka": "İçim",
+  "cati": "Lactalis Grup",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/i%C3%A7im",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "İçim, gıda sektöründe faaliyet gösteren ve süt ve süt ürünleri üreten bir markadır. Mülkiyeti Lactalis Grup bünyesinde bulunmaktadır. Fransa merkezli küresel süt devi Lactalis mülkiyetinde bulunmaktadır. Türkiye'de Ak Gıda operasyonları üzerinden boykotlu küresel fast food zincirlerine (McDonald's vb.) B2B peynir ve süt tedariki sağlamakta; Fransa merkezinde ise İsrail pazarı ile ticari ilişkilerini sürdürmektedir. Bu dolaylı ve B2B ticari bağlar nedeniyle marka Kesin Boykot / İnsafa Bağlı değerlendirmesinde yer almaktadır. Tüketicilerin gıda alanında bu markanın yerine yerli ve temiz sermaye…"
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|k0skTFWuHTuZzIJD3tQN|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "k0skTFWuHTuZzIJD3tQN",
+  "marka": "Infinix Mobile",
+  "cati": "Transsion Holdings",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/infinix-mobile",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Infinix Mobile, Çin kökenli olup teknoloji sektöründe akıllı telefon, laptop, aksesuar göstermektedir. Mülkiyeti Transsion Holdings bünyesindedir."
+    ],
+    [
+     "=",
+     "1. Doğu Türkistan Durumu (Temiz) Infinix'in çatı şirketi … gibi) rol almamıştır. Zorla Çalıştırma Listesinde Yok: ASPI'nin"
+    ],
+    [
+     "-",
+     "\"Uyghurs"
+    ],
+    [
+     "+",
+     "\"\"Uyghurs"
+    ],
+    [
+     "=",
+     "for"
+    ],
+    [
+     "-",
+     "Sale\""
+    ],
+    [
+     "+",
+     "Sale\"\""
+    ],
+    [
+     "=",
+     "raporunda veya diğer zorla çalıştırma listelerinde Transsion veya … Dolayısıyla Tecno markası da Infinix ile aynı statüdedir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|nunjeaxMzPy604hFIg9S|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "nunjeaxMzPy604hFIg9S",
+  "marka": "H&M",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/h-m",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "H&M, İsveç kökenli olup giyim - tekstil sektöründe giyim ve aksesuar ürünleri göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "H&M bir İsveç markasıdır, ancak İsrail'deki mağazalarını İsveçliler değil, bir"
+    ],
+    [
+     "-",
+     "\"Franchise\""
+    ],
+    [
+     "+",
+     "\"\"Franchise\"\""
+    ],
+    [
+     "=",
+     "(Bayi) ortağı yönetir. Boykotun ana nedeni bu ortaktır. … ve işletmesi, George Horesh ve ailesine ait olan"
+    ],
+    [
+     "-",
+     "\"Match Retail\""
+    ],
+    [
+     "+",
+     "\"\"Match Retail\"\""
+    ],
+    [
+     "=",
+     "şirketindedir. George Horesh Kimdir? İsrail'in en zengin iş … kemiği sayılan gruplardan biridir. H&M, uluslararası hukuka göre"
+    ],
+    [
+     "-",
+     "\"işgal"
+    ],
+    [
+     "+",
+     "\"\"işgal"
+    ],
+    [
+     "=",
+     "altındaki"
+    ],
+    [
+     "-",
+     "topraklar\""
+    ],
+    [
+     "+",
+     "topraklar\"\""
+    ],
+    [
+     "=",
+     "sayılan bölgelerde faaliyet göstermekle eleştirilmiştir. Kudüs ve Yerleşim … yerleşimcilerin ana alışveriş noktalarıdır. Raporlar: İsrail işgalini izleyen"
+    ],
+    [
+     "-",
+     "\"Who Profits\""
+    ],
+    [
+     "+",
+     "\"\"Who Profits\"\""
+    ],
+    [
+     "=",
+     "kuruluşu, H&M'in İsrail'deki mağaza ağının yerleşimci ekonomisine hizmet ettiğini raporlamıştır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|JybMDfNS4DC4hUKnpdLk|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "JybMDfNS4DC4hUKnpdLk",
+  "marka": "Faber-Castell",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/faber-castell",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Faber-Castell, Almanya kökenli olup kırtasiye sektöründe kırtasiye ürünleri üreticisi göstermektedir."
+    ],
+    [
+     "=",
+     "Türkiye'deki dağıtıcısı anadolu grubu'ndan dolayı bu listede yer almaktadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|7nr36m8kuTXAQD0Y3sgn|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "7nr36m8kuTXAQD0Y3sgn",
+  "marka": "Dost",
+  "cati": "BİM",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/dost",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Dost, Türkiye kökenli olup gıda sektöründe süt ve süt ürünleri göstermektedir. Mülkiyeti BİM bünyesindedir."
+    ],
+    [
+     "=",
+     "Dost, Türkiye’nin en büyük organize perakende zincirlerinden biri … kategorisine yerleştirdik. Alacaksanız üretici firmayı kontrol etmeyi unutmayınız."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|OWdjvOFUlutjdDV8KdGL|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "OWdjvOFUlutjdDV8KdGL",
+  "marka": "Dickies",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/dickies",
+  "fark": {
+   "p": [
+    [
+     "-",
+     "Sadece amerikalı"
+    ],
+    [
+     "+",
+     "Dickies, ABD kökenli olup giyim - tekstil sektöründe i̇ş kıyafeti sunan"
+    ],
+    [
+     "=",
+     "bir"
+    ],
+    [
+     "-",
+     "şirket olduğu için bu listede yer almaktadır."
+    ],
+    [
+     "+",
+     "markadır. Mevcut veritabanında listelenme gerekçesi kurucusunun Musevi/Yahudi kökenli olmasına veya sadece menşeine dayandırılmıştır. Ancak İslam hukukunda adalet ve gayrimüslimlerle sivil muamele prensipleri (Mümtehine Suresi 8. ayet: 'Allah, din konusunda sizinle savaşmayanlara adaletli davranmaktan sizi men etmez') uyarınca; salt etnik veya dini köken boykot sebebi yapılamaz. Markanın İsrail ordusuna silah, teçhizat veya işgal yerleşimlerine doğrudan kurumsal bağış yaptığına dair somut bir delil bulunmadığından, boykotun ırkçılık veya haksız ithamla lekelenmemesi adına kategori Alınabilir…"
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|XT7DZSElIpQ9kEHZGd3T|seviye_yukseltme",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "XT7DZSElIpQ9kEHZGd3T",
+  "marka": "Derimod",
+  "cati": null,
+  "tur": "seviye_yukseltme",
+  "url": "https://bykt.org/marka/derimod",
+  "onceki": "Alınabilir",
+  "sonraki": "İnsafa Bağlı",
+  "kapsam": "girdi",
+  "tarih": "2026-10-05"
+ },
+ {
+  "id": "2026-10-20|bykt|23YoTKQshVWtNxc6jb2S|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "23YoTKQshVWtNxc6jb2S",
+  "marka": "Colin's",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/colin-s",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Colin's, Türkiye kökenli olup giyim - tekstil sektöründe erkek, kadın, çocuk giyim göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "Colin's, Türkiye merkezli global bir moda perakende markasıdır. … mont ve kaban üretimiyle işe başlamış, 1986 yılında"
+    ],
+    [
+     "-",
+     "\"Kulis\""
+    ],
+    [
+     "+",
+     "\"\"Kulis\"\""
+    ],
+    [
+     "=",
+     "markasıyla jean üretimine geçmiştir. Markalaşma: 1992 yılında dünya … da tişört, gömlek, ceket, triko ve aksesuar gibi"
+    ],
+    [
+     "-",
+     "\"casual\""
+    ],
+    [
+     "+",
+     "\"\"casual\"\""
+    ],
+    [
+     "=",
+     "(günlük) giyim ürünleri üretir. Genç ve dinamik bir … boykot edilen bu markalarla yaptığı iş ortaklıklarından Colin's"
+    ],
+    [
+     "-",
+     "kesin"
+    ],
+    [
+     "=",
+     "boykot listesine eklenmiştir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|sWv8obHAXcUgKXw5NWIi|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "sWv8obHAXcUgKXw5NWIi",
+  "marka": "Citizen",
+  "cati": "Citizen Group",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/citizen",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Citizen, Japonya kökenli olup saat sektöründe kol saatleri, saat mekanizmaları göstermektedir. Mülkiyeti Citizen Group bünyesindedir."
+    ],
+    [
+     "=",
+     "Citizen, kökleri 1918’de kurulan Shokosha Saat Araştırma Enstitüsüne … için en uygun kategori İnsafa Bağlı olarak değerlendirilmiştir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|KlGQ8FNzEbaVGYVRXGNP|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "KlGQ8FNzEbaVGYVRXGNP",
+  "marka": "Bridgestone",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/bridgestone",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "\"Bridgestone, Japonya kökenli olup otomotiv sektöründe lastik göstermektedir. Mülkiyeti Bağımsız / Belirtilmemiş bünyesindedir."
+    ],
+    [
+     "=",
+     "Bridgestone, 1931 yılında Japonya'da Shojiro Ishibashi tarafından kurulan … sanayi devidir. Şirketin ismi, kurucusunun soyadı olan ve"
+    ],
+    [
+     "-",
+     "\"taş köprü\""
+    ],
+    [
+     "+",
+     "\"\"taş köprü\"\""
+    ],
+    [
+     "=",
+     "anlamına gelen"
+    ],
+    [
+     "-",
+     "\"Ishibashi\""
+    ],
+    [
+     "+",
+     "\"\"Ishibashi\"\""
+    ],
+    [
+     "=",
+     "kelimesinin İngilizceye tercüme edilip ters çevrilmesiyle oluşturulmuştur. Merkezi … rağmen ortaklık yapısı nedeniyle bu listede yer almaktadır."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir.\""
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|dQIrz5qoyHH87FoVTab5|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "dQIrz5qoyHH87FoVTab5",
+  "marka": "Birşah",
+  "cati": "A101",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/bir%C5%9Fah",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Birşah, Türkiye kökenli olup gıda sektöründe süt ve süt ürünleri göstermektedir. Mülkiyeti A101 bünyesindedir."
+    ],
+    [
+     "=",
+     "Birşah, Türkiye’nin en büyük organize perakende zincirlerinden biri … kategorisine yerleştirdik. Alacaksanız üretici firmayı kontrol etmeyi unutmayınız."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bykt|bVGkHBeMartWfDXHq5BW|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "bVGkHBeMartWfDXHq5BW",
+  "marka": "Altınmarka",
+  "cati": null,
+  "tur": "metin",
+  "url": "https://bykt.org/marka/alt%C4%B1nmarka",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Altınmarka, Türkiye kökenli olup gıda sektöründe endüstriyel çikolata, kakao ve perakende göstermektedir."
+    ],
+    [
+     "=",
+     "Grubun alt firması Kahve Dünyası nedeniyle üst grupta aynı boykot kategorisinde yer alıyor."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-09"
+ },
+ {
+  "id": "2026-10-20|bykt|Fbszg6gvTFfLIVvx6Yqh|metin",
+  "tespit": "2026-10-20",
+  "liste": "bykt",
+  "kimlik": "Fbszg6gvTFfLIVvx6Yqh",
+  "marka": "Ak Sigorta",
+  "cati": "Sabancı Holding A.Ş. ve Ageas Insurance International N.V.",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/ak-sigorta",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Ak Sigorta, Türkiye kökenli olup sigorta sektöründe yangın, kaza, nakliyat, mühendislik, tarım, sağlık ve hayat dışı diğer branşlarda sigortacılık göstermektedir. Mülkiyeti Sabancı Holding A.Ş. ve Ageas Insurance International N.V. bünyesindedir."
+    ],
+    [
+     "=",
+     "Aksigorta, Türkiye merkezli Sabancı Holding ile Belçika merkezli … nedeniyle alt iştirakleri de insafa bağlı kategorisinde değerlendirilmiştir."
+    ],
+    [
+     "+",
+     "Bu kapsamda markanın ticari faaliyetleri, çatı sermaye ortaklıkları ve uluslararası pazardaki operasyonları incelendiğinde; söz konusu bağların küresel sivil boykot standartları ve sermaye akışı kuralları çerçevesinde tüketici hassasiyeti gerektirdiği görülmektedir. Tüketicilerin satın alma kararlarında yerli ve temiz alternatifleri önceliklendirmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-14"
+ },
+ {
+  "id": "2026-10-20|bt|377|ekleme",
+  "tespit": "2026-10-20",
+  "liste": "bt",
+  "kimlik": "377",
+  "marka": "Philips",
+  "cati": null,
+  "tur": "ekleme",
+  "url": "https://bilinclituketim.com/brand/philips",
+  "sonraki": "3 Çarpılı Şirket",
+  "tarih": "2026-10-11"
+ }
+]
