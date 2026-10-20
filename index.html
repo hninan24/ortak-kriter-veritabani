@@ -1762,7 +1762,11 @@ function guRender() {
   const m = $('#guMore'); m.hidden = res.length <= GU.limit; m.textContent = `Daha fazla göster (${fmt(res.length - GU.limit)} kaldı)`;
 }
 function guSay() { $('#guTabN').textContent = fmt(GU.rows.length); }
-function guSirala() { GU.rows.sort((a, b) => (b.d > a.d) - (b.d < a.d) || a.l - b.l || a.m.localeCompare(b.m, 'tr')); }
+const GU_ONEM = ['ekleme', 'cikarma', 'seviye_yukseltme', 'seviye_dusurme', 'seviye', 'cati', 'ad', 'kaynak', 'metin', 'bilgi', 'veri'];
+function guSirala() {             // yeniden eskiye; aynı gün içinde önce ekleme, çıkarma ve seviye değişiklikleri
+  const o = y => { const i = GU_ONEM.indexOf(y); return i < 0 ? 99 : i; };
+  GU.rows.sort((a, b) => (b.d > a.d) - (b.d < a.d) || o(a.y) - o(b.y) || a.l - b.l || a.m.localeCompare(b.m, 'tr'));
+}
 // GitHub Pages: izlemenin olay kaydı her gün güncellenir; sayfanın derlenmesinden sonraki olaylar "henüz işlenmedi" olarak eklenir
 function guCanli() {
   if (!GU.on || !D.olayKaynak || !/\.github\.io$/.test(location.hostname)) return;
