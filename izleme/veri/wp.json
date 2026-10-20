@@ -461,11 +461,6 @@
    "kapsam": true,
    "url": "https://www.whoprofits.org/companies/company/3784"
   },
-  "3788": {
-   "ad": "SEMI (Sociedad Espanola de Montajes Industrial)",
-   "kapsam": true,
-   "url": "https://www.whoprofits.org/companies/company/3788"
-  },
   "3789": {
    "ad": "Kass Group (Kass – C)",
    "kapsam": true,
@@ -2136,11 +2131,6 @@
    "kapsam": true,
    "url": "https://www.whoprofits.org/companies/company/7348"
   },
-  "7349": {
-   "ad": "Aldo",
-   "kapsam": true,
-   "url": "https://www.whoprofits.org/companies/company/7349"
-  },
   "7350": {
    "ad": "Telrad Networks",
    "kapsam": true,
@@ -2364,8 +2354,8 @@
  },
  "kaynak": "wp",
  "meta": {
-  "tohum": "yerel dışa aktarım (2026-10-19), 2026-10-20T15:14:30+03:00"
+  "sirket": 470
  },
- "parmak_izi": "ab1a6d5a0b9973e31e3d2ae5f3c9851607a4173b35e66b20fc7a2d408b7678d9",
- "tarih": "2026-10-19"
+ "parmak_izi": "7e57267b305736a0bf8d75633c61120f5c222d6cf51ae1c39b03c650d823ea82",
+ "tarih": "2026-10-20T15:23:49+03:00"
 }
