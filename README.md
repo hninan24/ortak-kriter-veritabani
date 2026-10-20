@@ -1,4 +1,4 @@
-# Ortak Kriter Veritabanı VI
+# Boykot Çalışma Grubu Veritabanı
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 

@@ -4,7 +4,7 @@ Her kaynak `cek(onceki)` ile güncel durumu alır ve ortak biçimde döndürür:
     {"kayitlar": {kimlik: kayit}, "parmak_izi": str|None, "meta": {...}, "uyarilar": [...]}
 ya da parmak izi önceki kontrolle aynıysa {"degismedi": True, "parmak_izi": ...}.
 
-Kayıt alanları (hepsi isteğe bağlı): ad, hukum, kapsam (Ortak Kriter Veritabanı'nın aldığı hükümlerden biri mi), cati,
+Kayıt alanları (hepsi isteğe bağlı): ad, hukum, kapsam (veritabanının aldığı hükümlerden biri mi), cati,
 metin (gerekçe/açıklama), kaynaklar (kanıt bağlantıları), url, ek (kaynağa özgü diğer alanlar).
 `normalle_*` işlevleri hem canlı çekimde hem de ilk anlık görüntüyü yerel dışa aktarımlardan kurarken kullanılır; böylece
 ikisi aynı biçimde karşılaştırılır.
