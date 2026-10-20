@@ -1,0 +1,73 @@
+# Kaynak izleme
+
+Veritabanındaki listelerin çoğu internette canlı ve değişiyor: markalar ekleniyor, çıkarılıyor, hükümleri ve gerekçe metinleri güncelleniyor. Bu klasördeki betik kaynak siteleri düzenli olarak kontrol eder ve bir önceki kontrolden bu yana neyin değiştiğini raporlar.
+
+Sitelerin hiçbiri değişiklik bildirimi (webhook, RSS) sunmadığı için betik siteleri belli aralıklarla kendisi okur. Değişiklikler veritabanına **kendiliğinden işlenmez**. Rapor okunur, değişiklikler gözden geçirilir ve veritabanı yeniden üretilir.
+
+## Ne zaman çalışır
+
+GitHub Actions'taki **Kaynak izleme** iş akışı (`.github/workflows/izleme.yml`) iki zamanda çalışır:
+
+| Zaman | Kontrol edilen kaynaklar |
+|---|---|
+| Her gün 07:17 (TSİ) | bykt, Bilinçli Tüketim, Eczanede Boykot, Who Profits, AFSC Gazze listesi, DBIO, AFSC Investigate, Abbott & Keefer |
+| Pazartesi 07:47 (TSİ) | Yukarıdakiler ve tam tarama gerektiren Boykot Dedektifi ile Kolay Boykot |
+
+GitHub zamanlanmış çalışmaları yoğunluğa göre birkaç dakika ile bir saat arasında geciktirebilir. Elle çalıştırmak için deponun **Actions** sekmesinde **Kaynak izleme → Run workflow** seçilir. Kutuya `hizli`, `tam` ya da virgülle kaynak adları (örneğin `bd,kb`) yazılır.
+
+## Neler izlenir
+
+| Kaynak | Nasıl | Kapsam (veritabanına alınan) |
+|---|---|---|
+| bykt.org | Sitenin bütün veritabanı tek bir JSON dosyası. Önce dosyanın parmak izine bakılır, değiştiyse indirilir. | Kesin Boykot, İnsafa Bağlı |
+| Bilinçli Tüketim | Sitenin veri dosyası (snapshot.json) | çatısı 1–3 çarpılı ve sitede listelenen markalar |
+| Boykot Dedektifi | Site haritası ve bütün marka sayfaları (yaklaşık 4.000 sayfa, 20–25 dakika) | Boykot, İkincil Boykot, Şüpheli |
+| Kolay Boykot | “Filistin İçin” ve beş seviye kategorisi, marka sayfaları | listenin tamamı |
+| Eczanede Boykot | Ana sayfadaki boykot firmaları, firmaların ürün sayfaları, sitedeki liste tarihi | boykot firmaları ve ilaçları |
+| Who Profits | Şirket dizini | yalnız eklenen ve çıkan şirketler |
+| AFSC Gazze listesi | Liste sayfası (şirketler, türleri, ülkeleri, kategorileri, metinleri) | listenin tamamı |
+| DBIO | Veri sayfasındaki CSV dosyaları (ad ve içerik) | yeni ya da değişen veri dosyası |
+| AFSC Investigate | İndirme sayfasındaki veri seti (ad ve içerik) | yeni ya da değişen veri seti |
+| Abbott & Keefer | Site haritasındaki marka sayfaları | yalnız eklenen ve çıkan markalar |
+
+BM OHCHR listesi (A/HRC/63/20) yıllık bir rapor olduğu için izlenmez.
+
+## Değişiklikler nereye yazılır
+
+- **Issue:** Değişiklik bulunan her çalışma, `izleme` etiketli açık Issue'ya yorum ekler. Açık Issue yoksa yenisini açar. Depoyu izleyenlere (Watch) GitHub bildirimi gider. Değişiklikler işlendikten sonra Issue kapatılabilir; sonraki değişiklik yeni bir Issue açar.
+- **Rapor:** `raporlar/YYYY-MM-DD-SSDD.md`. Bildirimde kaynak başına en çok 25 madde gösterilir; tam liste rapordadır.
+- **Anlık görüntü:** `veri/<kaynak>.json`, her kaynağın son okunan hâli. Git geçmişi aynı zamanda değişiklik arşividir.
+- **Durum:** `durum.json`, her kaynağın son kontrol zamanı, son değişikliği ve durumu.
+
+Bir kaynak okunamazsa (site kapalıysa ya da erişimi engellediyse) diğerleri yine işlenir. O çalışma hatalı (kırmızı) görünür, GitHub da iş akışını son değiştirene e-posta gönderir. Bu durumda okunamayan kaynağın önceki anlık görüntüsü korunur. Kısmi okuma “kalkan marka” diye raporlanmaz.
+
+## Rapor nasıl okunur
+
+Her kaynak için önce veritabanının kapsamındaki değişiklikler, önem sırasıyla listelenir:
+
+1. **Yeni kayıt**, **Kapsama girdi** (ör. Alınabilir → İnsafa Bağlı): veritabanına eklenmesi gerekir.
+2. **Kapsamdan çıktı**, **Listeden kalktı**: veritabanından çıkarılması ya da hükmünün düzeltilmesi gerekir.
+3. **Hüküm**, **çatı** ya da **ad değişti**: kayıt güncellenmeli. Çatı değişikliği alt markaların bağlandığı çatıyı da etkileyebilir.
+4. **Gerekçe metni** ya da **kaynak bağlantıları değişti**: açıklama güncellenmeli. “Metin farkı” açıldığında değişen bölüm görünür: ~~silinen~~, **eklenen**.
+
+Kapsam dışındaki değişiklikler (ör. bykt'de Alınabilir markalar) en sonda kapalı bir bölümde sayılır.
+
+Her maddedeki **veritabanında** notu, kaydın adının sitedeki bir kuruluşun adıyla ya da diğer adlarından biriyle eşleşip eşleşmediğini gösterir. Eşleşme yalnız yazıma bakar. “Veritabanında yok” bir markanın yeni olduğunu, ya da veritabanında başka bir yazımla geçtiğini gösterebilir.
+
+## Değişiklikler veritabanına nasıl işlenir
+
+Veritabanı bu depoda değil, yerel çalışma klasöründe üretilir (`listeler/Ortak Kriter Veritabanı/kaynak/`):
+
+1. Değişen listenin güncel verisi indirilir ya da yeniden taranır (bykt ve Bilinçli Tüketim için `listeler/bykt/kod/disa_aktar.py` ve `listeler/bilinclituketim/kod/disa_aktar.py`).
+2. `variants.py`'de V ve VI'nın kaynak dosyası yeni dışa aktarıma çevrilir.
+3. `python3 build_db.py v && python3 build_outputs.py v`, ardından `python3 build_db.py vi && python3 build_outputs.py vi`.
+4. VI'nın html'i bu depoda `index.html` olarak güncellenir ve gönderilir.
+
+İlk anlık görüntüler, veritabanının o gün kullandığı yerel dışa aktarımlardan kuruldu (`izleme_tohum.py`). Böylece izlemenin ilk raporu, veritabanına henüz işlenmemiş değişiklikleri gösterir. Bu dışa aktarımlar şunlardır: bykt 20.10.2026, Bilinçli Tüketim 18.10.2026, Boykot Dedektifi 07.10.2026, Kolay Boykot ve Eczanede Boykot 19.10.2026, Who Profits 19.10.2026, AFSC Gazze 05.10.2026, Abbott & Keefer 02.10.2026, DBIO 2025, AFSC Investigate Temmuz 2025.
+
+## Sınırlar
+
+- Who Profits ve Abbott & Keefer'da yalnız eklenen ve çıkan kayıtlar izlenir. Şirket metinlerindeki ya da etiketlerdeki değişiklikler görünmez.
+- DBIO ve Investigate'te yalnız veri dosyasının değişip değişmediğine bakılır. Değişirse yeni dosya elle incelenir.
+- Boykot Dedektifi Cloudflare arkasındadır. GitHub'ın sunucularını engellerse haftalık tarama hata verir. Bu durumda tarama yerelde çalıştırılır: `python izleme/izle.py bd`, ardından değişen dosyalar gönderilir.
+- Bir sitenin sayfa yapısı değişirse ayrıştırıcı kayıtları okuyamaz. Okunan kayıt sayısı önceki kontrole göre çok düşükse kaynak “kontrol edilemedi” sayılır.

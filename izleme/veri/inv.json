@@ -1,0 +1,20 @@
+{
+ "ad": "AFSC Investigate",
+ "kayitlar": {
+  "investigate-dataset-july-2025.xlsx": {
+   "ad": "investigate-dataset-july-2025.xlsx",
+   "ek": {
+    "boyut": 47592,
+    "sha256": "5f5323948618ce21fb3fb0c140f936bd130c7c751cf725de1eba275d1dcb3b17"
+   },
+   "kapsam": true,
+   "url": "https://afsc.org/sites/default/files/2025-07/investigate-dataset-july-2025.xlsx"
+  }
+ },
+ "kaynak": "inv",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2025-07), 2026-10-20T15:14:30+03:00"
+ },
+ "parmak_izi": "f397e83c71017f944e72e059c0aee87175e75ab59e49d235ca28d14fbdaf1022",
+ "tarih": "2025-07"
+}

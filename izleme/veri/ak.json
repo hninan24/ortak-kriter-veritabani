@@ -1,0 +1,3721 @@
+{
+ "ad": "Abbott & Keefer",
+ "kayitlar": {
+  "1-click": {
+   "ad": "1-Click",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/1-click"
+  },
+  "206-collective": {
+   "ad": "206 Collective",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/206-collective"
+  },
+  "24s": {
+   "ad": "24S",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/24s"
+  },
+  "365-by-wholefoods": {
+   "ad": "365 (by Wholefoods)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/365-by-wholefoods"
+  },
+  "3ce-style-nanda": {
+   "ad": "3CE (Style Nanda)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/3ce-style-nanda"
+  },
+  "5-alive": {
+   "ad": "5 Alive",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/5-alive"
+  },
+  "7-for-all-mankind": {
+   "ad": "7 for All Mankind",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/7-for-all-mankind"
+  },
+  "abebooks": {
+   "ad": "AbeBooks",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/abebooks"
+  },
+  "acnefree": {
+   "ad": "AcneFree",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/acnefree"
+  },
+  "acqua-di-parma": {
+   "ad": "Acqua di Parma",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/acqua-di-parma"
+  },
+  "acqua-panna": {
+   "ad": "Acqua Panna",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/acqua-panna"
+  },
+  "acuvue": {
+   "ad": "Acuvue",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/acuvue"
+  },
+  "ades": {
+   "ad": "Ades",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ades"
+  },
+  "adidas": {
+   "ad": "Adidas",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/adidas"
+  },
+  "adidas-fragrance": {
+   "ad": "Adidas Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/adidas-fragrance"
+  },
+  "aerin": {
+   "ad": "Aerin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aerin"
+  },
+  "aero": {
+   "ad": "Aero",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aero"
+  },
+  "aesop": {
+   "ad": "Aesop",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aesop"
+  },
+  "after-eight": {
+   "ad": "After Eight",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/after-eight"
+  },
+  "ahava": {
+   "ad": "Ahava",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ahava"
+  },
+  "aigle": {
+   "ad": "Aigle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aigle"
+  },
+  "airbnb": {
+   "ad": "Airbnb",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/airbnb"
+  },
+  "ajax": {
+   "ad": "Ajax",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ajax"
+  },
+  "alexa": {
+   "ad": "Alexa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/alexa"
+  },
+  "always": {
+   "ad": "Always",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/always"
+  },
+  "amazon-appstore": {
+   "ad": "Amazon Appstore",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-appstore"
+  },
+  "amazon-business": {
+   "ad": "Amazon Business",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-business"
+  },
+  "amazon-cash": {
+   "ad": "Amazon Cash",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-cash"
+  },
+  "amazon-digital-software-video-games": {
+   "ad": "Amazon Digital Software & Video Games",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-digital-software-video-games"
+  },
+  "amazon-elements": {
+   "ad": "Amazon Elements",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-elements"
+  },
+  "amazon-essentials": {
+   "ad": "Amazon Essentials",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-essentials"
+  },
+  "amazon-fire": {
+   "ad": "Amazon Fire",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-fire"
+  },
+  "amazon-fresh": {
+   "ad": "Amazon Fresh",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-fresh"
+  },
+  "amazon-go": {
+   "ad": "Amazon Go",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-go"
+  },
+  "amazon-halo": {
+   "ad": "Amazon Halo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-halo"
+  },
+  "amazon-home-services": {
+   "ad": "Amazon Home Services",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-home-services"
+  },
+  "amazon-luna": {
+   "ad": "Amazon Luna",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-luna"
+  },
+  "amazon-marketplace": {
+   "ad": "Amazon Marketplace",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-marketplace"
+  },
+  "amazon-music": {
+   "ad": "Amazon Music",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-music"
+  },
+  "amazon-pay": {
+   "ad": "Amazon Pay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-pay"
+  },
+  "amazon-pharmacy": {
+   "ad": "Amazon Pharmacy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-pharmacy"
+  },
+  "amazon-publishing": {
+   "ad": "Amazon Publishing",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-publishing"
+  },
+  "amazon-studios": {
+   "ad": "Amazon Studios",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazon-studios"
+  },
+  "amazonbasics": {
+   "ad": "AmazonBasics",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amazonbasics"
+  },
+  "ambi": {
+   "ad": "Ambi",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ambi"
+  },
+  "amor": {
+   "ad": "Amor",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/amor"
+  },
+  "andrex": {
+   "ad": "Andrex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/andrex"
+  },
+  "ao-yun": {
+   "ad": "Ao Yun",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ao-yun"
+  },
+  "apple": {
+   "ad": "Apple",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/apple"
+  },
+  "appletiser": {
+   "ad": "Appletiser",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/appletiser"
+  },
+  "aquarius": {
+   "ad": "Aquarius",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aquarius"
+  },
+  "aramis": {
+   "ad": "Aramis",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aramis"
+  },
+  "arava-export-growers": {
+   "ad": "Arava Export Growers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/arava-export-growers"
+  },
+  "ardbeg": {
+   "ad": "Ardbeg",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ardbeg"
+  },
+  "ariel": {
+   "ad": "Ariel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ariel"
+  },
+  "arket": {
+   "ad": "Arket",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/arket"
+  },
+  "armand-de-brignac": {
+   "ad": "Armand de Brignac",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/armand-de-brignac"
+  },
+  "astro": {
+   "ad": "Astro",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/astro"
+  },
+  "athena": {
+   "ad": "Athena",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/athena"
+  },
+  "audible": {
+   "ad": "Audible",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/audible"
+  },
+  "aveda": {
+   "ad": "Aveda",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aveda"
+  },
+  "aveeno": {
+   "ad": "Aveeno",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/aveeno"
+  },
+  "axa": {
+   "ad": "AXA",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/axa"
+  },
+  "axe-lynx-in-some-markets": {
+   "ad": "Axe (Lynx in some markets)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/axe-lynx-in-some-markets"
+  },
+  "axion": {
+   "ad": "Axion",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/axion"
+  },
+  "ayataka": {
+   "ad": "Ayataka",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ayataka"
+  },
+  "azure": {
+   "ad": "Azure",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/azure"
+  },
+  "babyganics": {
+   "ad": "Babyganics",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/babyganics"
+  },
+  "baci": {
+   "ad": "Baci",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/baci"
+  },
+  "balmain-beauty": {
+   "ad": "Balmain Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/balmain-beauty"
+  },
+  "band-aid": {
+   "ad": "Band-Aid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/band-aid"
+  },
+  "bare-necessities": {
+   "ad": "Bare Necessities",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bare-necessities"
+  },
+  "barqs": {
+   "ad": "Barq's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/barqs"
+  },
+  "bebe": {
+   "ad": "Bebe",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bebe"
+  },
+  "belvedere": {
+   "ad": "Belvedere",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/belvedere"
+  },
+  "ben-jerrys": {
+   "ad": "Ben & Jerry's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ben-jerrys"
+  },
+  "benadryl": {
+   "ad": "Benadryl",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/benadryl"
+  },
+  "benecol": {
+   "ad": "Benecol",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/benecol"
+  },
+  "benefit-cosmetics": {
+   "ad": "Benefit Cosmetics",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/benefit-cosmetics"
+  },
+  "bengay": {
+   "ad": "Bengay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bengay"
+  },
+  "berluti": {
+   "ad": "Berluti",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/berluti"
+  },
+  "bershka": {
+   "ad": "Bershka",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bershka"
+  },
+  "big-turk": {
+   "ad": "Big Turk",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/big-turk"
+  },
+  "biotherm": {
+   "ad": "Biotherm",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/biotherm"
+  },
+  "blink": {
+   "ad": "Blink",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/blink"
+  },
+  "blue-bottle-coffee": {
+   "ad": "Blue Bottle Coffee",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/blue-bottle-coffee"
+  },
+  "bobbi-brown": {
+   "ad": "Bobbi Brown",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bobbi-brown"
+  },
+  "bodega-numanthia": {
+   "ad": "Bodega Numanthia",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bodega-numanthia"
+  },
+  "bodyamour": {
+   "ad": "Bodyamour",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bodyamour"
+  },
+  "bon-ami": {
+   "ad": "Bon Ami",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bon-ami"
+  },
+  "book-depository": {
+   "ad": "Book Depository",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/book-depository"
+  },
+  "book-finder": {
+   "ad": "Book Finder",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/book-finder"
+  },
+  "booking-com": {
+   "ad": "Booking.com",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/booking-com"
+  },
+  "boost": {
+   "ad": "Boost",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/boost"
+  },
+  "bounce": {
+   "ad": "Bounce",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bounce"
+  },
+  "bounty": {
+   "ad": "Bounty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bounty"
+  },
+  "bourjois": {
+   "ad": "Bourjois",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bourjois"
+  },
+  "box-bowls": {
+   "ad": "Box Bowls",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/box-bowls"
+  },
+  "box-office-mojo": {
+   "ad": "Box Office Mojo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/box-office-mojo"
+  },
+  "bozzano": {
+   "ad": "Bozzano",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bozzano"
+  },
+  "braun": {
+   "ad": "Braun",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/braun"
+  },
+  "breyers": {
+   "ad": "Breyers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/breyers"
+  },
+  "brilliance-publishing": {
+   "ad": "Brilliance Publishing",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/brilliance-publishing"
+  },
+  "brooke-bond": {
+   "ad": "Brooke Bond",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/brooke-bond"
+  },
+  "bruno-banani": {
+   "ad": "Bruno Banani",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bruno-banani"
+  },
+  "bulgari": {
+   "ad": "Bulgari",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bulgari"
+  },
+  "bumble-and-bumble": {
+   "ad": "Bumble and Bumble",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/bumble-and-bumble"
+  },
+  "burberry": {
+   "ad": "Burberry",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/burberry"
+  },
+  "burger-king": {
+   "ad": "Burger King",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/burger-king"
+  },
+  "cacharel": {
+   "ad": "Cacharel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cacharel"
+  },
+  "caledrea": {
+   "ad": "Caledrea",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/caledrea"
+  },
+  "california-pizza-kitchen": {
+   "ad": "California Pizza Kitchen",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/california-pizza-kitchen"
+  },
+  "calippo": {
+   "ad": "Calippo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/calippo"
+  },
+  "caltex": {
+   "ad": "Caltex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/caltex"
+  },
+  "calve": {
+   "ad": "Calvé",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/calve"
+  },
+  "calvin-klein": {
+   "ad": "Calvin Klein",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/calvin-klein"
+  },
+  "calvin-klein-fragrance": {
+   "ad": "Calvin Klein Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/calvin-klein-fragrance"
+  },
+  "camay": {
+   "ad": "Camay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/camay"
+  },
+  "carmel": {
+   "ad": "Carmel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carmel"
+  },
+  "carnation": {
+   "ad": "Carnation",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carnation"
+  },
+  "carnation-breakfast-essentials": {
+   "ad": "Carnation Breakfast Essentials",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carnation-breakfast-essentials"
+  },
+  "carols-daughter": {
+   "ad": "Carol’s Daughter",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carols-daughter"
+  },
+  "carrefour": {
+   "ad": "Carrefour",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carrefour"
+  },
+  "carrentals": {
+   "ad": "CarRentals",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/carrentals"
+  },
+  "cascade": {
+   "ad": "Cascade",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cascade"
+  },
+  "celine": {
+   "ad": "Celine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/celine"
+  },
+  "cenoura-bronze": {
+   "ad": "Cenoura & Bronze",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cenoura-bronze"
+  },
+  "cerave": {
+   "ad": "CeraVe",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cerave"
+  },
+  "cerelac": {
+   "ad": "Cerelac",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cerelac"
+  },
+  "cha-ling": {
+   "ad": "Cha Ling",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cha-ling"
+  },
+  "charmin": {
+   "ad": "Charmin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/charmin"
+  },
+  "chateau-cheval-blanc": {
+   "ad": "Château Cheval Blanc",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chateau-cheval-blanc"
+  },
+  "chateau-desclans": {
+   "ad": "Chateau d’Esclans",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chateau-desclans"
+  },
+  "chateau-du-galoupet": {
+   "ad": "Chateau du Galoupet",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chateau-du-galoupet"
+  },
+  "chateau-dyquem": {
+   "ad": "Château d’Yquem",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chateau-dyquem"
+  },
+  "chaumet": {
+   "ad": "Chaumet",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chaumet"
+  },
+  "cheap-monday": {
+   "ad": "Cheap Monday",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cheap-monday"
+  },
+  "cheaptickets": {
+   "ad": "CheapTickets",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cheaptickets"
+  },
+  "chevron": {
+   "ad": "Chevron",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chevron"
+  },
+  "chloe": {
+   "ad": "Chloe",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chloe"
+  },
+  "chocapic": {
+   "ad": "Chocapic",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/chocapic"
+  },
+  "christian-dior": {
+   "ad": "Christian Dior",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/christian-dior"
+  },
+  "ciel": {
+   "ad": "Ciel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ciel"
+  },
+  "cif-jif-in-some-countries": {
+   "ad": "Cif (Jif in some countries)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cif-jif-in-some-countries"
+  },
+  "cisco-systems": {
+   "ad": "Cisco Systems",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cisco-systems"
+  },
+  "clarisonic": {
+   "ad": "Clarisonic",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/clarisonic"
+  },
+  "clean-clear": {
+   "ad": "Clean & Clear",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/clean-clear"
+  },
+  "clinique": {
+   "ad": "Clinique",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/clinique"
+  },
+  "cloudy-bay": {
+   "ad": "Cloudy Bay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cloudy-bay"
+  },
+  "coca-cola": {
+   "ad": "Coca-Cola",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/coca-cola"
+  },
+  "coffee-crisp-b09fa": {
+   "ad": "Coffee Crisp",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/coffee-crisp-b09fa"
+  },
+  "coffee-mate": {
+   "ad": "Coffee-Mate",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/coffee-mate"
+  },
+  "colgate": {
+   "ad": "Colgate",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/colgate"
+  },
+  "colgin-cellars": {
+   "ad": "Colgin Cellars",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/colgin-cellars"
+  },
+  "columbia": {
+   "ad": "Columbia",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/columbia"
+  },
+  "comfort": {
+   "ad": "Comfort",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/comfort"
+  },
+  "comixology": {
+   "ad": "ComiXology",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/comixology"
+  },
+  "converse": {
+   "ad": "Converse",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/converse"
+  },
+  "corn-flakes": {
+   "ad": "Corn Flakes",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/corn-flakes"
+  },
+  "cornetto": {
+   "ad": "Cornetto",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cornetto"
+  },
+  "cortaid": {
+   "ad": "Cortaid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cortaid"
+  },
+  "cos": {
+   "ad": "COS",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cos"
+  },
+  "cosrx": {
+   "ad": "COSRX",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cosrx"
+  },
+  "costa-coffee": {
+   "ad": "Costa Coffee",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/costa-coffee"
+  },
+  "cottonelle": {
+   "ad": "Cottonelle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cottonelle"
+  },
+  "cova": {
+   "ad": "Cova",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cova"
+  },
+  "covergirl": {
+   "ad": "Covergirl",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/covergirl"
+  },
+  "crest": {
+   "ad": "Crest",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/crest"
+  },
+  "ctrip": {
+   "ad": "Ctrip",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ctrip"
+  },
+  "cuddly": {
+   "ad": "Cuddly",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/cuddly"
+  },
+  "danklorix": {
+   "ad": "DanKlorix",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/danklorix"
+  },
+  "dark-lovely": {
+   "ad": "Dark & Lovely",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dark-lovely"
+  },
+  "darphin-paris": {
+   "ad": "Darphin Paris",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/darphin-paris"
+  },
+  "dasani": {
+   "ad": "Dasani",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dasani"
+  },
+  "david-beckham": {
+   "ad": "David Beckham",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/david-beckham"
+  },
+  "davidoff": {
+   "ad": "Davidoff",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/davidoff"
+  },
+  "dawn": {
+   "ad": "Dawn",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dawn"
+  },
+  "deciem": {
+   "ad": "Deciem",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/deciem"
+  },
+  "del-monte-frozen-bars": {
+   "ad": "Del Monte Frozen Bars",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/del-monte-frozen-bars"
+  },
+  "del-valle": {
+   "ad": "del Valle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/del-valle"
+  },
+  "delilah": {
+   "ad": "Delilah",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/delilah"
+  },
+  "dell": {
+   "ad": "Dell",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dell"
+  },
+  "delta": {
+   "ad": "Delta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/delta"
+  },
+  "depend": {
+   "ad": "Depend",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/depend"
+  },
+  "dermablend": {
+   "ad": "Dermablend",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dermablend"
+  },
+  "dermalogica": {
+   "ad": "Dermalogica",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dermalogica"
+  },
+  "dfs": {
+   "ad": "DFS",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dfs"
+  },
+  "diesel-fragrances": {
+   "ad": "Diesel Fragrances",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/diesel-fragrances"
+  },
+  "diet-coke": {
+   "ad": "Diet Coke",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/diet-coke"
+  },
+  "digital-photography-review": {
+   "ad": "Digital Photography Review",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/digital-photography-review"
+  },
+  "dillards": {
+   "ad": "Dillard’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dillards"
+  },
+  "disney": {
+   "ad": "Disney+",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/disney"
+  },
+  "docello": {
+   "ad": "Docello",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/docello"
+  },
+  "dogadan": {
+   "ad": "Dogadan",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dogadan"
+  },
+  "dolormin": {
+   "ad": "Dolormin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dolormin"
+  },
+  "dom-perignon": {
+   "ad": "Dom Pérignon",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dom-perignon"
+  },
+  "domestos": {
+   "ad": "Domestos",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/domestos"
+  },
+  "dominos-pizza": {
+   "ad": "Domino's Pizza",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dominos-pizza"
+  },
+  "dove": {
+   "ad": "Dove",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dove"
+  },
+  "downy": {
+   "ad": "Downy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/downy"
+  },
+  "dr-jart": {
+   "ad": "Dr. Jart +",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/dr-jart"
+  },
+  "drano": {
+   "ad": "Drano",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/drano"
+  },
+  "drumstick": {
+   "ad": "Drumstick",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/drumstick"
+  },
+  "drynites": {
+   "ad": "DryNites",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/drynites"
+  },
+  "duck": {
+   "ad": "Duck",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/duck"
+  },
+  "easywhip": {
+   "ad": "EasyWhip",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/easywhip"
+  },
+  "ebookers": {
+   "ad": "ebookers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ebookers"
+  },
+  "echo": {
+   "ad": "Echo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/echo"
+  },
+  "editions-de-parfums-frederic-malle": {
+   "ad": "Editions De Parfums Frederic Malle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/editions-de-parfums-frederic-malle"
+  },
+  "edom": {
+   "ad": "Edom",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/edom"
+  },
+  "edys-pie": {
+   "ad": "Edy's Pie",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/edys-pie"
+  },
+  "eero": {
+   "ad": "Eero",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/eero"
+  },
+  "egencia": {
+   "ad": "Egencia",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/egencia"
+  },
+  "elle": {
+   "ad": "Elle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/elle"
+  },
+  "elle-decor": {
+   "ad": "Elle Décor",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/elle-decor"
+  },
+  "elle-magazine": {
+   "ad": "Elle Magazine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/elle-magazine"
+  },
+  "elmex": {
+   "ad": "Elmex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/elmex"
+  },
+  "elta-md-skin-care": {
+   "ad": "Elta MD Skin Care",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/elta-md-skin-care"
+  },
+  "emilio-pucci": {
+   "ad": "Emilio Pucci",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/emilio-pucci"
+  },
+  "eminence": {
+   "ad": "Eminence",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/eminence"
+  },
+  "eminente": {
+   "ad": "Eminente",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/eminente"
+  },
+  "escada": {
+   "ad": "Escada",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/escada"
+  },
+  "essentia": {
+   "ad": "Essentia",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/essentia"
+  },
+  "essie": {
+   "ad": "Essie",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/essie"
+  },
+  "estee-lauder": {
+   "ad": "Estée Lauder",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/estee-lauder"
+  },
+  "etam": {
+   "ad": "Etam",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/etam"
+  },
+  "etro": {
+   "ad": "Etro",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/etro"
+  },
+  "etsy": {
+   "ad": "Etsy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/etsy"
+  },
+  "eva": {
+   "ad": "Eva",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/eva"
+  },
+  "every-day": {
+   "ad": "Every Day",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/every-day"
+  },
+  "expedia-com": {
+   "ad": "Expedia.com",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/expedia-com"
+  },
+  "expedia-cruises": {
+   "ad": "Expedia Cruises",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/expedia-cruises"
+  },
+  "fabuloso": {
+   "ad": "Fabuloso",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fabuloso"
+  },
+  "fairlife": {
+   "ad": "Fairlife",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fairlife"
+  },
+  "fairy": {
+   "ad": "Fairy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fairy"
+  },
+  "fanta": {
+   "ad": "Fanta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fanta"
+  },
+  "fantastik": {
+   "ad": "Fantastik",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fantastik"
+  },
+  "febreze": {
+   "ad": "Febreze",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/febreze"
+  },
+  "fendi": {
+   "ad": "Fendi",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fendi"
+  },
+  "fenty-beauty-by-rihanna": {
+   "ad": "Fenty Beauty by Rihanna",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fenty-beauty-by-rihanna"
+  },
+  "filorga": {
+   "ad": "Filorga",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/filorga"
+  },
+  "fire-tv": {
+   "ad": "Fire TV",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fire-tv"
+  },
+  "fitness": {
+   "ad": "Fitness",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fitness"
+  },
+  "fiverr": {
+   "ad": "Fiverr",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fiverr"
+  },
+  "fix": {
+   "ad": "Fix",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fix"
+  },
+  "fleecy": {
+   "ad": "Fleecy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fleecy"
+  },
+  "fluffy": {
+   "ad": "Fluffy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fluffy"
+  },
+  "fred": {
+   "ad": "Fred",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fred"
+  },
+  "freevee": {
+   "ad": "Freevee",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/freevee"
+  },
+  "fresca": {
+   "ad": "Fresca",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fresca"
+  },
+  "fresca-mixed": {
+   "ad": "Fresca Mixed",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fresca-mixed"
+  },
+  "fresh": {
+   "ad": "Fresh",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fresh"
+  },
+  "frigo": {
+   "ad": "Frigo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/frigo"
+  },
+  "fuze-tea": {
+   "ad": "Fuze Tea",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/fuze-tea"
+  },
+  "g-balance": {
+   "ad": "G-Balance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/g-balance"
+  },
+  "gabriela-sabatini": {
+   "ad": "Gabriela Sabatini",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gabriela-sabatini"
+  },
+  "gain": {
+   "ad": "Gain",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gain"
+  },
+  "gant": {
+   "ad": "Gant",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gant"
+  },
+  "garden-of-life": {
+   "ad": "Garden of Life",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/garden-of-life"
+  },
+  "garnier": {
+   "ad": "Garnier",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/garnier"
+  },
+  "geogia-coffee": {
+   "ad": "Geogia Coffee",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/geogia-coffee"
+  },
+  "gerber": {
+   "ad": "Gerber",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gerber"
+  },
+  "gillette": {
+   "ad": "Gillette",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gillette"
+  },
+  "giorgio-armani-beauty": {
+   "ad": "Giorgio Armani Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/giorgio-armani-beauty"
+  },
+  "github": {
+   "ad": "GitHub",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/github"
+  },
+  "givenchy": {
+   "ad": "Givenchy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/givenchy"
+  },
+  "givenchy-parfums": {
+   "ad": "Givenchy Parfums",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/givenchy-parfums"
+  },
+  "glade": {
+   "ad": "Glade",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/glade"
+  },
+  "glam-glow": {
+   "ad": "Glam Glow",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/glam-glow"
+  },
+  "glenmorangie": {
+   "ad": "Glenmorangie",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/glenmorangie"
+  },
+  "gloria": {
+   "ad": "Gloria",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gloria"
+  },
+  "gold-peak-real-brewed-tea": {
+   "ad": "Gold Peak Real Brewed Tea",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gold-peak-real-brewed-tea"
+  },
+  "good-host": {
+   "ad": "Good Host",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/good-host"
+  },
+  "good-humor": {
+   "ad": "Good Humor",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/good-humor"
+  },
+  "goodnites": {
+   "ad": "GoodNites",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/goodnites"
+  },
+  "goodreads": {
+   "ad": "GoodReads",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/goodreads"
+  },
+  "goodthreads": {
+   "ad": "Goodthreads",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/goodthreads"
+  },
+  "google": {
+   "ad": "Google",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/google"
+  },
+  "graphiq": {
+   "ad": "Graphiq",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/graphiq"
+  },
+  "grom": {
+   "ad": "Grom",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/grom"
+  },
+  "grown-respectfully": {
+   "ad": "Grown Respectfully",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/grown-respectfully"
+  },
+  "gucci-fragrance": {
+   "ad": "Gucci Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/gucci-fragrance"
+  },
+  "guerlain": {
+   "ad": "Guerlain",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/guerlain"
+  },
+  "guy-laroche": {
+   "ad": "Guy Laroche",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/guy-laroche"
+  },
+  "h-m": {
+   "ad": "H&M",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/h-m"
+  },
+  "haagen-dazs": {
+   "ad": "Häagen-Dazs",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/haagen-dazs"
+  },
+  "habit-burger-grill": {
+   "ad": "Habit Burger Grill",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/habit-burger-grill"
+  },
+  "hakle": {
+   "ad": "Hakle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hakle"
+  },
+  "happy-belly": {
+   "ad": "Happy Belly",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/happy-belly"
+  },
+  "head-shoulders": {
+   "ad": "Head & Shoulders",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/head-shoulders"
+  },
+  "helena-rubinstein": {
+   "ad": "Helena Rubinstein",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/helena-rubinstein"
+  },
+  "hellmanns": {
+   "ad": "Hellmann's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hellmanns"
+  },
+  "hello": {
+   "ad": "Hello",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hello"
+  },
+  "hennessy": {
+   "ad": "Hennessy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hennessy"
+  },
+  "herbal-essences": {
+   "ad": "Herbal Essences",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/herbal-essences"
+  },
+  "hewlett-packard": {
+   "ad": "Hewlett Packard",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hewlett-packard"
+  },
+  "hills-pet-nutrition": {
+   "ad": "Hills Pet Nutrition",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hills-pet-nutrition"
+  },
+  "horlicks": {
+   "ad": "Horlicks",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/horlicks"
+  },
+  "hot-pockets": {
+   "ad": "Hot Pockets",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hot-pockets"
+  },
+  "hotels-com": {
+   "ad": "Hotels.com",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hotels-com"
+  },
+  "hotwire": {
+   "ad": "Hotwire",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hotwire"
+  },
+  "hublot": {
+   "ad": "Hublot",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hublot"
+  },
+  "huggies": {
+   "ad": "Huggies",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/huggies"
+  },
+  "hugo-boss-4577b": {
+   "ad": "Hugo Boss",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hugo-boss-4577b"
+  },
+  "hugo-boss-fragrance": {
+   "ad": "Hugo Boss Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/hugo-boss-fragrance"
+  },
+  "i-lohas-natural-mineral-water": {
+   "ad": "I LOHAS Natural Mineral Water",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/i-lohas-natural-mineral-water"
+  },
+  "il-makiage": {
+   "ad": "Il Makiage",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/il-makiage"
+  },
+  "imdb": {
+   "ad": "IMDb",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/imdb"
+  },
+  "immodium": {
+   "ad": "Immodium",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/immodium"
+  },
+  "indigo-books": {
+   "ad": "Indigo Books",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/indigo-books"
+  },
+  "infiniment-coty-paris": {
+   "ad": "Infiniment Coty Paris",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/infiniment-coty-paris"
+  },
+  "innoccent": {
+   "ad": "innoccent",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/innoccent"
+  },
+  "instagram": {
+   "ad": "Instagram",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/instagram"
+  },
+  "intel": {
+   "ad": "Intel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/intel"
+  },
+  "irish-spring": {
+   "ad": "Irish Spring",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/irish-spring"
+  },
+  "jack-daniels": {
+   "ad": "Jack Daniel's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jack-daniels"
+  },
+  "jaffa": {
+   "ad": "Jaffa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jaffa"
+  },
+  "jc-penney": {
+   "ad": "JC Penney",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jc-penney"
+  },
+  "jil-sander": {
+   "ad": "Jil Sander",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jil-sander"
+  },
+  "jo-malone-london": {
+   "ad": "Jo Malone London",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jo-malone-london"
+  },
+  "johnsons-baby-products": {
+   "ad": "Johnson’s baby products",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/johnsons-baby-products"
+  },
+  "joop-fragrance": {
+   "ad": "Joop! Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/joop-fragrance"
+  },
+  "jordan-river": {
+   "ad": "Jordan River",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jordan-river"
+  },
+  "jordan-river-bio-top": {
+   "ad": "Jordan River Bio-Top",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jordan-river-bio-top"
+  },
+  "jovan": {
+   "ad": "Jovan",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/jovan"
+  },
+  "k-quik": {
+   "ad": "K.Quik",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/k-quik"
+  },
+  "kelloggs": {
+   "ad": "Kellogg's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kelloggs"
+  },
+  "kendo-brands": {
+   "ad": "Kendo Brands",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kendo-brands"
+  },
+  "kenneth-cole": {
+   "ad": "Kenneth Cole",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kenneth-cole"
+  },
+  "kenzo": {
+   "ad": "Kenzo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kenzo"
+  },
+  "kenzo-parfums": {
+   "ad": "Kenzo Parfums",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kenzo-parfums"
+  },
+  "kerastase": {
+   "ad": "Kérastase",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kerastase"
+  },
+  "kfc": {
+   "ad": "KFC",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kfc"
+  },
+  "kiehls": {
+   "ad": "Kiehl’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kiehls"
+  },
+  "kilian-paris": {
+   "ad": "Kilian Paris",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kilian-paris"
+  },
+  "kimtech": {
+   "ad": "Kimtech",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kimtech"
+  },
+  "kimwipes": {
+   "ad": "KimWipes",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kimwipes"
+  },
+  "kindle": {
+   "ad": "Kindle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kindle"
+  },
+  "kindle-direct-publishing": {
+   "ad": "Kindle Direct Publishing",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kindle-direct-publishing"
+  },
+  "kindle-store": {
+   "ad": "Kindle Store",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kindle-store"
+  },
+  "king-solomon": {
+   "ad": "King Solomon",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/king-solomon"
+  },
+  "kit-kat": {
+   "ad": "Kit Kat",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kit-kat"
+  },
+  "kit-kat-cereal": {
+   "ad": "Kit Kat Cereal",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kit-kat-cereal"
+  },
+  "klean-athlete": {
+   "ad": "Klean Athlete",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/klean-athlete"
+  },
+  "kleenex": {
+   "ad": "Kleenex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kleenex"
+  },
+  "kleenguard": {
+   "ad": "KleenGuard",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kleenguard"
+  },
+  "klondike": {
+   "ad": "Klondike",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/klondike"
+  },
+  "knorr": {
+   "ad": "Knorr",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/knorr"
+  },
+  "koko-krunch": {
+   "ad": "Koko Krunch",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/koko-krunch"
+  },
+  "kotex": {
+   "ad": "Kotex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kotex"
+  },
+  "krug": {
+   "ad": "Krug",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/krug"
+  },
+  "kvd-vegan-beauty-formerly-kat-von-d-beauty": {
+   "ad": "KVD Vegan Beauty (formerly Kat Von D Beauty)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kvd-vegan-beauty-formerly-kat-von-d-beauty"
+  },
+  "kylie-baby": {
+   "ad": "Kylie Baby",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kylie-baby"
+  },
+  "kylie-cosmetics": {
+   "ad": "Kylie Cosmetics",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kylie-cosmetics"
+  },
+  "kylie-skin": {
+   "ad": "Kylie Skin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/kylie-skin"
+  },
+  "la-frutta": {
+   "ad": "La Frutta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-frutta"
+  },
+  "la-grande-epicerie": {
+   "ad": "La Grande Epicerie",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-grande-epicerie"
+  },
+  "la-mer": {
+   "ad": "La Mer",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-mer"
+  },
+  "la-provencale-bio": {
+   "ad": "La Provençale Bio",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-provencale-bio"
+  },
+  "la-roche-posay": {
+   "ad": "La Roche-Posay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-roche-posay"
+  },
+  "la-samaritaine": {
+   "ad": "La Samaritaine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-samaritaine"
+  },
+  "la-vie": {
+   "ad": "La Vie",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/la-vie"
+  },
+  "lab-series": {
+   "ad": "Lab Series",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lab-series"
+  },
+  "lacoste": {
+   "ad": "Lacoste",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lacoste"
+  },
+  "lactaid": {
+   "ad": "Lactaid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lactaid"
+  },
+  "lady-speed-stick": {
+   "ad": "Lady Speed Stick",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lady-speed-stick"
+  },
+  "lancaster": {
+   "ad": "Lancaster",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lancaster"
+  },
+  "lancome": {
+   "ad": "Lancôme",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lancome"
+  },
+  "lane-bryant": {
+   "ad": "Lane Bryant",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lane-bryant"
+  },
+  "langnese": {
+   "ad": "Langnese",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/langnese"
+  },
+  "lanvin": {
+   "ad": "Lanvin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lanvin"
+  },
+  "lauren-ralph-lauren": {
+   "ad": "Lauren Ralph Lauren",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lauren-ralph-lauren"
+  },
+  "le-bon-marche": {
+   "ad": "Le Bon Marché",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/le-bon-marche"
+  },
+  "le-chocolat": {
+   "ad": "Le Chocolat",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/le-chocolat"
+  },
+  "le-labo": {
+   "ad": "Le Labo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/le-labo"
+  },
+  "leger-by-lena-gercke": {
+   "ad": "Leger By Lena Gercke",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/leger-by-lena-gercke"
+  },
+  "lemon-dou": {
+   "ad": "Lemon-Dou",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lemon-dou"
+  },
+  "libbys-pumpkin": {
+   "ad": "Libby’s Pumpkin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/libbys-pumpkin"
+  },
+  "lifebuoy": {
+   "ad": "Lifebuoy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lifebuoy"
+  },
+  "lilys-kitchen": {
+   "ad": "Lily’s Kitchen",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lilys-kitchen"
+  },
+  "limca": {
+   "ad": "Limca",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/limca"
+  },
+  "linkedin": {
+   "ad": "LinkedIn",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/linkedin"
+  },
+  "lion": {
+   "ad": "Lion",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lion"
+  },
+  "lipton": {
+   "ad": "Lipton",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lipton"
+  },
+  "listerine": {
+   "ad": "Listerine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/listerine"
+  },
+  "little-swimmers": {
+   "ad": "Little Swimmers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/little-swimmers"
+  },
+  "loewe": {
+   "ad": "Loewe",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/loewe"
+  },
+  "logocos": {
+   "ad": "Logocos",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/logocos"
+  },
+  "loreal-paris": {
+   "ad": "L'Oréal Paris",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/loreal-paris"
+  },
+  "loreal-professionnel": {
+   "ad": "L'Oréal Professionnel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/loreal-professionnel"
+  },
+  "loro-piana": {
+   "ad": "Loro Piana",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/loro-piana"
+  },
+  "louis-vuitton": {
+   "ad": "Louis Vuitton",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/louis-vuitton"
+  },
+  "love-beauty-and-planet": {
+   "ad": "Love Beauty and Planet",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/love-beauty-and-planet"
+  },
+  "lubriderm": {
+   "ad": "Lubriderm",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lubriderm"
+  },
+  "lululemon": {
+   "ad": "lululemon",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lululemon"
+  },
+  "luvs": {
+   "ad": "Luvs",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/luvs"
+  },
+  "lux": {
+   "ad": "Lux",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/lux"
+  },
+  "m-a-c": {
+   "ad": "M.A.C.",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/m-a-c"
+  },
+  "mackintosh-toffee": {
+   "ad": "Mackintosh Toffee",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mackintosh-toffee"
+  },
+  "mae": {
+   "ad": "Mae",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mae"
+  },
+  "maggi": {
+   "ad": "Maggi",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/maggi"
+  },
+  "magic-mask": {
+   "ad": "Magic Mask",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/magic-mask"
+  },
+  "maidenform": {
+   "ad": "Maidenform",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/maidenform"
+  },
+  "maison-francis-kurkdjian": {
+   "ad": "Maison Francis Kurkdjian",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/maison-francis-kurkdjian"
+  },
+  "maison-martin-margiela": {
+   "ad": "Maison Martin Margiela",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/maison-martin-margiela"
+  },
+  "make-up-for-ever": {
+   "ad": "Make Up For Ever",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/make-up-for-ever"
+  },
+  "manhattan": {
+   "ad": "Manhattan",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/manhattan"
+  },
+  "marc-jacobs": {
+   "ad": "Marc Jacobs",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/marc-jacobs"
+  },
+  "marc-jacobs-beauty": {
+   "ad": "Marc Jacobs Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/marc-jacobs-beauty"
+  },
+  "marc-opolo": {
+   "ad": "Marc O’Polo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/marc-opolo"
+  },
+  "marks-and-spencer": {
+   "ad": "Marks & Spencer",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/marks-and-spencer"
+  },
+  "marni": {
+   "ad": "Marni",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/marni"
+  },
+  "massimo-dutti": {
+   "ad": "Massimo Dutti",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/massimo-dutti"
+  },
+  "materna": {
+   "ad": "Materna",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/materna"
+  },
+  "matrix": {
+   "ad": "Matrix",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/matrix"
+  },
+  "max-factor": {
+   "ad": "Max Factor",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/max-factor"
+  },
+  "maybelline-new-york": {
+   "ad": "Maybelline New York",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/maybelline-new-york"
+  },
+  "mcdonalds": {
+   "ad": "McDonald’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mcdonalds"
+  },
+  "media-crema-table-cream": {
+   "ad": "Media Crema Table Cream",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/media-crema-table-cream"
+  },
+  "mehadrin-tnuport-export-mtex": {
+   "ad": "Mehadrin Tnuport Export (MTEX)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mehadrin-tnuport-export-mtex"
+  },
+  "mercier": {
+   "ad": "Mercier",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mercier"
+  },
+  "meridol": {
+   "ad": "Meridol",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/meridol"
+  },
+  "merrick-pet-care": {
+   "ad": "Merrick Pet Care",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/merrick-pet-care"
+  },
+  "meta": {
+   "ad": "Facebook",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/meta"
+  },
+  "metamucil": {
+   "ad": "Metamucil",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/metamucil"
+  },
+  "method": {
+   "ad": "Method",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/method"
+  },
+  "mexx": {
+   "ad": "Mexx",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mexx"
+  },
+  "mgm-holdings": {
+   "ad": "MGM Holdings",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mgm-holdings"
+  },
+  "microsoft": {
+   "ad": "Microsoft",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/microsoft"
+  },
+  "microsoft-365-suite": {
+   "ad": "Microsoft 365 suite",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/microsoft-365-suite"
+  },
+  "miko": {
+   "ad": "Miko",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/miko"
+  },
+  "milkmaid": {
+   "ad": "Milkmaid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/milkmaid"
+  },
+  "milkybar": {
+   "ad": "Milkybar",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/milkybar"
+  },
+  "milo": {
+   "ad": "Milo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/milo"
+  },
+  "minors": {
+   "ad": "Minor’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/minors"
+  },
+  "minute-maid": {
+   "ad": "Minute Maid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/minute-maid"
+  },
+  "mio": {
+   "ad": "Mio",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mio"
+  },
+  "mirage": {
+   "ad": "Mirage",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mirage"
+  },
+  "miss-sporty": {
+   "ad": "Miss Sporty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/miss-sporty"
+  },
+  "mixa": {
+   "ad": "Mixa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mixa"
+  },
+  "mizani": {
+   "ad": "Mizani",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mizani"
+  },
+  "moet-chandon": {
+   "ad": "Moet & Chandon",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/moet-chandon"
+  },
+  "monange": {
+   "ad": "Monange",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/monange"
+  },
+  "monday-com": {
+   "ad": "Monday.com",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/monday-com"
+  },
+  "monki": {
+   "ad": "Monki",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/monki"
+  },
+  "motrin": {
+   "ad": "Motrin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/motrin"
+  },
+  "mountain-hardwear": {
+   "ad": "Mountain Hardwear",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mountain-hardwear"
+  },
+  "moynat": {
+   "ad": "Moynat",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/moynat"
+  },
+  "mr-clean": {
+   "ad": "Mr. Clean",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mr-clean"
+  },
+  "mrs-meyers-clean-day": {
+   "ad": "Mrs. Meyer's Clean Day",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mrs-meyers-clean-day"
+  },
+  "mugler": {
+   "ad": "MUGLER",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mugler"
+  },
+  "munchies": {
+   "ad": "Munchies",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/munchies"
+  },
+  "murphy-oil-soap": {
+   "ad": "Murphy Oil Soap",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/murphy-oil-soap"
+  },
+  "myjool": {
+   "ad": "MyJool",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/myjool"
+  },
+  "mylanta": {
+   "ad": "Mylanta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/mylanta"
+  },
+  "native": {
+   "ad": "Native",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/native"
+  },
+  "natures-bounty": {
+   "ad": "Nature’s Bounty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/natures-bounty"
+  },
+  "nautica-fragrance": {
+   "ad": "Nautica Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nautica-fragrance"
+  },
+  "neighbors-app": {
+   "ad": "Neighbors App",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/neighbors-app"
+  },
+  "neosporin": {
+   "ad": "Neosporin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/neosporin"
+  },
+  "nescafe": {
+   "ad": "Nescafé",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nescafe"
+  },
+  "nescau": {
+   "ad": "Nescau",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nescau"
+  },
+  "nesfruta": {
+   "ad": "Nesfruta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nesfruta"
+  },
+  "nespresso": {
+   "ad": "Nespresso",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nespresso"
+  },
+  "nesquik": {
+   "ad": "Nesquik",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nesquik"
+  },
+  "nesquik-cereal": {
+   "ad": "Nesquik Cereal",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nesquik-cereal"
+  },
+  "nestle-hot-cocoa": {
+   "ad": "Nestlé Hot Cocoa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nestle-hot-cocoa"
+  },
+  "nestle-musli": {
+   "ad": "Nestlé Musli",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nestle-musli"
+  },
+  "nestle-pure-life": {
+   "ad": "Nestlé Pure Life",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nestle-pure-life"
+  },
+  "nestle-soothers-lozenges": {
+   "ad": "Nestlé Soothers Lozenges",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nestle-soothers-lozenges"
+  },
+  "nestum": {
+   "ad": "Nestum",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nestum"
+  },
+  "neutrogena": {
+   "ad": "Neutrogena",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/neutrogena"
+  },
+  "newton-vineyard": {
+   "ad": "Newton Vineyard",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/newton-vineyard"
+  },
+  "nicorette": {
+   "ad": "Nicorette",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nicorette"
+  },
+  "niely": {
+   "ad": "Niely",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/niely"
+  },
+  "nike": {
+   "ad": "Nike",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nike"
+  },
+  "niod": {
+   "ad": "NIOD",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/niod"
+  },
+  "nutren": {
+   "ad": "Nutren",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nutren"
+  },
+  "nuun-hydration": {
+   "ad": "Nuun Hydration",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nuun-hydration"
+  },
+  "nyx-professional-makeup": {
+   "ad": "NYX Professional Makeup",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/nyx-professional-makeup"
+  },
+  "off": {
+   "ad": "Off",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/off"
+  },
+  "olay": {
+   "ad": "Olay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/olay"
+  },
+  "old-spice": {
+   "ad": "Old Spice",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/old-spice"
+  },
+  "olehenriksen": {
+   "ad": "OleHenriksen",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/olehenriksen"
+  },
+  "omo-also-known-as-persil-in-some-countries": {
+   "ad": "Omo (also known as Persil in some countries)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/omo-also-known-as-persil-in-some-countries"
+  },
+  "onedrive": {
+   "ad": "OneDrive",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/onedrive"
+  },
+  "oral-b": {
+   "ad": "Oral-B",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/oral-b"
+  },
+  "orbitz": {
+   "ad": "Orbitz",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/orbitz"
+  },
+  "orchard": {
+   "ad": "Orchard",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/orchard"
+  },
+  "organic-basics": {
+   "ad": "Organic Basics",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/organic-basics"
+  },
+  "original-penguin": {
+   "ad": "Original Penguin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/original-penguin"
+  },
+  "origins": {
+   "ad": "Origins",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/origins"
+  },
+  "orveda": {
+   "ad": "Orveda",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/orveda"
+  },
+  "other-stories": {
+   "ad": "&Other Stories",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/other-stories"
+  },
+  "outlook": {
+   "ad": "Outlook",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/outlook"
+  },
+  "ovaltine": {
+   "ad": "Ovaltine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ovaltine"
+  },
+  "oysho": {
+   "ad": "Oysho",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/oysho"
+  },
+  "p-j-salvage": {
+   "ad": "P.J. Salvage",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/p-j-salvage"
+  },
+  "page": {
+   "ad": "Page",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/page"
+  },
+  "paixao": {
+   "ad": "Paixao",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/paixao"
+  },
+  "palmo-dish-soap": {
+   "ad": "Palmo Dish Soap",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/palmo-dish-soap"
+  },
+  "palmolive": {
+   "ad": "Palmolive",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/palmolive"
+  },
+  "paloma-picasso": {
+   "ad": "Paloma Picasso",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/paloma-picasso"
+  },
+  "pampers": {
+   "ad": "Pampers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pampers"
+  },
+  "panta-rei": {
+   "ad": "Panta Rei",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/panta-rei"
+  },
+  "pantene": {
+   "ad": "Pantene",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pantene"
+  },
+  "papa-johns": {
+   "ad": "Papa John’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/papa-johns"
+  },
+  "paramount": {
+   "ad": "Paramount",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/paramount"
+  },
+  "parfums-christian-dior": {
+   "ad": "Parfums Christian Dior",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/parfums-christian-dior"
+  },
+  "parlour": {
+   "ad": "Parlour",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/parlour"
+  },
+  "passionata": {
+   "ad": "Passionata",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/passionata"
+  },
+  "patou": {
+   "ad": "Patou",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/patou"
+  },
+  "paulas-choice": {
+   "ad": "Paula's Choice",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/paulas-choice"
+  },
+  "pca-skin": {
+   "ad": "PCA Skin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pca-skin"
+  },
+  "peace-tea": {
+   "ad": "Peace Tea",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/peace-tea"
+  },
+  "pepcid": {
+   "ad": "Pepcid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pepcid"
+  },
+  "pepto-bismol": {
+   "ad": "Pepto-Bismol",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pepto-bismol"
+  },
+  "perfumes-loewe": {
+   "ad": "Perfumes Loewe",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/perfumes-loewe"
+  },
+  "perrier": {
+   "ad": "Perrier",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/perrier"
+  },
+  "persona-vitamin-subscription-program": {
+   "ad": "Persona (Vitamin Subscription Program)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/persona-vitamin-subscription-program"
+  },
+  "petalo": {
+   "ad": "Petalo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/petalo"
+  },
+  "pg-tips": {
+   "ad": "PG Tips",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pg-tips"
+  },
+  "philosophy": {
+   "ad": "Philosophy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/philosophy"
+  },
+  "pierre-cardin": {
+   "ad": "Pierre Cardin",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pierre-cardin"
+  },
+  "pillpack": {
+   "ad": "PillPack",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pillpack"
+  },
+  "pinho-sol": {
+   "ad": "Pinho Sol",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pinho-sol"
+  },
+  "pinzon": {
+   "ad": "Pinzon",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pinzon"
+  },
+  "pizza-hut": {
+   "ad": "Pizza Hut",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pizza-hut"
+  },
+  "pledge": {
+   "ad": "Pledge",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pledge"
+  },
+  "poise": {
+   "ad": "Poise",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/poise"
+  },
+  "polo-by-ralph-lauren": {
+   "ad": "Polo by Ralph Lauren",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/polo-by-ralph-lauren"
+  },
+  "ponds": {
+   "ad": "Pond’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ponds"
+  },
+  "popsicle": {
+   "ad": "Popsicle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/popsicle"
+  },
+  "powerade": {
+   "ad": "Powerade",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/powerade"
+  },
+  "prada-beauty": {
+   "ad": "Prada Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prada-beauty"
+  },
+  "prana": {
+   "ad": "prAna",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prana"
+  },
+  "presto": {
+   "ad": "Presto!",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/presto"
+  },
+  "prilosec-otc": {
+   "ad": "Prilosec OTC",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prilosec-otc"
+  },
+  "primark": {
+   "ad": "Primark",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/primark"
+  },
+  "prime": {
+   "ad": "Prime",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prime"
+  },
+  "prime-now": {
+   "ad": "Prime Now",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prime-now"
+  },
+  "prime-video": {
+   "ad": "Prime Video",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/prime-video"
+  },
+  "princessa": {
+   "ad": "Princessa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/princessa"
+  },
+  "protex": {
+   "ad": "Protex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/protex"
+  },
+  "pull-bear": {
+   "ad": "Pull & Bear",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pull-bear"
+  },
+  "pull-ups": {
+   "ad": "Pull-Ups",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pull-ups"
+  },
+  "pulp-riot-hair": {
+   "ad": "Pulp Riot Hair",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pulp-riot-hair"
+  },
+  "pure-encapsulations": {
+   "ad": "Pure Encapsulations",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pure-encapsulations"
+  },
+  "pureology": {
+   "ad": "Pureology",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/pureology"
+  },
+  "purina-petcare-full-line-of-products": {
+   "ad": "Purina PetCare (Full line of Products)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/purina-petcare-full-line-of-products"
+  },
+  "puritans-pride": {
+   "ad": "Puritan’s Pride",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/puritans-pride"
+  },
+  "quality-street": {
+   "ad": "Quality Street",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/quality-street"
+  },
+  "qunar": {
+   "ad": "Qunar",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/qunar"
+  },
+  "raid": {
+   "ad": "Raid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/raid"
+  },
+  "ralph-lauren-fragrances": {
+   "ad": "Ralph Lauren Fragrances",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ralph-lauren-fragrances"
+  },
+  "re-max": {
+   "ad": "RE/MAX",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/re-max"
+  },
+  "real-dairy": {
+   "ad": "Real Dairy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/real-dairy"
+  },
+  "redken": {
+   "ad": "Redken",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/redken"
+  },
+  "reebok": {
+   "ad": "Reebok",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/reebok"
+  },
+  "rembrandt": {
+   "ad": "Rembrandt",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rembrandt"
+  },
+  "repossi": {
+   "ad": "Repossi",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/repossi"
+  },
+  "resource": {
+   "ad": "Resource",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/resource"
+  },
+  "rexona-sure-degree": {
+   "ad": "Rexona (Sure, Degree)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rexona-sure-degree"
+  },
+  "rimmel": {
+   "ad": "Rimmel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rimmel"
+  },
+  "rimowa": {
+   "ad": "Rimowa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rimowa"
+  },
+  "ring": {
+   "ad": "Ring",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ring"
+  },
+  "risque": {
+   "ad": "Risque",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/risque"
+  },
+  "roc": {
+   "ad": "Roc",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/roc"
+  },
+  "rogers-gallet": {
+   "ad": "Rogers&Gallet",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rogers-gallet"
+  },
+  "rolo": {
+   "ad": "Rolo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rolo"
+  },
+  "rowntrees": {
+   "ad": "Rowntree’s",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/rowntrees"
+  },
+  "ruinart": {
+   "ad": "Ruinart",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ruinart"
+  },
+  "s-pellegrino": {
+   "ad": "S. Pellegrino",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/s-pellegrino"
+  },
+  "sabra-hummus": {
+   "ad": "Sabra Hummus",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sabra-hummus"
+  },
+  "safeguard": {
+   "ad": "Safeguard",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/safeguard"
+  },
+  "sally-hansan": {
+   "ad": "Sally Hansan",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sally-hansan"
+  },
+  "sams-club": {
+   "ad": "Sam’s Club",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sams-club"
+  },
+  "sanex": {
+   "ad": "Sanex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sanex"
+  },
+  "sanoflore": {
+   "ad": "Sanoflore",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sanoflore"
+  },
+  "saran": {
+   "ad": "Saran",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/saran"
+  },
+  "schiesser": {
+   "ad": "Schiesser",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/schiesser"
+  },
+  "schweppes": {
+   "ad": "Schweppes",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/schweppes"
+  },
+  "scott": {
+   "ad": "Scott",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/scott"
+  },
+  "scottonelle": {
+   "ad": "Scottonelle",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/scottonelle"
+  },
+  "scrubbing-bubbles": {
+   "ad": "Scrubbing Bubbles",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/scrubbing-bubbles"
+  },
+  "seattles-best": {
+   "ad": "Seattle’s Best",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/seattles-best"
+  },
+  "secret": {
+   "ad": "Secret",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/secret"
+  },
+  "selecta": {
+   "ad": "Selecta",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/selecta"
+  },
+  "sellpy": {
+   "ad": "Sellpy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sellpy"
+  },
+  "sephora": {
+   "ad": "Sephora",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sephora"
+  },
+  "shopbop": {
+   "ad": "Shopbop",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/shopbop"
+  },
+  "shout": {
+   "ad": "Shout",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/shout"
+  },
+  "shreddies": {
+   "ad": "Shreddies",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/shreddies"
+  },
+  "shu-uemura": {
+   "ad": "Shu Uemura",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/shu-uemura"
+  },
+  "shu-uemura-art-of-hair": {
+   "ad": "Shu Uemura Art of Hair",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/shu-uemura-art-of-hair"
+  },
+  "siemens": {
+   "ad": "Siemens",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/siemens"
+  },
+  "signal": {
+   "ad": "Signal",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/signal"
+  },
+  "silk": {
+   "ad": "Silk",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/silk"
+  },
+  "simple": {
+   "ad": "Simple",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/simple"
+  },
+  "simply": {
+   "ad": "Simply",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/simply"
+  },
+  "simply-spiked": {
+   "ad": "Simply Spiked",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/simply-spiked"
+  },
+  "singular-society": {
+   "ad": "Singular Society",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/singular-society"
+  },
+  "sk-ii": {
+   "ad": "SK-II",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sk-ii"
+  },
+  "skinbetter-science": {
+   "ad": "Skinbetter Science",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/skinbetter-science"
+  },
+  "skinceuticals": {
+   "ad": "SkinCeuticals",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/skinceuticals"
+  },
+  "skype": {
+   "ad": "Skype",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/skype"
+  },
+  "skyscanner": {
+   "ad": "Skyscanner",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/skyscanner"
+  },
+  "sma-nutrition": {
+   "ad": "SMA Nutrition",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sma-nutrition"
+  },
+  "smart-water": {
+   "ad": "smart water",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/smart-water"
+  },
+  "smarties": {
+   "ad": "Smarties",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/smarties"
+  },
+  "smashbox": {
+   "ad": "Smashbox",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/smashbox"
+  },
+  "soda-stream": {
+   "ad": "Soda Stream",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/soda-stream"
+  },
+  "softlan": {
+   "ad": "Softlan",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/softlan"
+  },
+  "softsheen-carson": {
+   "ad": "Softsheen Carson",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/softsheen-carson"
+  },
+  "softsoap": {
+   "ad": "Softsoap",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/softsoap"
+  },
+  "solgar": {
+   "ad": "Solgar",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/solgar"
+  },
+  "solimo": {
+   "ad": "Solimo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/solimo"
+  },
+  "sorel": {
+   "ad": "Sorel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sorel"
+  },
+  "sorriso": {
+   "ad": "Sorriso",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sorriso"
+  },
+  "soupline": {
+   "ad": "Soupline",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/soupline"
+  },
+  "speed-stick": {
+   "ad": "Speed Stick",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/speed-stick"
+  },
+  "splenda": {
+   "ad": "Splenda",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/splenda"
+  },
+  "splendid": {
+   "ad": "Splendid",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/splendid"
+  },
+  "spoiledchild": {
+   "ad": "SpoiledChild",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/spoiledchild"
+  },
+  "spoonfulone": {
+   "ad": "Spoonfulone",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/spoonfulone"
+  },
+  "spotify": {
+   "ad": "Spotify",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/spotify"
+  },
+  "sprite": {
+   "ad": "Sprite",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sprite"
+  },
+  "sta-soft": {
+   "ad": "Sta-soft",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sta-soft"
+  },
+  "starbucks": {
+   "ad": "Starbucks",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/starbucks"
+  },
+  "starbucks-by-nescafe-dolce-gusto": {
+   "ad": "Starbucks by Nescafé Dolce Gusto",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/starbucks-by-nescafe-dolce-gusto"
+  },
+  "starbucks-coffee-at-home": {
+   "ad": "Starbucks Coffee at Home",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/starbucks-coffee-at-home"
+  },
+  "stella-by-stella-mccartney": {
+   "ad": "STELLA by Stella McCartney",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/stella-by-stella-mccartney"
+  },
+  "stella-mccartney": {
+   "ad": "Stella McCartney",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/stella-mccartney"
+  },
+  "stradivarius": {
+   "ad": "Stradivarius",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/stradivarius"
+  },
+  "streets": {
+   "ad": "Streets",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/streets"
+  },
+  "suavel": {
+   "ad": "Suavel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/suavel"
+  },
+  "suavitel": {
+   "ad": "Suavitel",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/suavitel"
+  },
+  "sudafed": {
+   "ad": "Sudafed",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sudafed"
+  },
+  "sundae-swirlz": {
+   "ad": "Sundae Swirlz",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sundae-swirlz"
+  },
+  "sunlight": {
+   "ad": "Sunlight",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sunlight"
+  },
+  "sunsilk": {
+   "ad": "Sunsilk",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sunsilk"
+  },
+  "surf": {
+   "ad": "Surf",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/surf"
+  },
+  "swarovski": {
+   "ad": "Swarovski",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/swarovski"
+  },
+  "sweet-earth": {
+   "ad": "Sweet Earth",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/sweet-earth"
+  },
+  "swiffer": {
+   "ad": "Swiffer",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/swiffer"
+  },
+  "taco-bell": {
+   "ad": "Taco Bell",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/taco-bell"
+  },
+  "tag-heuer": {
+   "ad": "Tag Heuer",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tag-heuer"
+  },
+  "tahiti": {
+   "ad": "Tahiti",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tahiti"
+  },
+  "talenti": {
+   "ad": "Talenti",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/talenti"
+  },
+  "tampax": {
+   "ad": "Tampax",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tampax"
+  },
+  "target": {
+   "ad": "Target",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/target"
+  },
+  "tasters-choice": {
+   "ad": "Taster's Choice",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tasters-choice"
+  },
+  "ted-baker": {
+   "ad": "Ted Baker",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ted-baker"
+  },
+  "telsa": {
+   "ad": "Telsa",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/telsa"
+  },
+  "temu": {
+   "ad": "TEMU",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/temu"
+  },
+  "terra-canis": {
+   "ad": "Terra Canis",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/terra-canis"
+  },
+  "terrazas-de-los-andes": {
+   "ad": "Terrazas de los Andes",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/terrazas-de-los-andes"
+  },
+  "teva-pharmaceuticals": {
+   "ad": "Teva Pharmaceuticals",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/teva-pharmaceuticals"
+  },
+  "texaco": {
+   "ad": "Texaco",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/texaco"
+  },
+  "thayers": {
+   "ad": "Thayers",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/thayers"
+  },
+  "the-kooples": {
+   "ad": "The Kooples",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/the-kooples"
+  },
+  "the-ordinary": {
+   "ad": "The Ordinary",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/the-ordinary"
+  },
+  "the-pioneer-woman-dog-treats": {
+   "ad": "The Pioneer Woman Dog Treats",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/the-pioneer-woman-dog-treats"
+  },
+  "threads": {
+   "ad": "Threads",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/threads"
+  },
+  "tide": {
+   "ad": "Tide",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tide"
+  },
+  "tiffany-co": {
+   "ad": "Tiffany & Co.",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tiffany-co"
+  },
+  "tiffany-co-fa6ca": {
+   "ad": "Tiffany & Co. Fragrance",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tiffany-co-fa6ca"
+  },
+  "toll-house": {
+   "ad": "Toll House",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/toll-house"
+  },
+  "tom-ford-beauty": {
+   "ad": "Tom Ford Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tom-ford-beauty"
+  },
+  "tommy-hilfiger": {
+   "ad": "Tommy Hilfiger",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tommy-hilfiger"
+  },
+  "toms-of-maine": {
+   "ad": "Tom's of Maine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/toms-of-maine"
+  },
+  "too-faced": {
+   "ad": "Too Faced",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/too-faced"
+  },
+  "topo-chico": {
+   "ad": "Topo-Chico",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/topo-chico"
+  },
+  "topo-chico-hard-seltzer": {
+   "ad": "Topo-Chico Hard Seltzer",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/topo-chico-hard-seltzer"
+  },
+  "tostines": {
+   "ad": "Tostines",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tostines"
+  },
+  "totole": {
+   "ad": "Totole",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/totole"
+  },
+  "travelocity": {
+   "ad": "Travelocity",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/travelocity"
+  },
+  "tresemme": {
+   "ad": "TRESemmé",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tresemme"
+  },
+  "trio": {
+   "ad": "Trio",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/trio"
+  },
+  "trip-com": {
+   "ad": "Trip.com",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/trip-com"
+  },
+  "tripadvisor": {
+   "ad": "Tripadvisor",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tripadvisor"
+  },
+  "triumph": {
+   "ad": "Triumph",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/triumph"
+  },
+  "trivago": {
+   "ad": "Trivago",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/trivago"
+  },
+  "turtles": {
+   "ad": "Turtles",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/turtles"
+  },
+  "twitch": {
+   "ad": "Twitch",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/twitch"
+  },
+  "tylenol": {
+   "ad": "Tylenol",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/tylenol"
+  },
+  "u-by-kotex": {
+   "ad": "U by Kotex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/u-by-kotex"
+  },
+  "umbro": {
+   "ad": "Umbro",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/umbro"
+  },
+  "under-armour": {
+   "ad": "Under Armour",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/under-armour"
+  },
+  "united-colors-of-benetton": {
+   "ad": "United Colors of Benetton",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/united-colors-of-benetton"
+  },
+  "university-esports": {
+   "ad": "University Esports",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/university-esports"
+  },
+  "unox": {
+   "ad": "Unox",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/unox"
+  },
+  "urban-decay": {
+   "ad": "Urban Decay",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/urban-decay"
+  },
+  "valentino-beauty": {
+   "ad": "Valentino Beauty",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/valentino-beauty"
+  },
+  "vaseline": {
+   "ad": "Vaseline",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vaseline"
+  },
+  "vendome": {
+   "ad": "Vendome",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vendome"
+  },
+  "venus": {
+   "ad": "Venus",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/venus"
+  },
+  "vera-wang": {
+   "ad": "Vera Wang",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vera-wang"
+  },
+  "vichy": {
+   "ad": "Vichy",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vichy"
+  },
+  "vicks": {
+   "ad": "Vicks",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vicks"
+  },
+  "victorias-secret": {
+   "ad": "Victoria’s Secret",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/victorias-secret"
+  },
+  "viktor-rolf": {
+   "ad": "Viktor & Rolf",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/viktor-rolf"
+  },
+  "visine": {
+   "ad": "Visine",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/visine"
+  },
+  "vital-proteins": {
+   "ad": "Vital Proteins",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vital-proteins"
+  },
+  "vitality": {
+   "ad": "Vitality",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vitality"
+  },
+  "vitamin-water": {
+   "ad": "vitamin water",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vitamin-water"
+  },
+  "viva": {
+   "ad": "Viva",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/viva"
+  },
+  "vogue": {
+   "ad": "Vogue",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vogue"
+  },
+  "volcan-de-mi-tierra": {
+   "ad": "Volcan de mi Tierra",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/volcan-de-mi-tierra"
+  },
+  "volvo": {
+   "ad": "Volvo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/volvo"
+  },
+  "vrbo": {
+   "ad": "Vrbo",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vrbo"
+  },
+  "vuarnet": {
+   "ad": "Vuarnet",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/vuarnet"
+  },
+  "wag": {
+   "ad": "Wag",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wag"
+  },
+  "walls": {
+   "ad": "Walls",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/walls"
+  },
+  "walmart": {
+   "ad": "Walmart",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/walmart"
+  },
+  "weekday": {
+   "ad": "Weekday",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/weekday"
+  },
+  "wendys": {
+   "ad": "Wendy's",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wendys"
+  },
+  "whatsapp": {
+   "ad": "WhatsApp",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/whatsapp"
+  },
+  "whistlepig-minority-stake": {
+   "ad": "WhistlePig (minority stake)",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/whistlepig-minority-stake"
+  },
+  "whole-foods": {
+   "ad": "Whole Foods",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/whole-foods"
+  },
+  "wickedly-prime": {
+   "ad": "Wickedly Prime",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wickedly-prime"
+  },
+  "windex": {
+   "ad": "Windex",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/windex"
+  },
+  "windows": {
+   "ad": "Windows",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/windows"
+  },
+  "wix": {
+   "ad": "WIX",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wix"
+  },
+  "wondersoft": {
+   "ad": "Wondersoft",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wondersoft"
+  },
+  "wondery": {
+   "ad": "Wondery",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wondery"
+  },
+  "woodinville": {
+   "ad": "Woodinville",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/woodinville"
+  },
+  "woot": {
+   "ad": "Woot",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/woot"
+  },
+  "wotif": {
+   "ad": "Wotif",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wotif"
+  },
+  "wypall": {
+   "ad": "WypAll",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/wypall"
+  },
+  "xbox-network": {
+   "ad": "Xbox Network",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/xbox-network"
+  },
+  "yasso": {
+   "ad": "Yasso",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/yasso"
+  },
+  "yes-network": {
+   "ad": "YES Network",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/yes-network"
+  },
+  "yogolino": {
+   "ad": "Yogolino",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/yogolino"
+  },
+  "yue-sai": {
+   "ad": "Yue Sai",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/yue-sai"
+  },
+  "yves-saint-laurent-beaute": {
+   "ad": "Yves Saint Laurent Beauté",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/yves-saint-laurent-beaute"
+  },
+  "zappos": {
+   "ad": "Zappos",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/zappos"
+  },
+  "zara": {
+   "ad": "Zara",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/zara"
+  },
+  "zara-home": {
+   "ad": "Zara Home",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/zara-home"
+  },
+  "zenith": {
+   "ad": "Zenith",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/zenith"
+  },
+  "ziploc": {
+   "ad": "Ziploc",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/ziploc"
+  },
+  "zyrtec": {
+   "ad": "Zyrtec",
+   "kapsam": true,
+   "url": "https://directory.abbottandkeefer.com/brand-entry/zyrtec"
+  }
+ },
+ "kaynak": "ak",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2026-10-02), 2026-10-20T15:14:30+03:00"
+ },
+ "parmak_izi": "a2906b66c5b7fa43d3be43b2d79ada09f754d5a824ddcfac5878d291311d3ca5",
+ "tarih": "2026-10-02"
+}

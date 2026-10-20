@@ -1,0 +1,4174 @@
+{
+ "ad": "Bilinçli Tüketim",
+ "kayitlar": {
+  "1": {
+   "ad": "McDonald's",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20020208120848/http://juf.org/cent/partners.asp",
+    "https://www.businessinsider.com/mcdonalds-donating-thousands-meals-idf-israeli-citizens-hamas-attacks-2023",
+    "https://api.bilinclituketim.com/media/proofs/a44c31708a63c144.webp",
+    "https://api.bilinclituketim.com/media/proofs/72614ba8bf993b7f.webp",
+    "https://api.bilinclituketim.com/media/proofs/8c136fe1a67b5607.webp",
+    "https://api.bilinclituketim.com/media/proofs/d8ec0cdec8164780.webp",
+    "https://api.bilinclituketim.com/media/proofs/55358d4755ef64c6.webp"
+   ],
+   "metin": "Jewish United Fund/Birleşik Yahudi Fonu’na sağladığı destek nedeniyle uzun yıllardır boykot edilen McDonald’s, 7 Ekim 2023’te başlayan süreç sonrası, İsrail ordusuna her gün ücretsiz yemek dağıtımı yaptığını ve bunun için 5 ayrı şube açtığını tüm sosyal medya hesaplarından duyurmuştur. İsrail ordusuna doğrudan ayni destek sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/mcdonalds"
+  },
+  "10": {
+   "ad": "Puma",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": false,
+   "kaynaklar": [
+    "https://bdsmovement.net/boycott-puma#tab1",
+    "https://api.bilinclituketim.com/media/proofs/215f31e7dd6ac6ff.webp"
+   ],
+   "metin": "Puma, İsrail Futbol Federasyonu’nun tek uluslararası sponsorudur. Puma’nın bu sponsorluğu, İsrail'in gayrimeşru yerleşim rejiminin devam etmesine ve genişlemesine olanak sağlamaktadır. Zira İsrail Futbol Federasyonu, İsrail ordusunun işgal ettiği Filistin topraklarındaki gayrimeşru İsrail yerleşimlerinde bulunan altı İsrail futbol kulübünü bünyesinde barındırmaktadır. İsrail’e uluslararası organizasyonlarda sponsor olmak ve işgalin derinleşmesine nakdi destek sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/puma"
+  },
+  "100": {
+   "ad": "Smash Box",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/smash-box"
+  },
+  "101": {
+   "ad": "The Ordinary",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/the-ordinary"
+  },
+  "102": {
+   "ad": "Tom Ford",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tom-ford"
+  },
+  "103": {
+   "ad": "Too Faced",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/too-faced"
+  },
+  "104": {
+   "ad": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.theguardian.com/commentisfree/2021/oct/12/google-amazon-workers-condemn-project-nimbus-israeli-military-contract",
+    "https://www.reuters.com/technology/amazon-invest-72-bln-israel-launches-aws-cloud-region-2023-08-01/"
+   ],
+   "metin": "Amazon, İsrail’in Nimbus Projesi’nde yer almaktadır. Bu proje İsrail hükümeti ve İsrail ordusuna bulut (cloud) servisi sunan bir bilişim projesidir. Proje kapsamında İsrail devlet kurumlarına yapay zeka ve makine öğrenmesi hizmetleri de sunulmaktadır. Amazon, katkı sunduğu bu teknolojiler nedeniyle Filistinliler hakkında daha fazla yasadışı veri toplanmasına olanak sağlamakta ve İsrail'in Filistin topraklarındaki yasa dışı işgalinin genişlemesine aracılık etmektedir. Amazon, 2037 yılına kadar İsrail’e 7.2 milyar dolar bulut (cloud) yatırımı yapmayı hedeflemektedir. İsrail devletiyle doğrudan işbirliği halinde olmak, İsrail ordusu için teknoloji üretmek ve işgal rejimine altyapı sağlamak, üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/amazon"
+  },
+  "105": {
+   "ad": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20200604165628/https://www.strauss-group.com/partner/partnership_danone/"
+   ],
+   "metin": "Danone, İsrail’in en büyük gıda işletmelerinden Strauss Group’un süt ürünleri üreten alt şirketi Strauss Dairies ile 1996 yılından beri köklü bir işbirliğine sahiptir. Strauss Group ile Danone arasındaki bu önemli iş birliği, Danone’nin Strauss Group’un %20’lik hissesini satın almasıyla daha da derinleşmiştir. Danone’nin her türlü know-how’ına erişim konusunda münhasır bir lisansa sahip olan Strauss Group, İsrail’in askeri birimlerine ürün ve hizmet tedarik eden bir şirketler grubudur. Gayrimeşru İsrail yerleşimlerinde üretim yapan ve İsrail ekonomisine ciddi katkılar sağlayan şirketlerle ortaklık yapmak bir çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/danone"
+  },
+  "106": {
+   "ad": "Activia",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.kap.org.tr/tr/sirket-bilgileri/genel/1440-carrefoursa-carrefour-sabanci-ticaret-merkezi-a-s"
+   ],
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/activia"
+  },
+  "107": {
+   "ad": "Danino",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/danino"
+  },
+  "108": {
+   "ad": "Danette",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/danette"
+  },
+  "109": {
+   "ad": "Tikveşli",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tikvesli"
+  },
+  "11": {
+   "ad": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.washingtonpost.com/world/national-security/us-pushing-to-quash-un-blacklist-of-firms-doing-business-in-israeli-settlements/2017/08/21/c6de9eec-8439-11e7-b359-15a3617c767b_story.html",
+    "https://www.haaretz.com/us-news/2017-08-22/ty-article/u-s-trying-to-prevent-un-blacklist-of-companies-working-in-the-settlements/0000017f-dc86-d856-a37f-fdc696760000?v=1699265529823",
+    "https://www.theguardian.com/world/2017/sep/28/un-human-rights-warning-letter-firms-palestine-territories-occupied-israel"
+   ],
+   "metin": "Coca Cola Company, 1960’lı yıllarda Arap ülkelerinin açık çağrısına rağmen İsrail’de fabrika açarak tercihini İsrail’den yana kullanmış ve o yıllardan bu yana boykot konusunda adı ilk zikredilen şirketlerden olmuştur. Halihazırda Coca Cola’nın İsrail’in gayrimeşru yerleşim bölgesi Atarot’ta bir fabrikası mevcuttur. Coca Cola, 2017’de Birleşmiş Milletler İnsan Hakları Komisyonu tarafından işgal altındaki Filistin topraklarındaki yasadışı İsrail yerleşimlerinde işletmeleri olması nedeniyle kara listeye eklenebileceklerine yönelik uyarı alan 150 şirketin içinde yer almaktadır. Gayrimeşru İsrail yerleşimlerinde üretim yapmak iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/the-coca-cola-company"
+  },
+  "110": {
+   "ad": "Alpro",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/alpro"
+  },
+  "111": {
+   "ad": "Hayat Su",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/hayat-su"
+  },
+  "112": {
+   "ad": "Akmina Maden Suyu",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/akmina-maden-suyu"
+  },
+  "113": {
+   "ad": "Sırma",
+   "cati": "Danone",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Danone'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/srma"
+  },
+  "114": {
+   "ad": "Lancome",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/lancome"
+  },
+  "115": {
+   "ad": "Kiehls",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kiehls"
+  },
+  "116": {
+   "ad": "Giorgio Armani",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/giorgio-armani"
+  },
+  "117": {
+   "ad": "It Cosmetics",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/it-cosmetics"
+  },
+  "118": {
+   "ad": "Urban Decay",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/urban-decay"
+  },
+  "119": {
+   "ad": "Ralph Lauren",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.deltagalil.com/brands/licensed-brands/default.aspx",
+    "https://www.glossy.co/fashion/ralph-lauren-licenses-womens-intimates-and-sleepwear-to-delta-galil/"
+   ],
+   "metin": "Ralph Lauren'in gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile kadın iç giyim ve gecelik üretimi konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Ralph Lauren'in global olarak satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Ralph Lauren'i bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/ralph-lauren"
+  },
+  "12": {
+   "ad": "Doğadan",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/dogadan"
+  },
+  "120": {
+   "ad": "Mugler",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/mugler"
+  },
+  "121": {
+   "ad": "Valentino",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/valentino"
+  },
+  "122": {
+   "ad": "Cacharel",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cacharel"
+  },
+  "123": {
+   "ad": "Diesel",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/diesel"
+  },
+  "124": {
+   "ad": "Garnier",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/garnier"
+  },
+  "125": {
+   "ad": "Maybelline",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/maybelline"
+  },
+  "126": {
+   "ad": "NYX",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/nyx"
+  },
+  "127": {
+   "ad": "La Roche Posay",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/la-roche-posay"
+  },
+  "128": {
+   "ad": "Vichy",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vichy"
+  },
+  "129": {
+   "ad": "Cerave",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cerave"
+  },
+  "13": {
+   "ad": "Fanta",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fanta"
+  },
+  "130": {
+   "ad": "Skin Ceuticals",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/skin-ceuticals"
+  },
+  "131": {
+   "ad": "Kerastase",
+   "cati": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "L'Oréal Paris Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kerastase"
+  },
+  "132": {
+   "ad": "HSBC Bank",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://waronwant.org/sites/default/files/Final%20Web%20version%20Deadly%20Investments.pdf",
+    "https://www.haaretz.com/israel-news/business/2016-11-27/ty-article/israeli-leviathan-partners-get-up-to-1-75-financing/0000017f-e9c0-da9b-a1ff-edef8a230000",
+    "https://paxforpeace.nl/wp-content/uploads/sites/2/2024/06/The-Companies-Arming-Israel-and-Their-Financiers-June-2024.pdf",
+    "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments"
+   ],
+   "metin": "HSBC İsrail’in enerji ve silahlarla bağlantılı projelerine ve İsrail’e tedarik sağlayan yabancı silah üreticilerine büyük ölçekli finansman ve yatırım  sağlamakta ve İsrail devlet tahvilleri için birincil piyasa yapıcı olarak hareket etmektedir. HSBC, İsrail pazarına ve Ürdün’e tedarik sağlayan, İsrail’in ulusal düzeydeki kilit enerji projesi Leviathan gaz sahası için 1,75 milyar dolara kadar kredi ortak düzenlemiştir; bu durum, İsrail devletiyle doğrudan işbirliğine işaret etmektedir. \r\n\r\nİnsan hakları ve finans sektörü raporları, HSBC’nin Elbit Systems, BAE Systems, Boeing, Raytheon, Caterpillar ve İsrail ordusuna silah, teknoloji ve ekipman sağlayan diğer şirketlerde önemli hisse paylarına ve kredilere sahip olduğunu belgelemektedir. 2024 tarihli bir STK koalisyonu raporu ise HSBC’yi, yasa dışı İsrail yerleşimleriyle ve İsrail’in silahlandırılmasıyla bağlantılı şirketlerde Avrupa’nın en büyük alacaklı ve yatırımcılarından biri olarak tanımlamaktadır. Bu, İsrail ile temel faaliyet alanı askeri ve güvenlik olan firmalara doğrudan finansal hizmet sağlanması anlamına gelmektedir.  Tüm bunlar HSBC'yi üç çarpılı boykot sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/hsbc-bank"
+  },
+  "133": {
+   "ad": "Yves Rocher",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.huckmag.com/article/pro-palestine-activists-shut-israeli-cosmetics-shop",
+    "https://www.haaretz.com/israel-news/business/2016-12-20/ty-article/rocher-pays-129m-for-israeli-body-products-chain-sabon/0000017f-e375-df7c-a5ff-e37fa61e0000",
+    "https://api.bilinclituketim.com/media/proofs/9f89e395ecb86fa9.webp",
+    "https://api.bilinclituketim.com/media/proofs/79a40c9b00e9b1e6.webp",
+    "https://api.bilinclituketim.com/media/proofs/85f46d7bdaba16fd.webp"
+   ],
+   "metin": "Yves Rocher, 2016 yılında, Sabon isimli İsrail merkezli bir şirketin %66’lık hissesini satın almıştır. Sabon’un, Filistin’in İsrail tarafından işgal edilen Fâlûce ve Irâk el Menşiyye kasabalarında fabrikaları mevcuttur. İlave olarak Sabon, 7 Ekim sonrası gelişen olayların ardından İsrail askerlerine kişisel bakım setleri dağıtmıştır. İsrail askerlerine ayni destek sağlayan ve gayrimeşru İsrail yerleşimlerinde fabrikası bulunan bir şirkete ortak olmak, Yves Rocher’i iki çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/yves-rocher"
+  },
+  "134": {
+   "ad": "Siemens",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://euroasia-interconnector.com/preferredbidder/",
+    "https://bdsmovement.net/Call-to-Boycott-Chevron-Siemens",
+    "https://press.siemens.com/global/en/feature/siemens-and-israel-railways-sign-contract-60-double-decker-regional-trains",
+    "https://www.whoprofits.org/companies/company/3958",
+    "https://investigate.afsc.org/company/siemens",
+    "https://press.siemens.com/global/en/pressrelease/bosch-acquire-siemens-stake-bsh-bosch-und-siemens-hausgerate-gmbh"
+   ],
+   "metin": "Siemens, İsrail ile Avrupa Birliği arasındaki denizaltı elektrik kablosu olan Avrasya Interconnector'un ana yüklenicisidir. Proje tamamlandığında İsrail, Siemens aracılığıyla, elektrik şebekesini AB’nin elektrik şebekesine bağlamış ve fosil fazdan üretilen elektriğin Avrupa’ya ihraç edilmesini sağlamış olacaktır. Ayrıca Siemens'in, yazılım ve altyapılarını İsrail Savunma Bakanlığı ve Elbit Systems, Rafael vb. tüm büyük İsrailli silah şirketlerinin kullanımına sunduğu belgelenmiştir. İsrailli siber güvenlik firması CyActive'in yatırımcılarından biri olan Siemens aynı zamanda Batı Şeria'dan geçtiği halde Filistinlilerin hizmetine sunulmayan, İsrail devleti tarafından işletilen demiryollarının da tedarikçilerinden biridir. İsrail devleti ile iş birliği halinde olmak ve İsrail ordusu ve güvenliğine hizmet sunmak, Siemens'i üç çarpılı şirket sınıfına dahil etmektedir.\r\n \r\nNot: Bosch ile Siemens 2015 yılında birbirinden ayrılmış şirketler olmakla birlikte, Bosch, bu süreçte yapılan anlaşma kapsamında Siemens markası ile beyaz eşya üretmeye devam etmektedir. Tarafımızca Bosch ile iletişime geçilip Siemens ile bu konuda var olan işbirliklerinin mahiyetine ilişkin bilgi almaya çalışılmış, ancak Bosch'tan bu konuda geri bildirim alınamamıştır. Bu nedenle Siemens markası altında üretilen beyaz eşyaları ihtiyaten boykot etmekle birlikte, ihlalleri gerçekleştiren Siemens ile doğrudan bağlantısı olmayan Bosch'u boykot listemize dahil etmemekteyiz.",
+   "url": "https://bilinclituketim.com/brand/siemens"
+  },
+  "135": {
+   "ad": "AXA Sigorta",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://s3.amazonaws.com/s3.sumofus.org/images/SUMOFUS_REPORT_-_AXA_FINANCING_WAR_CRIMES.pdf",
+    "https://bdsmovement.net/news/axa-partner-crime"
+   ],
+   "metin": "AXA, geçmişte Filistinli sivilleri katleden uluslararası hukuka aykırı bombaların üreticisi olan Elbit Systems’e yatırım yapmıştır. İlave olarak AXA, 2022 - 2024 yılları arasında gayrimeşru İsrail yerleşimlerinde faaliyet yürüten beş İsrail bankasına 15,6 milyon dolar yatırımda bulunmuştur. Boykot baskısı sebebiyle bu kurumlardaki yatırım ve hisselerini geri çekmesine rağmen, İsrail ordusuna silah ve askeri teknoloji üreten Boeing, Lockheed Martin, General Dynamics, RTX vb. şirketlere en az 4,09 milyar dolar direkt yatırım yapmak ve İsrail devletiyle doğrudan işbirliği halinde olmak AXA’yı üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/axa-sigorta"
+  },
+  "136": {
+   "ad": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://innovationisrael.org.il/sites/default/files/Henkel%20-%20Israel%20Innovation%20Authority%20CfP%202023%20-%20Final.pdf",
+    "https://www.mrchub.com/news/381908-henkel-invests-in-israeli-technology-start-up"
+   ],
+   "metin": "Henkel ile İsrail İnovasyon Otoritesi arasında, ticari iş birliği anlaşması mevcuttur. Bu kapsamda Henkel, İsrail’deki teknoloji girişimlerine yatırım yapmakta ve sürdürülebilirlik faaliyetleri yürütmektedir. Henkel ile İsrail İnovasyon Otoritesi’nin ortak yürüttüğü çalışma kapsamında, şartları sağlayan startuplara İsrail İnovasyon Otoritesi tarafından fon, Henkel tarafından teknik destek sağlanmaktadır. İsrail devleti ile iş birliği halinde olmak, Henkel’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/henkel"
+  },
+  "137": {
+   "ad": "Persil",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/persil"
+  },
+  "138": {
+   "ad": "Schwarzkopf",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/schwarzkopf"
+  },
+  "139": {
+   "ad": "Syoss",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/syoss"
+  },
+  "14": {
+   "ad": "Fuse Tea",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fuse-tea"
+  },
+  "140": {
+   "ad": "Bref",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/bref"
+  },
+  "141": {
+   "ad": "Clin",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/clin"
+  },
+  "142": {
+   "ad": "Gliss",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/gliss"
+  },
+  "143": {
+   "ad": "Fa",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fa"
+  },
+  "144": {
+   "ad": "Perwoll",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/perwoll"
+  },
+  "145": {
+   "ad": "Pril",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pril"
+  },
+  "146": {
+   "ad": "Palette",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/palette"
+  },
+  "147": {
+   "ad": "Tursil",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tursil"
+  },
+  "148": {
+   "ad": "Vernel",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vernel"
+  },
+  "149": {
+   "ad": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.globes.co.il/en/article-reckitt-benckiser-seeks-investments-in-israeli-cos-1001262747",
+    "https://innovationisrael.org.il/en/press_release/international-health-brand-reckitt-benckiser-rb-to-sign-cooperation-agreement-with-israel-innovation-authority/",
+    "https://www.calcalist.co.il/local/articles/0,7340,L-3751219,00.html"
+   ],
+   "metin": "Reckitt Benckiser ile İsrail İnnovasyon Otoritesi arasında, ticari iş birliği anlaşması mevcuttur. Bu kapsamda Reckitt Benckiser, İsrail’deki teknoloji girişimlerine yatırım yapmakta ve sürdürülebilirlik faaliyetleri yürütmektedir. İsrail devleti ile iş birliği halinde olmak, Reckitt Benckiser’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/reckitt-benckiser"
+  },
+  "15": {
+   "ad": "Schweppes",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/schweppes"
+  },
+  "150": {
+   "ad": "Veet",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/veet"
+  },
+  "151": {
+   "ad": "Durex",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/durex"
+  },
+  "152": {
+   "ad": "Scholl",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/scholl"
+  },
+  "153": {
+   "ad": "AirWick",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/airwick"
+  },
+  "154": {
+   "ad": "Finish",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/finish"
+  },
+  "155": {
+   "ad": "Cillit Bang",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cillit-bang"
+  },
+  "156": {
+   "ad": "Calgon",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/calgon"
+  },
+  "157": {
+   "ad": "Vanish",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vanish"
+  },
+  "158": {
+   "ad": "Adidas",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/news/team-justice-scores-adidas-no-longer-sponsoring-israel-football-association",
+    "https://www.whoprofits.org/companies/company/3655?delta-galil-industries",
+    "https://www.aa.com.tr/tr/dunya/eski-israil-askerini-reklam-yuzu-yapan-adidas-kuresel-boykot-baskisi-altinda/4050636"
+   ],
+   "metin": "İsrail Futbol Fedarasyonu’na sponsor olan Adidas, yoğun protesto ve boykot eylemlerinin ardından bu sponsorluğunu 2018 yılında sonlandırmıştı. Bu süreçte boykot listelerinden çıkan Adidas, 2022 yılında gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile iç çamaşırı üretimi konusunda partnerlik anlaşması imzaladı. İlave olarak Adidas, 2026 yılında, İsrail işgal ordusunda görev yaparken bacağı kopan Shalev Biton isimli siyonist askeri reklam yüzü yapmış ve bu nedenle küresel ölçekli tepkilerle karşılaşmıştır. Medya, reklam veya iletişim faaliyetleri aracılığıyla İsrail işgalini desteklemek, Adidas’ı iki çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/adidas"
+  },
+  "159": {
+   "ad": "TEB",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+    "https://www.banktrack.org/article/bnp_paribas_under_the_spotlight_for_major_exposure_to_companies_supporting_illegal_israeli_settlements",
+    "https://www.teb.com.tr/Yatirimci/interaktif_2021/sayfa/dunden-bugune-teb/index.htm#:~:text=TEB%2C%202021%20y%C4%B1l%C4%B1%20itibar%C4%B1yla%2065,2005%20tarihinde%20ortakl%C4%B1k%20anla%C5%9Fmas%C4%B1%20imzalad%C4%B1."
+   ],
+   "metin": "BNP Paribas, Filistinli sivilleri katleden uluslararası hukuka aykırı bombaların üreticisi olan Elbit Systems’e fon sağlayan bankalar arasındadır. BNP Paribas, Türkiye’de faaliyet yürüten TEB isimli bankanın %45’lik hissesine sahiptir. İsrail’e ordusuna destek sağlayan şirketlerle ortaklık yapmak, TEB’i bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/teb"
+  },
+  "16": {
+   "ad": "Sprite",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/sprite"
+  },
+  "160": {
+   "ad": "Volvo",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.israelnationalnews.com/news/252927",
+    "https://www.whoprofits.org/companies/company/3644",
+    "https://investigate.afsc.org/company/volvo",
+    "https://www.un.org/unispal/document/a-hrc-59-23-from-economy-of-occupation-to-economy-of-genocide-report-special-rapporteur-francesca-albanese-palestine-2025/"
+   ],
+   "metin": "Volvo, Kudüs ve Batı Şeria’daki Filistin mahallelerinin gayrimeşru şekilde yıkımı, Golan Tepelerindeki illegal İsrail faaliyetleri, 7 Ekim sonrasında ise Gazze'deki kitlesel yıkımlar ve askeri operasyonlarda kullanılmak üzere İsrail’e buldozer, iş makinası ve çeşitli ekipmanlar tedarik etmektedir. Ayrıca Volvo ekipmanlarının gayrimeşru İsrail yerleşimlerinin inşasında kullanılması, Volvo'nun bu yerleşimlerde ulaşımı sağlayan ve İsrail güvenlik servislerine hizmet veren otobüs üreticisi Merkavim'in ortak sahiplerinden biri olması firmanın İsrail ile bağını göstermektedir. İsrail'e doğrudan askeri ekipman üretiminde bulunmak, İsrail’in Kudüs ve Batı Şeria’da yaptığı gayrimeşru yıkımlar için araç sağlamak ve İsrail işgaline destek olmak Volvo’yu üç çarpılı marka sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/volvo"
+  },
+  "161": {
+   "ad": "Tata Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.jaguarlandrover.com/news/2023/05/jlr-targets-silicon-valley-and-israel-start-ups-it-marks-first-year-open-innovation",
+    "https://www.timesofisrael.com/jaguar-land-rover-launches-israeli-hub-to-scout-for-local-startups-mobility-tech/",
+    "https://www.trtworld.com/article/89b1c061394f"
+   ],
+   "metin": "Tata Group ile İsrail arasında “açık inovasyon” anlaşması mevcuttur. Bu anlaşma kapsamında elektrifikasyon, dijital hizmetler, metaveri, siber güvenlik, akıllı işletme, üretim, tedarik zinciri ve sürdürülebilirlik konularında koordineli çalışmalar yürütülmektedir. Tata Group çatısı altında bulunan ve Türkiye’de satışı yapılan markalar Jaguar ve Land Rover’dır. İsrail devleti ile iş birliği halinde olmak, Tata Group’u üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/tata-group"
+  },
+  "162": {
+   "ad": "Land Rover",
+   "cati": "Tata Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Tata Group'un alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/land-rover"
+  },
+  "163": {
+   "ad": "Jaguar",
+   "cati": "Tata Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Tata Group'un alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/jaguar"
+  },
+  "164": {
+   "ad": "Pixar",
+   "cati": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "The Walt Disney Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pixar"
+  },
+  "165": {
+   "ad": "Marvel Studios",
+   "cati": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "The Walt Disney Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/marvel-studios"
+  },
+  "166": {
+   "ad": "Lucas Film",
+   "cati": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "The Walt Disney Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/lucas-film"
+  },
+  "167": {
+   "ad": "20th Century Studios",
+   "cati": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "The Walt Disney Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/20th-century-studios"
+  },
+  "168": {
+   "ad": "Searchlight Pictures",
+   "cati": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "The Walt Disney Company'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/searchlight-pictures"
+  },
+  "169": {
+   "ad": "Zorlu Holding",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "kaynaklar": [
+    "https://www.zorluenerji.com.tr/tr/yatirimci-iliskileri/hakkimizda/bagli-ortakliklar-ve-istirakler",
+    "https://web.archive.org/web/20160709073953/http://www.edeltech.co.il/en/?page_id=28"
+   ],
+   "metin": "Zorlu Holding çatısı altında yer alan Zorlu Enerji, Bilinçli Tüketim'in boykot listesine girdiği Aralık 2023'te İsrail’de üretim yapan Zorlu Enerji Israil Ltd ve Zador Israel Ltd’nin hisselerinin tamamına, Dorad Energy Ltd’nin %25’lik hissesine, Ezotech Electric Ltd, Solad Energy Ltd ve Adnit Real Estate Ltd’nin %42,15 hissesine sahipti. Zorlu, Bilinçli Tüketiciler'in başlattığı boykot kampanyası neticesinde, 24.05.2024 tarihinde, Ezotech, Solad ve Adnid şirketlerindeki hisselerini satmıştır. Ancak Zorlu'nun; İsrail Savunma Bakanlığı’na, İsrail’in uluslararası hukuka göre gayrimeşru sayılan yerleşim yerlerine ve sanayi bölgelerine elektrik tedarik eden Dorad Energy’deki ortaklığı devam etmektedir. İsrail ile işbirliği halinde olan, İsrail ordusu için hizmet ve ürün üreten şirketlere yatırım yapmak Zorlu Holding’i iki çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/zorlu-holding"
+  },
+  "17": {
+   "ad": "Cappy",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cappy"
+  },
+  "170": {
+   "ad": "Vestel",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vestel"
+  },
+  "171": {
+   "ad": "Regal",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/regal"
+  },
+  "172": {
+   "ad": "TAÇ",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tac"
+  },
+  "173": {
+   "ad": "Linens",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/linens"
+  },
+  "174": {
+   "ad": "Valeron",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/valeron"
+  },
+  "175": {
+   "ad": "Pierre Cardin Home",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pierre-cardin-home"
+  },
+  "176": {
+   "ad": "Zorlu Center",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/zorlu-center"
+  },
+  "177": {
+   "ad": "Zorlu PSM",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu Holding'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/zorlu-psm"
+  },
+  "179": {
+   "ad": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20200318180246/https://www.thekitchenhub.com/",
+    "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-collaborate-israeli-foodtech-incubator/",
+    "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment"
+   ],
+   "metin": "Mondelez, Gayrimeşru İsrail yerleşimlerinde üretim yapan ve İsrail ekonomisine ciddi katkılar sağlayan Strauss Group ve İsrail İnovasyon Otoritesi ortak projesi “The Kitchen Hub” isimli gıda teknolojileri (FoodTech) kuluçka merkezinin hem yatırımcısı hem de iş birliği ortağıdır. İsrail devleti ile iş birliği halinde olmak, Mondelez’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/mondelez"
+  },
+  "18": {
+   "ad": "Damla",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/damla"
+  },
+  "180": {
+   "ad": "Falım",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/falm"
+  },
+  "181": {
+   "ad": "First",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/first"
+  },
+  "182": {
+   "ad": "Jelibon",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/jelibon"
+  },
+  "183": {
+   "ad": "Olips",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/olips"
+  },
+  "184": {
+   "ad": "Milka",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/milka"
+  },
+  "185": {
+   "ad": "Oreo",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/oreo"
+  },
+  "186": {
+   "ad": "Toblerone",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/toblerone"
+  },
+  "187": {
+   "ad": "Topitop",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/topitop"
+  },
+  "188": {
+   "ad": "Missbon",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/missbon"
+  },
+  "189": {
+   "ad": "Kent",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kent"
+  },
+  "19": {
+   "ad": "Monster",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/monster"
+  },
+  "190": {
+   "ad": "MasterCard",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20231231065920/https://www.linkedin.com/posts/leah-rothberg_israel-mastercardemployee-wearemastercard-activity-7118972662978146304-dSY6/?trk=public_profile_like_view",
+    "https://ejewishphilanthropy.com/blackstone-group-pledges-7-million-in-aid-to-israel/",
+    "https://www.enel.com/media/explore/search-press-releases/press/2020/05/mastercard-and-enel-x-to-establish-fintech-cyber-innovation-lab-in-israel-",
+    "https://www.reuters.com/article/business/israel-approves-mastercard-stake-in-bank-services-firm-shva-idUSKCN1S611N/"
+   ],
+   "metin": "Mastercard, 7 Ekim sonrası süreçte çalışanlarını İsrail’e bağış yapma konusunda teşvik etmiş, çalışanlarının $25’dan $15.000’a kadar İsrail’e yapacağı bağışları üstleneceğini açıklamıştır. Mastercard çalışanı Leah Rothberg’in Linkedin hesabından yaptığı açıklamaya göre Mastercard, İsrail’e bu şekilde $2.000.000 bağışta bulunmuştur. Ek olarak Mastercard, İsrail'in ulusal kredi kartı sistemi SHVA'da %10 hisseye sahiptir ve İsrail hükümeti ile ortak olarak teknoloji ve siber güvenlik alanında çalışan FinSec İnovasyon Laboratuvarını kurmuştur. İsrail devleti ile işbirliği içinde olmak ve İsrail’e doğrudan nakdi destek sağlamak, Mastercard’ı üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/mastercard"
+  },
+  "191": {
+   "ad": "Wix",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.irishtimes.com/business/2023/10/28/wix-addressing-internal-messages-on-israel-hamas-conflict/",
+    "https://bdsmovement.net/Guide-to-BDS-Boycott",
+    "https://updates.techforpalestine.org/wix-the-israeli-engine-behind-some-of-your-favorite-websites/"
+   ],
+   "metin": "Wix, İsrail merkezli bir teknoloji şirketidir. 7 Ekim sonrası süreçte dünya genelindeki ofislerinde çalışanlarına İsrail’e destek olma konusunda mobbinge varan telkinlerde bulunan Wix, İrlanda ofisinde çalışan Courtney Carey isimli personelini, İsrail’in Gazze’de yaptığı soykırımı kınadığı için işten çıkarmıştır. İsrail ile organik işbirliği halinde olmak, Wix’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/wix"
+  },
+  "192": {
+   "ad": "Mercedes-Benz",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.globes.co.il/en/article-daimler-to-open-israeli-rd-center-1001159576",
+    "https://startupnationcentral.org/success-stories/mercedes/",
+    "https://www.timesofisrael.com/mercedes-benz-opens-tech-hub-in-tel-aviv-to-secure-lead-in-connected-cars/",
+    "https://www.jpost.com/business-and-innovation/all-news/article-775255",
+    "https://www.whoprofits.org/companies/company/7399?mercedes-benz"
+   ],
+   "metin": "Mercedes-Benz, ithalatçısı Colmobil aracılığıyla İsrail ordusuna (IDF) araç tedarik etmektedir. Ayrıca 2016 yılında İsrail’de bir Ar-Ge merkezi açmıştır ve o tarihten bu yana İsrail’e yaptığı yatırım miktarını artırmaktadır. Aynı zamanda İsrail merkezli startup geliştirme kuruluşu Startup Nation Central’ın paydaşlarından olan Mercedes-Benz, İsrail’li startuplara ciddi yatırımlar yapmakta, İsrail’i teknoloji üslerinden biri haline getirmeye çalışmaktadır. İsrail ile organik işbirliği halinde olmak, Mercedes-Benz’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/mercedes-benz"
+  },
+  "193": {
+   "ad": "Nvidia",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.timesofisrael.com/nvidia-innovation-authority-set-up-ai-based-hub-in-haifa/",
+    "https://www.reuters.com/sustainability/society-equity/chipmaker-nvidia-raises-15-mln-israeli-non-profits-helping-war-hit-civilians-2023-12-24/",
+    "https://investigate.afsc.org/company/nvidia",
+    "https://www.israelnationalnews.com/news/419532"
+   ],
+   "metin": "Nvidia ile İsrail İnovasyon Otoritesi arasında iş birliği anlaşması mevcuttur. Bu kapsamda Nvidia, İsrail'in kuzeyinde yapay zekaya dayalı girişimciliği teşvik etmek amacıyla MATI Haifa isimli bir inovasyon merkezi kurmuş, ar-ge çalışmaları ve donanım tedariki ile İsrail ordusuna destekte bulunmuştur. Nvidia, İsrail’li startuplara ciddi yatırımlar yapmaktadır. 7 Ekim sonrası süreçte Nvidia çalışanlarından 5 milyon dolar, şirket bünyesinden 10 milyon dolar olmak üzere, İsrail’e 15 milyon dolar maddi bağışta bulunmuştur. İsrail ile organik işbirliği halinde olmak ve nakdi bağışta bulunmak Nvidia’yı üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/nvidia"
+  },
+  "194": {
+   "ad": "Kia",
+   "cati": "Hyundai",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Hyundai'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kia"
+  },
+  "196": {
+   "ad": "Mango",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.instagram.com/p/CyYpnImNaf6/?hl=tr"
+   ],
+   "metin": "Mango, 7 Ekim 2023 sonrası süreçte İsrail’in yanında yer alarak, Gazze’nin çevresindeki gayrimeşru İsrail yerleşimlerinde ikamet eden işgalcilere 1000 Şekel (yaklaşık $275) değerinde ayni yardım çeki vereceğini açıklamıştır. İsrail işgaline ayni destek sağlamak, Mango’yu üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/mango"
+  },
+  "197": {
+   "ad": "Popeyes",
+   "cati": "Burger King",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Burger King'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/popeyes"
+  },
+  "198": {
+   "ad": "BP",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.reuters.com/business/energy/israel-awards-gas-exploration-licences-eni-bp-four-others-2023-10-29/",
+    "https://www.bloomberg.com/news/articles/2024-03-13/bp-adnoc-deal-to-buy-stake-in-israel-s-newmed-is-suspended"
+   ],
+   "metin": "BP hâlihazırda Bakü–Tiflis–Ceyhan (BTC) petrol boru hattını işletmekte ve çoğunluk hissesine sahip bulunmaktadır; çok sayıda soruşturma ve hukuki belge, bu hattı İsrail’e ham petrol için ana tedarik yolu olarak tanımlamakta ve İsrail’in ham petrol ithalatının yaklaşık %28–30’unu sağladığını belirtmektedir. Bu ham petrol İsrail’de rafine edilmekte ve ülkenin askerî araçları ile jetlerini yakıtlandırmak için kullanılmaktadır. \r\n\r\nEk olarak, BP, SOCAR ve İsrailli şirket NewMed Energy ile birlikte, İsrail’in Münhasır Ekonomik Bölgesi’nde devlet tarafından verilen bir arama konsorsiyumu aracılığıyla İsrail’in açık deniz doğalgaz sektörüne girmiştir; İsrail’in kendi Enerji Bakanlığı bu durumu, İsrail’in stratejik enerji güvenliğini ve ihracatını güçlendirmek olarak tanımlamaktadır. Bu faaliyetler İsrail Devleti ile doğrudan işbirliğine ve İsrail’in askerî operasyonlarını mümkün kılan doğrudan enerji hizmeti sunumuna karşılık gelmekte ve üç çarpılı sınıflandırmasına yol açmaktadır.",
+   "url": "https://bilinclituketim.com/brand/bp"
+  },
+  "199": {
+   "ad": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://aus.mars.com/news-and-stories/press-releases/mars-partners-with-jerusalem-venture-partners",
+    "https://www.prnewswire.com/news-releases/mars-incorporated-partners-with-jerusalem-venture-partners-jvp-to-foster-foodtech-solutions-in-israel-300850743.html",
+    "https://www.timesofisrael.com/us-maker-of-twix-mms-to-scout-for-foodtech-in-israel-with-jvp/",
+    "https://www.mars.com/news-and-stories/press-releases-statements/mars-completes-acquisition-of-kellanova"
+   ],
+   "metin": "İsrail merkezli startup fonu Jerusalem Venture Partners (JVP) ile Mars Grubu arasında 2019 yılında gıda, tarım ve beslenme sorunlarına yönelik çözümler üretilmesi amacıyla anlaşma imzalanmıştır. Bu kapsamda Mars Grubu, İsrail’e Ar-Ge yatırımları yapmakta, İsrailli start-uplara fon sağlamakta, İsrail’deki üniversiteler ile kimyasal ve biyolojik silahların da geliştirildiği Weizmann Enstitüsü ile iş birliği halinde faaliyetler yürütmektedir. İsrail devlet kurumları ile işbirliği halinde olmak Mars Grubu’nu üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/mars"
+  },
+  "2": {
+   "ad": "Burger King",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.nytimes.com/1999/08/30/world/burger-king-outlet-in-west-bank-becomes-a-political-dispute.html",
+    "https://www.newsweek.com/burger-king-faces-boycott-giving-free-food-israeli-soldiers-1837005",
+    "https://api.bilinclituketim.com/media/proofs/a41f5da4687f179c.webp",
+    "https://api.bilinclituketim.com/media/proofs/6a6af94ff1714435.webp",
+    "https://api.bilinclituketim.com/media/proofs/3c289f1b7789c84e.webp"
+   ],
+   "metin": "İlk kez 1999 yılında, Batı Şeria’daki gayrimeşru İsrail yerleşimine şube açtığı için boykot edilen Burger King, boykot çağrılarının ardından geri adım atarak bu şubeyi kapatmıştır. Yıllar sonra, 7 Ekim 2023’te başlayan süreç sonrası, İsrail ordusuna “kahramanlarımızı destekliyoruz” temasıyla ücretsiz yemek dağıtımı yapmaya başlayan Burger King, Instagram profilindeki renklerini, İsrail bayrağının renkleri olan mavi ve beyaza çevirerek İsrail’e olan ciddi desteğini göstermiştir. İsrail ordusuna doğrudan ayni destek sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/burger-king"
+  },
+  "20": {
+   "ad": "Powerade",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Coca Cola'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/powerade"
+  },
+  "200": {
+   "ad": "Snickers",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "MARS'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/snickers"
+  },
+  "201": {
+   "ad": "Twix",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "MARS'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/twix"
+  },
+  "202": {
+   "ad": "M&M's",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "MARS'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/mms"
+  },
+  "203": {
+   "ad": "Whiskas",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "MARS'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/whiskas"
+  },
+  "204": {
+   "ad": "Bounty",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "MARS'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/bounty"
+  },
+  "205": {
+   "ad": "Lavazza Coffee",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.skysports.com/amp/football/news/11095/12307323/arsenal-speak-to-mohamed-elneny-over-wider-implications-of-pro-palestinian-social-media-post-amid-sponsor-concern",
+    "https://www.all-for-one.pl/en/case-studies/elite-cafe-sap-implementation/",
+    "https://www.forbes.com/forbes/2011/0117/features-israel-strauss-group-sabra-hummus-hullabaloo.html"
+   ],
+   "metin": "Lavazza, İtalya merkezli zincir kahve markasıdır. Lavazza'nın distribütörlüğünü yapan Elite International İsrail ordusunu (IDF) destekleyen İsrail merkezli Strauss Group'a ait bir kurumdur. Ayrıca Arsenal’in sponsoru olduğu dönem Lavazza, Arsenal’de oynayan Mohamed Elneny isimli futbolcu Filistin’e destek paylaşımı yaptığı için Arsenal’i uyarmış ve sponsorluğunu çekmekle tehdit etmiştir. İsrail'i destekleyen kurumlarla işbirliğinde bulunmak ve Filistin’e destek veren kişilere yaptırım uygulamak, Lavazza’yı iki çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/lavazza-coffee"
+  },
+  "206": {
+   "ad": "Costa Coffee",
+   "cati": "The Coca Cola Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.instagram.com/reel/CxKxr5zqyLW/"
+   ],
+   "url": "https://bilinclituketim.com/brand/costa-coffee"
+  },
+  "207": {
+   "ad": "Fritolay",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fritolay"
+  },
+  "208": {
+   "ad": "Dell",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://israel365news.com/302007/exclusive-americas-top-20-richest-pro-israel-zionaires-technology-and-business/",
+    "https://www.bloomberg.com/news/articles/2014-11-07/ellison-adelson-donate-to-israeli-soldiers?leadSource=uverify%20wall",
+    "https://web.archive.org/web/20240306215502/https://www.dell.org/israel/",
+    "https://www.whoprofits.org/companies/company/7370?dell-technologies",
+    "https://www.haaretz.com/israel-news/business/2006-05-24/ty-article/dell-day-won-israeli-army-tender-too/0000017f-e7a8-df2c-a1ff-fff9ec4b0000"
+   ],
+   "metin": "Dell’in en yüksek oranda hissesine sahip olan ve aynı zamanda CEO’su olan Michael Dell, “Siyonerler” arasında yani ABD’nin en zengin Siyonistleri arasında gösterilmektedir. İsrail ile olan derin bağlantıları ile tanınan Michael Dell, “Friends of the IDF” yani “İsrail Ordusu’nun Dostları” isimli sivil toplum kuruluşuna yaptığı yüklü bağışlarla bilinmektedir. İlave olarak Michael Dell, 7 Ekim 2023 sonrası süreçte, “Michael & Susan Dell Foundation” vasıtası ile on farklı sivil toplum kuruluşu üzerinden İsrail’e yüklü bağışlarda bulunmuştur. \r\n\r\nOcak 2023’te Dell, İsrail Savunma Bakanlığı’ndan, İsrail ordusuna, Savunma Bakanlığı’na ve diğer güvenlik birimlerine sunucular, bakım hizmetleri ve ilgili ekipman sağlamak üzere, ABD dış yardımıyla finanse edilen, 150 milyon doların üzerindeki bir sunucu ihalesini kazandı. Dell’in tamamen kendisine ait olan İsrail iştiraki EMC Israel Advanced Information Technologies, İsrail ordusuna veri depolama sistemleri sağlayan başlıca firma olarak tanımlanmakta ve daha önce büyük bir İsrail askeri depolama ihalesi kazanmış bulunmaktadır. Dell, İsrail’de önemli Ar-Ge faaliyetleri yürütmekte ve devlet destekli bir siber ve güvenlik merkezi olan İsrail Ulusal Siber Parkı’na katılmaktadır. İsrail ordusuna maddi destek sağlamak ve İsrail ile doğrudan işbirliği yapmak Dell’i üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/dell"
+  },
+  "209": {
+   "ad": "Purina",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/purina"
+  },
+  "21": {
+   "ad": "Hewlett & Packard Company (HP)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/boycott-hp",
+    "https://www.whoprofits.org/companies/company/3774?hewlett-packard-enterprise-hpe"
+   ],
+   "metin": "Hewlett & Packard (HP), İsrail Askeri Donanması’nın elektronik altyapısının yönetimi de dahil olmak üzere İsrail’e ileri düzey teknolojiler sağlamaktadır. HP, Basel sistemini İsrail Savunma Bakanlığı’na sağlamış ve bu sistemin sahada geliştirilmesi, kurulumu ve bakımını üstlenmiştir. Basel sistemi, biyometrik sensörler ile Filistinlilerin hareketlerini kısıtlamak amacıyla Gazze Şeridi sınırında ve Batı Şeria’da bulunan İsrail askeri kontrol noktalarında kuruludur. İsrail devletiyle doğrudan işbirliği halinde olmak, İsrail ordusu için teknoloji üretmek ve işgal rejimine altyapı sağlamak, üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/hewlett-packard-company-hp"
+  },
+  "210": {
+   "ad": "Jacobs",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.jdepeets.com/investors/share--debt/share-info/",
+    "https://www.alfredlandecker.org/en/partners",
+    "https://www.alfredlandecker.org/en/article/the-story-of-the-alfred-landecker-foundation",
+    "https://www.salom.com.tr/arsiv/haber/110116/nazi-gecmisini-ogrenen-unlu-alman-aileden-11-milyon-dolarlik-bagis"
+   ],
+   "metin": "Jacobs'un sahibi JDE Peet's isimli Hollanda merkezli bir şirkettir. JDE Peet'in %68'i Acorn Holding'e aittir. Acorn'un sahibi olan JAB Holding ve Reimann ailesi, Landecker Vakfı'nı kurarak AMCHA, Hillel, ADP, Hebrew University vb. çeşitli siyonist oluşumlara direkt fon sağlamaktadır. İsrail'e dolaylı yoldan maddi destek sağlaması ve işgale meşruiyet kazandırmaya çalışması sebebiyle iki çarpılı şirketler arasındadır.",
+   "url": "https://bilinclituketim.com/brand/jacobs"
+  },
+  "211": {
+   "ad": "Ofçay",
+   "cati": "Jacobs",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Jacobs'un alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/ofcay"
+  },
+  "212": {
+   "ad": "Coffy",
+   "cati": "Domino's Pizza",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Domino's Pizza'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/coffy"
+  },
+  "213": {
+   "ad": "Blendax",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/blendax"
+  },
+  "214": {
+   "ad": "La Gelateria",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/la-gelateria"
+  },
+  "215": {
+   "ad": "Petrol Ofisi",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.ft.com/content/48fd85f5-9730-4339-b532-b91057ce533d",
+    "https://www.jns.org/israel-joins-oil-exporters-club-with-first-ever-crude-sent-to-europe/"
+   ],
+   "metin": "Hollanda merkezli Vitol Group, Petrol Ofisi'nin %97,98'lik hakim hissedarıdır. Vitol, İsrail tarafından Doğu Akdeniz, Karish Petrol ve Gaz Sahası'ndan çıkarılan ham petrolün Avrupa'ya sevkinde boşaltım ve pazarlama (offload and market) hizmetini üstlenmiştir. Bu kapsamda İsrail'in Doğu Akdeniz'den çıkardığı petrol, Vitol aracılığıyla Avrupa'ya pazarlanacaktır. İsrail devletiyle doğrudan işbirliği halinde olmak, Petrol Ofisi'ni üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/petrol-ofisi"
+  },
+  "216": {
+   "ad": "SOCAR",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://m.jpost.com/opinion/why-israel-does-not-need-to-rethink-its-relationship-with-azerbaijan-637151",
+    "https://www.reuters.com/markets/commodities/bp-azerbaijans-socar-make-maiden-bid-israeli-offshore-gas-sources-2023-07-17/",
+    "https://socar.de/en/2025/01/socar-acquires-stakes-in-tamar-project/"
+   ],
+   "metin": "SOCAR, Azerbaycan Devletine ait bir petrol ve doğal gaz şirketidir. SOCAR, Bakü-Tiflis-Ceyhan Boru Hattı üzerinden İsrail'e petrol ihracatında bulunmaktadır. 7 Ekim 2023 sonrası süreçte verilen tüm tepkilere rağmen, SOCAR, İsrail'e petrol sevkiyatını durdurmamıştır. Ayrıca SOCAR, İsrail adına Doğu Akdeniz'de gaz ve petrol arama lisansı olan konsorsiyumun paydaşlarındandır. Buna ek olarak İsrail'in elektrik üretimi ve gaz arzının ana kaynaklarından biri olan Tamar gaz sahasında %10 hisseye sahiptir. SOCAR'ın Türkiye'de perakende petrol satışı da bulunmaktadır. İsrail ile doğrudan işbirliği halinde olmak, SOCAR'ı üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/socar"
+  },
+  "217": {
+   "ad": "Netflix",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://theintercept.com/2024/10/25/netflix-palestinian-stories-israel-movies/",
+    "https://www.trtworld.com/content/article/netflix-faces-backlash-over-removal-of-palestinian-movie-collection-18224743",
+    "https://euromedmonitor.org/en/article/3849/Film-production-companies-and-human-rights-violations:-Netflix-and-Israeli-violations-as-a-model"
+   ],
+   "metin": "Netflix, İsrail lobisinin baskısı nedeniyle, platformundaki Filistin temalı dizi ve filmlerin lisanslarını yenilememekte ve bazı ülkelerde \"Filistin Hikayeleri\" koleksiyonunu silmektedir. Ayrıca İsrail ordusu ve Mossad'ın propagandasını yapan Fauda, The Spy gibi dizilerin ortak yapımını üstlenmiş ve dağıtımını yapmıştır. İsrail işgalini medya yoluyla desteklemek ve Filistin’i destekleyen kişi ve şirketlere yaptırım uygulamak ikinci derece boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/netflix"
+  },
+  "218": {
+   "ad": "Tipitip",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Mondelez'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tipitip"
+  },
+  "219": {
+   "ad": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.kamilfranek.com/who-owns-lvmh-largest-shareholders/",
+    "https://en.globes.co.il/en/article-wiz-wins-huge-israeli-govt-tender-1001484945",
+    "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+    "https://gjepc.org/solitaire/lusix-receives-90-million-investment-from-lvmh-luxury-ventures-others/"
+   ],
+   "metin": "LVMH, dünyanın en büyük lüks tüketim markalarının pek çoğunun sahibi olan bir grup şirketidir. Bernard Arnault ve ailesi, LVMH'nin %48,4'lük hakim hisselerinin ve %63,9'luk oy hakkının sahibidir. Bernard Arnault, İsrailli siber güvenlik firması Wiz'in en büyük yatırımcılarındandır. Wiz, İsrail'in tüm bakanlıklarına siber güvenlik hizmeti sağlamaktadır. Ayrıca İsrail'in laboratuvar ortamında elmas üreticisi Lusix'e 90 milyon dolar yatırımda bulunarak İsrail teknolojisini desteklemektedir. İsrail'e doğrudan hizmet sağlayan veya teknoloji üreten firmalara yatırım yapmak, LVMH'yi iki çarpılı şirketler sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/lvmh"
+  },
+  "22": {
+   "ad": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.aljazeera.com/news/2022/6/30/unilever-sells-benjerrys-ice-cream-to-local-licensee-in-israel",
+    "https://en.globes.co.il/en/article-1000555152",
+    "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/"
+   ],
+   "metin": "Unilever, İsrail’in en büyük gıda işletmelerinden Strauss Group’un dondurma üretimi yapan alt şirketi Strauss Ice Cream’in hakim hissedarı ve Strauss Group’un önemli iş ortaklarındandır. Strauss Group, İsrail’in askeri birimlerine ürün ve hizmet tedarik eden bir şirketler grubudur. Buna ilave olarak Unilever’in alt markası olan Ben & Jerry, işgal rejimi karşıtlığı nedeniyle İsrail'de ürün satışlarını durdurmaya karar verdikten sonra Unilever, Ben & Jerry’nin bu kararını yok saymış ve Ben & Jerry’nin İsrail’deki dağıtım haklarını Avi Zinger'a satmıştır. Gayrimeşru İsrail yerleşimlerinde üretim yapan ve İsrail ekonomisine ciddi katkılar sağlayan şirketlerle ortaklık yapmak iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/unilever"
+  },
+  "220": {
+   "ad": "Sephora",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/sephora"
+  },
+  "221": {
+   "ad": "Fenty Beauty",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fenty-beauty"
+  },
+  "222": {
+   "ad": "Benefit",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/benefit"
+  },
+  "223": {
+   "ad": "Make Up For Ever",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/make-up-for-ever"
+  },
+  "224": {
+   "ad": "Celine",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/celine"
+  },
+  "225": {
+   "ad": "Guerlain",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/guerlain"
+  },
+  "226": {
+   "ad": "Kenzo",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kenzo"
+  },
+  "227": {
+   "ad": "Acqua di Parma",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/acqua-di-parma"
+  },
+  "228": {
+   "ad": "Marc Jacobs",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/marc-jacobs"
+  },
+  "229": {
+   "ad": "Bvlgari",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/bvlgari"
+  },
+  "23": {
+   "ad": "Algida",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/algida"
+  },
+  "230": {
+   "ad": "Louis Vuitton",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/louis-vuitton"
+  },
+  "231": {
+   "ad": "Dior",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/dior"
+  },
+  "232": {
+   "ad": "Givenchy",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/givenchy"
+  },
+  "233": {
+   "ad": "Tiffany & Co.",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tiffany-co"
+  },
+  "234": {
+   "ad": "Loewe",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/loewe"
+  },
+  "235": {
+   "ad": "Tag Heuer",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tag-heuer"
+  },
+  "236": {
+   "ad": "Berluti",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/berluti"
+  },
+  "237": {
+   "ad": "Fendi",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fendi"
+  },
+  "238": {
+   "ad": "Rimowa",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/rimowa"
+  },
+  "239": {
+   "ad": "Loro Piana",
+   "cati": "LVMH",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "LVMH'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/loro-piana"
+  },
+  "24": {
+   "ad": "Axe",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/axe"
+  },
+  "241": {
+   "ad": "Motorola",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://en.globes.co.il/en/article-1000906408",
+    "https://www.whoprofits.org/companies/company/3808",
+    "https://www.reuters.com/world/middle-east/nordic-fund-klp-excludes-16-companies-over-links-israeli-settlements-west-bank-2021-07-05/",
+    "https://www.timesofisrael.com/idfs-encrypted-cellphones-to-get-upgrade/",
+    "https://www.bbc.com/news/world-middle-east-51477231"
+   ],
+   "metin": "Motorola Solutions Inc., İsrail devleti ve İsrail ordusu (IDF) ile uzun süredir köklü iş ilişkileri olan bir markadır. IDF ile Motorola Solutions arasında 2014 yılında, 15 yıllık bir süre için anlaşma imzalanmıştır. Motorola Solutions, 2024 yılı itibariyle halen IDF'e sağlanan 4G hücresel şebekenin tek tedarikçisidir. Norveç'in en büyük fonlarından olan KLP, 2021 yılında, bahse konu nedenlerle Motorola Solutions'a yatırım yapmayacağını açıklamıştır. İsrail devleti ve ordusu ile işbirliği halinde olmak Motorola'yı üç çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/motorola"
+  },
+  "242": {
+   "ad": "Pritt",
+   "cati": "Henkel",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Henkel'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pritt"
+  },
+  "243": {
+   "ad": "Marc",
+   "cati": "Reckitt Benckiser",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Reckitt Benckiser'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/marc"
+  },
+  "244": {
+   "ad": "Windsor",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/windsor"
+  },
+  "245": {
+   "ad": "SEG",
+   "cati": "Zorlu Holding",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": false,
+   "metin": "Zorlu'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/seg"
+  },
+  "246": {
+   "ad": "Reebok",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.nss-sports.com/en/lifestyle/40110/israel-reebok-sponsorship-deal-shirts"
+   ],
+   "metin": "Reebok, 2025 yılı itibariyle İsrail Futbol Federasyonu’nun uluslararası sponsoru olmuştur. Reebok'un bu sponsorluğu, İsrail'in gayrimeşru yerleşim rejiminin devam etmesine ve genişlemesine olanak sağlamaktadır. Zira İsrail Futbol Federasyonu, İsrail ordusunun işgal ettiği Filistin topraklarındaki gayrimeşru İsrail yerleşimlerinde bulunan altı İsrail futbol kulübünü bünyesinde barındırmaktadır. İsrail’e uluslararası organizasyonlarda sponsor olmak ve işgalin derinleşmesine nakdi destek sağlamak üçüncü derece boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/reebok"
+  },
+  "247": {
+   "ad": "Bayer",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.bayer.com/en/il/climate-tech-program",
+    "https://www.bayer.com/en/il/agri-impact",
+    "https://www.timesofisrael.com/pharma-giant-bayer-scouts-israeli-startup-scene-in-search-of-competitive-edge/"
+   ],
+   "metin": "Almanya merkezli bir ilaç firması olan Bayer, İsrail'deki startuplara ciddi ölçekli yatırımlar yapmakta ve İsrail'de ar-ge faaliyetleri yürütmektedir. İsrail İnovasyon Otoritesi ile ortak projeler yürüten şirket, İsrail'e daha fazla yatırım yapmayı hedeflediğini açıklamıştır.  İsrail devleti ile derin ekonomik işbirliği içerisine girmek, Bayer'i üç çarpılı boykot sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/bayer"
+  },
+  "248": {
+   "ad": "Calvin Klein",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.deltagalil.com/brands/licensed-brands/default.aspx",
+    "https://en.globes.co.il/en/article-delta-signs-calvin-klein-licensing-deal-1001185252"
+   ],
+   "metin": "Calvin Klein'in gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile çocuk iç çamaşırı, pijama ve ev giyim ürünleri konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Calvin Klein'in ABD ve Kanada'da satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Calvin Klein’i bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/calvin-klein"
+  },
+  "249": {
+   "ad": "Columbia",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.deltagalil.com/brands/licensed-brands/default.aspx",
+    "https://us.fashionnetwork.com/newsPdf/downloadPdf/?id=609825"
+   ],
+   "metin": "Columbia'nın gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile kadın, erkek ve çocuk giyimi için gündelik ve spor çorapları; erkek ve kadın iç çamaşırı ve pijamaları konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Columbia'nın global olarak satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Columbia'yı bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/columbia"
+  },
+  "25": {
+   "ad": "Calve",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/calve"
+  },
+  "250": {
+   "ad": "Tommy Hilfiger",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20250718074053/https://deltagalil.com/brands/licensed-brands/default.aspx",
+    "https://www.whoprofits.org/companies/company/3655?delta-galil-industries",
+    "https://directory.abbottandkeefer.com/brand-entry/tommy-hilfiger",
+    "https://tr.fashionnetwork.com/news/Delta-galil-2025-te-rekor-sat%C4%B1%C5%9F-geliri-ac%C4%B1klad%C4%B1,1808797.html"
+   ],
+   "metin": "Tommy Hilfiger'ın gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile kadın sütyenleri, külotları, günlük giyimi, gecelik, ev giyimi ve sabahlık üretimi konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Tommy Hilfiger'ın ABD ve Kanada'da satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Tommy Hilfiger’ı bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/tommy-hilfiger"
+  },
+  "251": {
+   "ad": "Converse",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Converse'in gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile kadın ve erkek çorabı üretimi konusunda partnerlik anlaşması mevcuttur. Bu kapsamda Converse'in ABD Kanada, Avrupa, Ortadoğu ve Afrika'da satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, Converse’i bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/converse"
+  },
+  "252": {
+   "ad": "Polo by Ralph Lauren",
+   "cati": "Ralph Lauren",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Ralph Lauren'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/polo-by-ralph-lauren"
+  },
+  "253": {
+   "ad": "United Colors of Benetton",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20250718074053/https://deltagalil.com/brands/licensed-brands/default.aspx"
+   ],
+   "metin": "United Colors of Benetton'ın gayrimeşru İsrail yerleşimlerinde üretim yapan İsrail merkezli Delta Galil Industries şirketi ile erkek, kadın ve çocuk iç giyim, pijama, spor giyim ve çorap üretimi konusunda partnerlik anlaşması mevcuttur. Bu kapsamda United Colors of Benetton'n İngiltere'de satmakta olduğu ilgili ürünler Delta Galil tarafından üretilmektedir. Gayrimeşru İsrail yerleşimlerinde üretim yapan firmalarla ticari iş birliği yapmak, United Colors of Benetton’ı bir çarpılı şirket sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/united-colors-of-benetton"
+  },
+  "254": {
+   "ad": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://yale.app.box.com/s/6fnlf6g8kbutfdhv5rmsazfezrh1iir7",
+    "https://www.aljazeera.com/news/2023/12/15/boycotts-and-protests-how-are-people-around-the-world-defying-israel",
+    "https://www.foxbusiness.com/lifestyle/pharma-giant-adds-israel-list-middle-east-markets-omission-raises-questions",
+    "http://openintel.uk/johnson-johnson/"
+   ],
+   "metin": "Johnson & Johnson, 7 Ekim 2023’te başlayan süreç sonrası, Filistin’de yapılan katliamlar devam etmekte iken İsrail’e insani yardım kapsamında, çalışanları ile birlikte 2 milyon dolar bağış yaptığını açıklamıştır. Ayrıca yüzde yüz iştiraki olan şirketler aracılığıyla İsrail ordusu (IDF) ve askerlerine doğrudan hizmet sağlamaktadır. Bu süreçte Johnson & Johnson'ın, Gazze'de yaşanan soykırım için herhangi bir insani yardım desteği yahut buna ilişkin açıklaması olmamıştır. İsrail ordusuna maddi yardım ve hizmette bulunmak, bu markayı üç çarpılı şirketler sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/johnson-johnson"
+  },
+  "255": {
+   "ad": "Le Petit Marseillais",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/le-petit-marseillais"
+  },
+  "256": {
+   "ad": "Johnson's Baby",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/johnsons-baby"
+  },
+  "257": {
+   "ad": "Neutrogena",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/neutrogena"
+  },
+  "258": {
+   "ad": "Listerine",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/listerine"
+  },
+  "259": {
+   "ad": "Acuvue Oasys",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/acuvue-oasys"
+  },
+  "26": {
+   "ad": "Carte d'Or",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/carte-dor"
+  },
+  "260": {
+   "ad": "Clean & Clear",
+   "cati": "Johnson & Johnson",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Johnson & Johnson'ın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/clean-clear"
+  },
+  "261": {
+   "ad": "HyperX",
+   "cati": "Hewlett & Packard Company (HP)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.hp.com/us-en/newsroom/press-releases/2021/hp-inc-completes-acquisition-of-hyperx.html"
+   ],
+   "metin": "Hewlett & Packard Company (HP)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/hyperx"
+  },
+  "262": {
+   "ad": "KFC",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.yum.com/wps/portal/yumbrands/Yumbrands/company/our-brands",
+    "https://brusselsmorning.com/does-pizza-hut-support-israel-boycotts-and-business-fallout/72269/",
+    "https://api.bilinclituketim.com/media/proofs/3d6dc948f601a532_TwL5UcA.webp"
+   ],
+   "metin": "KFC ve Pizza Hut, Yum! Brands isimli markalar grubuna ait markalardır. Pizza Hut, 7 Ekim 2023’te başlayan süreç sonrası, sosyal medya hesaplarından yapmış olduğu paylaşım ile İsrail ordusuna ücretsiz pizza dağıtımında bulunduğunu açıklamıştır. İsrail ordusuna doğrudan ayni destek sağladığı için Yum! Brands'e ait markalar üç çarpılı boykot sınıfına dahildir.",
+   "url": "https://bilinclituketim.com/brand/kfc"
+  },
+  "263": {
+   "ad": "agoda.com",
+   "cati": "Booking.com",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://boycott.thewitness.news/target/agoda"
+   ],
+   "metin": "Booking.com'un da alt markası olduğu Booking Holdings'e aittir.",
+   "url": "https://bilinclituketim.com/brand/agodacom"
+  },
+  "266": {
+   "ad": "Häagen-Dazs",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/haagen-dazs"
+  },
+  "267": {
+   "ad": "ING Bank",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://dontbuyintooccupation.org/dbio-data-2024/",
+    "https://www.whitecase.com/news/press-release/white-case-advises-rail-first-asset-management-acquisition-financing",
+    "https://contracts.justia.com/companies/caterpillar-251/contract/827722/",
+    "https://www.investing.com/news/company-news/cocacola-hbc-secures-larger-12-billion-credit-facility-93CH-4168335",
+    "https://www.ing.com/MediaEditPage/War-in-Gaza-Occupied-Palestinian-Territory.htm",
+    "https://www.bilinclituketim.com/brand/siemens",
+    "https://www.bilinclituketim.com/brand/caterpillar-cat",
+    "https://www.aa.com.tr/en/europe/european-financial-institutions-provided-billions-of-dollars-to-support-illegal-jewish-settlements/3088223"
+   ],
+   "metin": "DBIO 2024 raporunda yer alan finansal ilişki tabloları incelendiğinde, ING Group’un İsrail ile bağlantılı birçok şirkete finansman sağladığı görülmektedir. Bunlar arasında Siemens, Caterpillar ve Carrefour gibi markalar bulunmaktadır. ING, bu şirketlerle yapılan büyük ölçekli kredi anlaşmalarında “lead arranger” veya “lender” olarak yer almıştır. Ek olarak ING, Coca-Cola HBC’ye sağlanan 1,2 milyar €’luk sürdürülebilirlik bağlantılı kredi anlaşmasında yer alan bankalardan biridir.\r\nHaziran 2025’te yayımladığı açıklamada ING, işgal altındaki topraklarda doğrudan faaliyet yürütmediğini belirtmiş; ancak bu bölgelerde üretim yapan şirketlerle kurduğu finansal ilişkileri reddetmemiştir. İsrail yerleşimlerinde üretim yapan şirketlere ve İsrail’in Kudüs ve Batı Şeria’da yaptığı gayrimeşru yıkımlar için araç sağlayan şirketlere finansman sağlamak, ING Group'u iki çarpılı boykot sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/ing-bank"
+  },
+  "268": {
+   "ad": "7 Days",
+   "cati": "Mondelez",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/7-days"
+  },
+  "27": {
+   "ad": "Cif",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cif"
+  },
+  "272": {
+   "ad": "Ring",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/ring"
+  },
+  "273": {
+   "ad": "Audible",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/audible"
+  },
+  "274": {
+   "ad": "Metro-Goldwyn-Mayer",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/metro-goldwyn-mayer"
+  },
+  "275": {
+   "ad": "Goodreads",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/goodreads"
+  },
+  "276": {
+   "ad": "IMDb",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/imdb"
+  },
+  "277": {
+   "ad": "Twitch",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/twitch"
+  },
+  "278": {
+   "ad": "Kindle",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/kindle"
+  },
+  "279": {
+   "ad": "Prime Video",
+   "cati": "Amazon",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/prime-video"
+  },
+  "28": {
+   "ad": "Clear",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/clear"
+  },
+  "281": {
+   "ad": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Authentic Brands Group'a ait Reebok, 2025 yılı itibariyle İsrail Futbol Federasyonu’nun uluslararası sponsoru olmuştur. Reebok'un bu sponsorluğu, İsrail'in gayrimeşru yerleşim rejiminin devam etmesine ve genişlemesine olanak sağlamaktadır. Zira İsrail Futbol Federasyonu, İsrail ordusunun işgal ettiği Filistin topraklarındaki gayrimeşru İsrail yerleşimlerinde bulunan altı İsrail futbol kulübünü bünyesinde barındırmaktadır. İsrail’e uluslararası organizasyonlarda sponsor olmak ve işgalin derinleşmesine nakdi destek sağlamak, Authentic Brands Group'a ait markaları üç çarpılı boykot sınıfına dahil etmektedir.",
+   "url": "https://bilinclituketim.com/brand/authentic-brands-group"
+  },
+  "282": {
+   "ad": "Volcom",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/volcom"
+  },
+  "283": {
+   "ad": "Vince Camuto",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/vince-camuto"
+  },
+  "284": {
+   "ad": "Spyder",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/spyder"
+  },
+  "285": {
+   "ad": "Sperry",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/sperry"
+  },
+  "286": {
+   "ad": "Billabong",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/billabong"
+  },
+  "287": {
+   "ad": "Bandolino",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/bandolino"
+  },
+  "288": {
+   "ad": "Roxy",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/roxy"
+  },
+  "289": {
+   "ad": "Aeropostale",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/aeropostale"
+  },
+  "29": {
+   "ad": "Cornetto",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cornetto"
+  },
+  "290": {
+   "ad": "Brooks Brothers",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/brooks-brothers"
+  },
+  "291": {
+   "ad": "Champion",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/champion"
+  },
+  "292": {
+   "ad": "Forever 21",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/forever-21"
+  },
+  "293": {
+   "ad": "Dockers",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/dockers"
+  },
+  "294": {
+   "ad": "Hunter",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/hunter"
+  },
+  "295": {
+   "ad": "Ted Baker",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/ted-baker"
+  },
+  "296": {
+   "ad": "Quick Silvers",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/quick-silvers"
+  },
+  "297": {
+   "ad": "Prince Sports",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/prince-sports"
+  },
+  "298": {
+   "ad": "Nautica",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/nautica"
+  },
+  "299": {
+   "ad": "Nine West",
+   "cati": "Authentic Brands Group",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/nine-west"
+  },
+  "3": {
+   "ad": "L'Oréal Paris Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://wwd.com/feature/l-oreal-gets-30-stake-in-interbeauty-1159528-1743356/",
+    "https://bdsmovement.net/news/l’oreal-makeup-israeli-apartheid",
+    "https://bdsmovement.net/news/l%25E2%2580%2599oreal-makeup-israeli-apartheid-0",
+    "https://api.bilinclituketim.com/media/proofs/9e03ec13686cadcb.webp"
+   ],
+   "metin": "L'Oréal Paris Company yerinden edilmiş Filistinlilere ait bir köye kurulmuş işgal kasabasında fabrika işletmektedir ve L'Oréal Israel'i kurarak İsrail'i Orta Doğu'daki kendi ticaret merkezi haline getirmiştir. Ayrıca İsrail savunmasının merkezlerinden biri olan Weizmann Enstitüsüne mensup bir araştırmacıya 100.000 dolar bağışta bulunarak İsrail işgaline destekte bulunmuştur. İsrail işgal yerleşimciliğini destekleyen üretimleri ve işgali doğrudan destekleyen bir kuruma maddi destek sağlaması sebebiyle iki çarpılı boykot listesindedir.",
+   "url": "https://bilinclituketim.com/brand/loreal-paris-company"
+  },
+  "30": {
+   "ad": "Domestos",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/domestos"
+  },
+  "302": {
+   "ad": "İyzico",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "kaynaklar": [
+    "https://www.linkedin.com/posts/arik-shtilman-b0265_we-will-win-rapyd-supports-israel-activity-7117232062058627073-nBLf",
+    "https://x.com/ashtilman",
+    "https://api.bilinclituketim.com/media/proofs/a6f55a17c015cd05.webp"
+   ],
+   "url": "https://bilinclituketim.com/brand/iyzico"
+  },
+  "303": {
+   "ad": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7374?volkswagen-group",
+    "https://cbwmagazine.com/israeli-operators-order-173-man-vehicles/",
+    "https://www.aa.com.tr/tr/dunya/volkswagenin-ust-yoneticisi-blume-osnabruck-fabrikasinin-askeri-uretime-gececegini-teyit-etti/3882213"
+   ],
+   "metin": "Alman otomotiv şirketi Volkswagen'e ait olan MAN Truck & Bus, İsrail polisine ait araçların teminini sağlamaktadır. Bu araçlar hem İsrail karşıtı gösterilerde hem de işgal altındaki Batı Şeria ve Doğu Kudüs'te caydırıcı önlem olarak Filistinlilere yönelik tazyikli su, biber gazı vb. püskürtme amaçlı kullanılmakta. Ayrıca MAN, işgal altındaki Doğu Kudüs ve Batı Şeria'daki İsrail yerleşimleri için ulaşım sağlayan Egged Group'a otobüs temin etmektedir. Buna ek olarak Volkswagen İsrailli silah şirketi Rafael ile işbirliği yaparak Osnabrück'teki fabrikasında, İsrail'in \"Demir Kubbe\" hava savunma sistemi için parça üretme çalışmalarına başlamıştır. İsrail savunması ve güvenlik güçlerine direkt üretimde bulunması ve işgal bölgelerindeki illegal İsrail varlığına doğrudan katkıda bulunması sebebiyle Volkswagen üç çarpılı şirketler arasındadır.",
+   "url": "https://bilinclituketim.com/brand/volkswagen"
+  },
+  "304": {
+   "ad": "Audi",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/audi"
+  },
+  "305": {
+   "ad": "Kitekat",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/kitekat"
+  },
+  "307": {
+   "ad": "Hellmann's",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/hellmanns"
+  },
+  "308": {
+   "ad": "Old Spice",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/old-spice"
+  },
+  "309": {
+   "ad": "Eti",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/eti"
+  },
+  "31": {
+   "ad": "Dove",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/dove"
+  },
+  "310": {
+   "ad": "Faber-Castell",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/faber-castell"
+  },
+  "311": {
+   "ad": "Ikea",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/ikea"
+  },
+  "312": {
+   "ad": "İçim",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.akgida.com.tr/markalarimiz/",
+    "https://www.unluco.com/basin-odasi/basin-bultenleri/ak-g%C4%B1da/#:~:text=Y%C4%B1ld%C4%B1z%20Holding%20%C5%9Firketi%20Ak%20G%C4%B1da,olan%20Lactalis%20Group'a%20ge%C3%A7ti.",
+    "https://www.lactalis.co.uk/about/lactalis-nestle-chilled-dairy/"
+   ],
+   "metin": "İçim, illegal yerleşimlerde üretim yapan Nestle ile ortak bir markası bulunan Lactalis Grubu'na ait bir markadır. İllegal yerleşim yerlerinde çalışan firmalarla işbirliği yapmak bir çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/icim"
+  },
+  "313": {
+   "ad": "Kahve Dünyası",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/kahve-dunyas"
+  },
+  "315": {
+   "ad": "Migros",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/migros"
+  },
+  "316": {
+   "ad": "Trendyol",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/trendyol"
+  },
+  "317": {
+   "ad": "U. S. Polo Assn.",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/u-s-polo-assn"
+  },
+  "318": {
+   "ad": "Ülker",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/ulker"
+  },
+  "319": {
+   "ad": "Bentley",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/bentley"
+  },
+  "32": {
+   "ad": "Elidor",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/elidor"
+  },
+  "320": {
+   "ad": "Cupra",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/cupra"
+  },
+  "321": {
+   "ad": "Lamborghini",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/lamborghini"
+  },
+  "322": {
+   "ad": "Porsche",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/porsche"
+  },
+  "323": {
+   "ad": "Seat",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/seat"
+  },
+  "324": {
+   "ad": "Skoda",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/skoda"
+  },
+  "325": {
+   "ad": "Ducati",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/ducati"
+  },
+  "326": {
+   "ad": "A101",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/a101"
+  },
+  "328": {
+   "ad": "Arçelik",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/arcelik"
+  },
+  "329": {
+   "ad": "Bingo",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/bingo"
+  },
+  "33": {
+   "ad": "Knorr",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/knorr"
+  },
+  "330": {
+   "ad": "Cola Turka",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/cola-turka"
+  },
+  "331": {
+   "ad": "Colgate",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/colgate"
+  },
+  "332": {
+   "ad": "Dalin",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dalin"
+  },
+  "333": {
+   "ad": "Dardanel",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dardanel"
+  },
+  "334": {
+   "ad": "Decathlon",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/decathlon"
+  },
+  "335": {
+   "ad": "Dimes",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dimes"
+  },
+  "336": {
+   "ad": "Doğuş Çay Grubu",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dogus-cay-grubu"
+  },
+  "337": {
+   "ad": "Cipso",
+   "cati": "Doğuş Çay Grubu",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/cipso"
+  },
+  "338": {
+   "ad": "Patos",
+   "cati": "Doğuş Çay Grubu",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/patos"
+  },
+  "339": {
+   "ad": "Çerezos",
+   "cati": "Doğuş Çay Grubu",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/cerezos"
+  },
+  "34": {
+   "ad": "Magnum",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/magnum"
+  },
+  "340": {
+   "ad": "Chips Master",
+   "cati": "Doğuş Çay Grubu",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/chips-master"
+  },
+  "341": {
+   "ad": "MAN Truck & Bus",
+   "cati": "Volkswagen",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/man-truck-bus"
+  },
+  "342": {
+   "ad": "Dr. Oetker",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dr-oetker"
+  },
+  "343": {
+   "ad": "Duru",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/duru"
+  },
+  "344": {
+   "ad": "Dyson",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/dyson"
+  },
+  "345": {
+   "ad": "Familia",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/familia"
+  },
+  "346": {
+   "ad": "Golf Dondurma",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/golf-dondurma"
+  },
+  "347": {
+   "ad": "Gratis",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/gratis"
+  },
+  "348": {
+   "ad": "Haribo",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/haribo"
+  },
+  "349": {
+   "ad": "Hobby",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/hobby"
+  },
+  "35": {
+   "ad": "Max",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/max"
+  },
+  "350": {
+   "ad": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "kaynaklar": [
+    "https://bdsmovement.net/news/boycott-zara-dressing-apartheid-and-genocide",
+    "https://www.aa.com.tr/tr/dunya/ispanyol-zara-boykot-cagrilarinin-ardindan-tartismali-reklam-kampanyasini-durdurdu/3080661",
+    "https://www.reuters.com/business/retail-consumer/retailer-zara-under-fire-israel-over-event-far-right-candidate-2022-10-24/"
+   ],
+   "url": "https://bilinclituketim.com/brand/inditex"
+  },
+  "351": {
+   "ad": "Zara",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/zara"
+  },
+  "352": {
+   "ad": "Oysho",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/oysho"
+  },
+  "353": {
+   "ad": "Stradivarius",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/stradivarius"
+  },
+  "354": {
+   "ad": "Bershka",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/bershka"
+  },
+  "355": {
+   "ad": "Massimo Dutti",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/massimo-dutti"
+  },
+  "356": {
+   "ad": "Pull & Bear",
+   "cati": "Inditex",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/pull-bear"
+  },
+  "357": {
+   "ad": "Pringles",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/pringles"
+  },
+  "358": {
+   "ad": "Kellogg's",
+   "cati": "MARS",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "url": "https://bilinclituketim.com/brand/kelloggs"
+  },
+  "359": {
+   "ad": "Koç Holding",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/koc-holding"
+  },
+  "36": {
+   "ad": "Omo",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/omo"
+  },
+  "360": {
+   "ad": "Beko",
+   "cati": "Koç Holding",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/beko"
+  },
+  "361": {
+   "ad": "Yapı Kredi",
+   "cati": "Koç Holding",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/yap-kredi"
+  },
+  "362": {
+   "ad": "Otokoç",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/otokoc"
+  },
+  "363": {
+   "ad": "Komili Zeytinyağı",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/komili-zeytinyag"
+  },
+  "364": {
+   "ad": "Komili",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/komili"
+  },
+  "365": {
+   "ad": "Mavi",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/mavi"
+  },
+  "366": {
+   "ad": "Nike",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "1 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.investopedia.com/articles/markets/051416/nike-stock-analyzing-5-key-suppliers-nke.asp",
+    "https://s29.q4cdn.com/481127684/files/doc_financials/2026/q1/Q1-2026-Earnings-Release-English.pdf"
+   ],
+   "metin": "Nike'ın tedarikçilerinden biri olan İsrailli Delta Galil firması Filistin'deki illegal yerleşim yerlerinde faaliyet göstermektedir. İllegal yerleşim yerlerinde üretim yapan bir firmayla işbirliği içinde olmak, Nike'ı bir çarpılı şirketler sınıfına sokmaktadır.",
+   "url": "https://bilinclituketim.com/brand/nike"
+  },
+  "367": {
+   "ad": "Opet",
+   "cati": "Koç Holding",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/opet"
+  },
+  "368": {
+   "ad": "Ozmo",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/ozmo"
+  },
+  "369": {
+   "ad": "Parodontax",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/parodontax"
+  },
+  "37": {
+   "ad": "Rexona",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/rexona"
+  },
+  "370": {
+   "ad": "Peros",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/peros"
+  },
+  "371": {
+   "ad": "Pınar",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/pnar"
+  },
+  "372": {
+   "ad": "Rossmann",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/rossmann"
+  },
+  "373": {
+   "ad": "Oando",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Algida'nın alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/oando"
+  },
+  "374": {
+   "ad": "Samsung",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "Derecesiz",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/samsung"
+  },
+  "375": {
+   "ad": "Sek",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "Derecesiz",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/sek"
+  },
+  "376": {
+   "ad": "Selpak",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "Derecesiz",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/selpak"
+  },
+  "377": {
+   "ad": "Philips",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Philips, Teva ile birlikte İsrail’in Ra’anana kentinde faaliyet gösteren Sanara Ventures sağlık yatırımı platformunun kurucu ve devam eden destekçilerinden biridir. Sanara Ventures, devlete bağlı İsrail İnovasyon Otoritesi tarafından yetkilendirilen ve devlet kurumuyla doğrudan iş birliği içinde çalışan bir program yürütmektedir. İsrail devleti ile doğrudan işbirliğiiçinde olması sebebiyle Philips üç çarpılı şirketler arasındadır.",
+   "url": "https://bilinclituketim.com/brand/philips"
+  },
+  "378": {
+   "ad": "Sensodyne",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "Derecesiz",
+   "kapsam": false,
+   "url": "https://bilinclituketim.com/brand/sensodyne"
+  },
+  "38": {
+   "ad": "Rinso",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/rinso"
+  },
+  "39": {
+   "ad": "Signal",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/signal"
+  },
+  "4": {
+   "ad": "The Walt Disney Company",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.theguardian.com/world/1999/sep/09/israel",
+    "https://thewaltdisneycompany.com/the-walt-disney-company-donates-to-support-humanitarian-relief-following-terrorist-attacks-in-israel-2/",
+    "https://www.instagram.com/p/C_lKufJCgYb/?img_index=7",
+    "https://www.ethicalconsumer.org/ethicalcampaigns/boycotts",
+    "https://api.bilinclituketim.com/media/proofs/1ef6fa4e0bddb01b.webp"
+   ],
+   "metin": "Walt Disney Company, ilk kez 1999’da yaptığı Milenyum sergisinde Kudüs’ü İsrailin başkenti olarak göstermesi sebebiyle de Arap ülkeleri tarafından ciddi bir tepki almış ancak Disney sözcüsü geri adım atmayarak “Serginin İsrail halkını tanımak ve onurlandırmak için tasarlandığını” belirtmiştir. Disney, 7 Ekim 2023’te başlayan süreç sonrası, Filistin’de yapılan katliamlara maddi destek olarak İsrail’e 2 milyon dolar bağış yaptığını, savaştan etkilenen İsrail vatandaşları için çalışmaya ve maddi - manevi destek sağlamaya devam edeceğini kurumsal web sitesinden duyurmuştur. Ayrıca İsrailli bir süper kahramanın canlandırıldığı filmleri aracılığıyla ve İsrail işgalinin savunucusu siyonist oyuncuları seçmesiyle işgali meşrulaştırmaya çalışması ve gayrimeşru İsrail yerleşimlerinde faaliyet gösteren Delta Galil firması ile ortaklığı Disney ve İsrail arasındaki işbirliğinin başka bir göstergesidir. İsrail’e doğrudan nakdi destek sağlamak, medya yoluyla İsrail işgalini desteklemek ve illegal İsrail yerleşimlerinde faaliyet gösteren firmalarla işbirliği yapmak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/the-walt-disney-company"
+  },
+  "40": {
+   "ad": "Simple",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/simple"
+  },
+  "41": {
+   "ad": "Toni&Guy",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/toniguy"
+  },
+  "42": {
+   "ad": "Vaseline",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vaseline"
+  },
+  "43": {
+   "ad": "Yumoş",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/yumos"
+  },
+  "44": {
+   "ad": "PureLine",
+   "cati": "Unilever",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Unilever'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pureline"
+  },
+  "45": {
+   "ad": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=1274788f11f5",
+    "https://www.haaretz.com/2009-08-21/ty-article/avgol-sees-bright-future-for-nonwoven-textiles-in-china/0000017f-db13-db22-a17f-ffb321380000"
+   ],
+   "metin": "P&G’nin, Tel Aviv'de ciddi kaynak aktarımı yaptığı bir Araştırma-Geliştirme Merkezi mevcuttur. İsrail İnovasyon Otoritesi ile yaptığı anlaşmaya göre, P&G, kendisi ile işbirliği yapan girişim şirketlerine devlet finansmanına erişim konusunda ciddi avantajlar sağlamaktadır. Aynı zamanda P&G, İsrail’in Batı Şeria’da işgal ettiği bölgelerden biri olan Barkan Endüstri Bölgesi’ndeki Avgol şirketinin en büyük müşterilerinden biridir. Avgol firması bebek bezi temini için P&G’ye ürün satmakta ve hasılatının %43’ünü bu yolla elde etmektedir. İsrail devleti ile derin ekonomik işbirliği içerisine girmek, üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/procter-and-gamble-pg"
+  },
+  "46": {
+   "ad": "Prima",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/prima"
+  },
+  "47": {
+   "ad": "Alo",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/alo"
+  },
+  "48": {
+   "ad": "Ariel",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/ariel"
+  },
+  "49": {
+   "ad": "Orkid",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/orkid"
+  },
+  "5": {
+   "ad": "Carrefour",
+   "cati": "A101",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "Listede değil (0)",
+   "kapsam": false,
+   "kaynaklar": [
+    "https://www.whoprofits.org/companies/company/7373?yenot-bitan-carrefour-israel-c",
+    "https://investigate.afsc.org/company/carrefour",
+    "https://api.bilinclituketim.com/media/proofs/c5f7f03f83816600.webp",
+    "https://api.bilinclituketim.com/media/proofs/ed183ad4cc5fd2c2.webp",
+    "https://api.bilinclituketim.com/media/proofs/c5f39b712c96ab26.webp",
+    "https://api.bilinclituketim.com/media/proofs/87616972c3f39dbb.webp",
+    "https://api.bilinclituketim.com/media/proofs/ebb3c915c91cbe46.webp"
+   ],
+   "metin": "CarrefourSA'nın Carrefour ve Sabancı Holding'e ait hisseleri Nisan 2026'da A101'in sahibi olan Yeni Mağazacılık A.Ş. tarafından satın alınmıştır.",
+   "url": "https://bilinclituketim.com/brand/carrefour"
+  },
+  "50": {
+   "ad": "Braun",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/braun"
+  },
+  "51": {
+   "ad": "Gillette",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/gillette"
+  },
+  "52": {
+   "ad": "Venus",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/venus"
+  },
+  "53": {
+   "ad": "Head&Shoulders",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/headshoulders"
+  },
+  "54": {
+   "ad": "Herbal Essence",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/herbal-essence"
+  },
+  "55": {
+   "ad": "Pantene",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pantene"
+  },
+  "56": {
+   "ad": "Fairy",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fairy"
+  },
+  "57": {
+   "ad": "Febreze",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/febreze"
+  },
+  "58": {
+   "ad": "İpana",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Hayır"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/ipana"
+  },
+  "59": {
+   "ad": "Oral-B",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/oral-b"
+  },
+  "6": {
+   "ad": "Starbucks",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://fortune.com/2021/04/07/wiz-howard-schultz-investment-fundraising-cybersecurity-startups-starbucks-ceo/",
+    "https://www.jewishvirtuallibrary.org/howard-schultz",
+    "https://www.business-humanrights.org/it/ultime-notizie/usa-starbucks-loses-11-billion-in-market-value-amid-ongoing-boycott-calls-after-lawsuit-against-union-over-tweet-expressing-solidarity-with-palestine/",
+    "https://www.cjpme.org/fs_241#_edn1",
+    "https://api.bilinclituketim.com/media/proofs/8ae969e77f2083b4.webp",
+    "https://api.bilinclituketim.com/media/proofs/7acbbd851eb5551e.webp"
+   ],
+   "metin": "Starbucks’ın eski CEO’su ve şu anda da en büyük hissedarlarından olan Howard Schultz’un, Siyonizm’e olan desteği kamuoyunca uzun yıllardır bilinmektedir. Howard Schultz, İsrail’deki Aish HaTorah'ın Kudüs Fonu tarafından onurlandırılan yirmi iş dünyası ve hükümet lideri arasında yer almaktadır. Ayrıca Howard Schultz, ABD ile İsrail arasındaki yakın ittifakın geliştirilmesinde kilit bir rol oynadığı için İsrail'in 50. Yıldönümü Övgü Ödülü'ne layık görülmüştür. 7 Ekim 2023’te başlayan süreç sonrası, Starbucks Çalışanları Sendikası yönetimi, İsrail’i kınayan bir metin hazırlayıp Filistin’e destek açıklamasında bulunmuş, bunun üzerine Starbucks bu süreçte rolü olan işçilere dava açacağını duyurmuştur. Filistin’i destekleyen kişilere yaptırım uygulamak iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/starbucks"
+  },
+  "60": {
+   "ad": "Vicks",
+   "cati": "Procter and Gamble (P&G)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Procter and Gamble (P&G)'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/vicks"
+  },
+  "61": {
+   "ad": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/news/“sodastream-still-subject-boycott”",
+    "https://electronicintifada.net/content/sodastream-treats-us-slaves-says-palestinian-factory-worker/12441",
+    "https://www.theguardian.com/business/2014/oct/29/sodastream-move-factory-west-bank-israel-slash-forecast",
+    "https://www.pepsico.com/newsroom/press-releases/2023/pepsico-supports-associates-and-communities-in-israel-and-gaza"
+   ],
+   "metin": "PepsiCo, İsrail merkezli ve devlet destekli SodaStream markasının tamamına ve yine İsrail merkezli Sabra markasının %50’sine sahiptir. SodaStream, İsrail’in gayrimeşru yerleşimlerinde fabrikalar açarak bölgedeki Filistinlilerin tehcirine ve yasadışı işgale olanak sağlamaktadır. Aynı zamanda bu fabrikalarda çalışmak zorunda kalan Filistinliler, ciddi bir ayrımcılığa maruz kaldıklarını ve kendilerine “köle gibi” davranıldığını ifade etmektedir. İlave olarak, Pepsico’nun belirli bir hissesine sahip olduğu Sabra’ markasının hakim hissedarı Strauss Group’tur. Strauss Group İsrail askeri birimlerine destek ve malzeme tedariki sağlamaktadır. Ayrıca Pepsico, 7 Ekim sonrasında İsrail ve Gazze'ye 3 milyon dolar yardımda bulunduğunu belirtmiştir. İsrail devleti ile işbirliğinde bulunmak, İsrail'e nakdi yardımda bulunmak ve gayrimeşru İsrail yerleşimlerinde üretim yapmak ve faaliyet göstermek üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/pepsico"
+  },
+  "62": {
+   "ad": "Pepsi",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/pepsi"
+  },
+  "63": {
+   "ad": "Lipton",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/lipton"
+  },
+  "64": {
+   "ad": "Lays",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/lays"
+  },
+  "65": {
+   "ad": "Doritos",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/doritos"
+  },
+  "66": {
+   "ad": "Cheetos",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cheetos"
+  },
+  "67": {
+   "ad": "Ruffles",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/ruffles"
+  },
+  "68": {
+   "ad": "Yedigün",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/yedigun"
+  },
+  "69": {
+   "ad": "Çerezza",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/cerezza"
+  },
+  "7": {
+   "ad": "Domino's Pizza",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://directory.abbottandkeefer.com/brand-entry/dominos-pizza",
+    "https://www.aljazeera.com/news/2024/2/6/israels-war-on-gaza-are-boycotts-hurting-us-brands",
+    "https://api.bilinclituketim.com/media/proofs/84e17964c4ff0694.webp"
+   ],
+   "metin": "Dominos Pizza, 7 Ekim 2023’te başlayan süreç sonrası, Facebook hesabından yapmış olduğu paylaşım ile İsrail ordusu için sevgi ifadeleri kullanmış ve İsrail askerlerine ücretsiz pizza dağıtımında bulunduğunu açıklamıştır. İsrail ordusuna doğrudan ayni destek sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/dominos-pizza"
+  },
+  "70": {
+   "ad": "7up",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/7up"
+  },
+  "71": {
+   "ad": "Fruko",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/fruko"
+  },
+  "72": {
+   "ad": "Rocco Strip",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/rocco-strip"
+  },
+  "73": {
+   "ad": "Tropicana",
+   "cati": "Pepsico",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Pepsico'nun alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/tropicana"
+  },
+  "74": {
+   "ad": "Hyundai",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/news/boycott-hyundai-end-its-complicity-israel’s-ethnic-cleansing-palestinian-communities-jerusalem",
+    "https://api.bilinclituketim.com/media/proofs/f7e7e1635d10f286.webp"
+   ],
+   "metin": "Hyundai, Kudüs ve Batı Şeria’daki Filistin mahallelerinin gayrimeşru şekilde yıkımı için İsrail’e iş makinaları tedarik etmektedir. İsrail’in Kudüs ve Batı Şeria’da yaptığı gayrimeşru yıkımlar için araç sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/hyundai"
+  },
+  "75": {
+   "ad": "Caterpillar (CAT)",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://bdsmovement.net/news/university-manchester-divests-nearly-2million-from-companies-complicit-israels-oppression",
+    "https://www.business-humanrights.org/en/latest-news/caterpillar-response-re-alleged-complicity-in-human-rights-abuses-in-israel-the-occupied-territories/",
+    "https://www.amnestyusa.org/updates/caterpillar-incs-role-in-human-rights-violations-in-the-occupied-palestinian-territories/",
+    "https://api.bilinclituketim.com/media/proofs/8c1cedfe97cc0bbd.webp"
+   ],
+   "metin": "Kudüs ve Batı Şeria’daki Filistinlilerin evleri CAT buldozerleri ile yıkılmaktadır. Aynı zamanda CAT, uzun süredir İsrail ordusunun tedarikçisidir. CAT’in İsrail ordusuna özel olarak ürettiği D9 isimli bir buldozeri bulunmaktadır. CAT marka botlar da aynı firmaya aittir. İsrail’in Kudüs ve Batı Şeria’da yaptığı gayrimeşru yıkımlar için araç sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/caterpillar-cat"
+  },
+  "76": {
+   "ad": "Airbnb",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.reuters.com/article/us-israel-palestinians-airbnb-idUSKCN1RL2QM/",
+    "https://www.un.org/unispal/document/a-hrc-59-23-from-economy-of-occupation-to-economy-of-genocide-report-special-rapporteur-francesca-albanese-palestine-2025"
+   ],
+   "metin": "Airbnb, İsrail’in ve gayrimeşru Siyonist yerleşimcilerin Batı Şeria’da işgal ettiği evlerin listelenmesine ve kiralanmasına izin vermektedir. 2018 yılında yaptığı açıklamada Airbnb, gayrimeşru şekilde el koyulmuş evleri sisteminden kaldıracağını duyurmuşsa da bir dizi davanın ardından bu evlerin sistemden kaldırılamayacağını, fakat işgal edilen bu evlerden elde edilen gelirlerin bağışlanacağını açıklamıştır. Faaliyetleri ile dolaylı olarak İsrail işgaline meşruiyet kazandırmak iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/airbnb"
+  },
+  "77": {
+   "ad": "TripAdvisor",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.amnesty.org/en/latest/news/2019/01/israel-opt-tourism-companies-driving-settlement-expansion-profiting-from-war-crimes/",
+    "https://bdsmovement.net/news/tourism-service-israeli-occupation-and-annexation"
+   ],
+   "metin": "Susya’da yaşayan Filistinliler, İsrail işgal güçlerinin ve gayrimeşru Siyonist yerleşimcilerin sistematik şiddetine maruz kalmaktadır. TripAdvisor, Susya gibi işgal edilmeye çalışılan bölgelerde yapılan baskı ve zulümleri gözardı etmekte, bu bölgeleri İsrail’e ait birer turistik bölge olarak tanıtmaktadır. Bu mekanlardan bazıları için rezervasyon acentesi olarak faaliyet göstererek mali kazanç elde eden TripAdvisor, insanları turistik amaçlarla yasa dışı işgal bölgelerine yönlendirmektedir. Gayrimeşru İsrail yerleşimlerinde faaliyet göstermek ve dolaylı olarak İsrail işgaline meşruiyet kazandırmak iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/tripadvisor"
+  },
+  "78": {
+   "ad": "Booking.com",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.amnesty.org/en/latest/news/2019/01/israel-opt-tourism-companies-driving-settlement-expansion-profiting-from-war-crimes/",
+    "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+    "https://www.hrw.org/report/2018/11/20/bed-and-breakfast-stolen-land/tourist-rental-listings-west-bank-settlements",
+    "https://www.whoprofits.org/companies/company/3768?booking-com",
+    "https://www.amnesty.org/en/latest/campaigns/2019/01/destination-occupation-digital-tourism-israel-illegal-settlements/",
+    "https://www.bbc.co.uk/news/world-middle-east-51477231"
+   ],
+   "metin": "Booking Holdings Inc. bünyesindeki Booking.com, işgal altındaki Batı Şeria’da (Doğu Kudüs dâhil) ve Suriye Golan Tepeleri’ndeki İsrail yerleşimlerinde konaklama ve turizm hizmetlerini listelemeye devam etmektedir. Bu yerleşimler uluslararası hukuka göre yasa dışıdır.\r\n\r\nHuman Rights Watch, Amnesty International, SOMO/ELSC/Al-Haq, BM OHCHR veritabanı ve çeşitli medya kuruluşlarının raporları, Booking’in bu yerleşimlerdeki ilanlarını belgelemekte; BM veritabanında da Booking.com B.V. ve/veya Booking Holdings yer almaktadır.\r\n\r\nBooking, kendi açıklamalarında bu ilanların sürdüğünü kabul etmekte, bağlayıcı bir iç hukuk engeli bulunmadığını ve ABD anti-boykot yasalarını gerekçe göstermektedir. Faaliyetin sona erdiğine dair bir kanıt yoktur; 2024–2025 raporları ilanların kayda değer düzeyde sürdüğünü göstermektedir.\r\n\r\nBu nedenle Booking.com, yasa dışı yerleşimlerde faaliyet yürüttüğü için iki çarpılı boykot sınıfındadır.",
+   "url": "https://bilinclituketim.com/brand/bookingcom"
+  },
+  "79": {
+   "ad": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+    "https://openintel.uk/nestle/"
+   ],
+   "metin": "Nestle, İsrail'in en büyük gıda üreticilerinden ve distribütörlerinden biri olan Osem Investments'ın sahibidir. Aynı zamanda Nestle'nin, Gazze Şeridi'ne yaklaşık 2 km uzaklıktaki bir yerleşim yeri olan Sderot'ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır. Gayrimeşru İsrail yerleşimlerinde üretim yapmak ve faaliyet göstermek iki çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/nestle"
+  },
+  "8": {
+   "ad": "Papa John’s Pizza",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://brusselsmorning.com/does-papa-johns-support-israel-facts-behind-franchises-involvement/72358/",
+    "https://bdsmovement.net/Ramadan-2024-Boycott-Companies-Complicit-In-Israels-GazaGenocide",
+    "https://api.bilinclituketim.com/media/proofs/659184d23836d02f.webp"
+   ],
+   "metin": "Papa John’s Pizza, 7 Ekim 2023’te başlayan süreç sonrası, sosyal medya hesaplarından yapmış olduğu paylaşım ile İsrail ordusuna ücretsiz pizza dağıtımında bulunduğunu açıklamıştır. İsrail ordusuna doğrudan ayni destek sağlamak üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/papa-johns-pizza"
+  },
+  "80": {
+   "ad": "Sma",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/sma"
+  },
+  "81": {
+   "ad": "Crunch",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/crunch"
+  },
+  "82": {
+   "ad": "Damak",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/damak"
+  },
+  "83": {
+   "ad": "Kit Kat",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/kit-kat"
+  },
+  "84": {
+   "ad": "Nesquik",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/nesquik"
+  },
+  "85": {
+   "ad": "Polo",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/polo"
+  },
+  "86": {
+   "ad": "Nescafe",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/nescafe"
+  },
+  "87": {
+   "ad": "Nespresso",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/nespresso"
+  },
+  "88": {
+   "ad": "Erikli Su",
+   "cati": "Nestle",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "2 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Nestle'nin alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/erikli-su"
+  },
+  "89": {
+   "ad": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20071121113240/http://www.haaretz.com/hasen/spages/906704.html",
+    "https://www.arabnews.com/node/220521",
+    "https://edition.cnn.com/2023/10/17/business/upenn-ronald-lauder",
+    "https://www.jpost.com/israel-news/article-767608"
+   ],
+   "metin": "Estee Lauder markasının başkanlığını yapan ve şirketin hakim ortağı olan Lauder ailesinin temsilcisi olan Ronald Lauder, İsrail’in işgal ederek elde etmiş olduğu toprakların yaklaşık %13'üne sahip olan Yahudi Ulusal Fonu'nun (JNF) yönetim kurulu onursal başkanıdır. JNF bu toprakların Yahudi olmayanlara, özellikle de Filistinlilere satışını ve kiralanmasını yasaklamaktadır. Aynı zamanda Ronald Lauder, İsrail karşıtı görüşlerini belirten öğrencileri sebebiyle Pensilvanya Üniversitesi’ni bağışlarını durdurmakla tehdit etmiştir. İsrail devletiyle doğrudan işbirliği halinde olmak, üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/estee-lauder"
+  },
+  "9": {
+   "ad": "Pizza Hut",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "kaynaklar": [
+    "https://web.archive.org/web/20140903102635/http://www.cjpmo.org/DisplayDocument.aspx?DocumentID=1247",
+    "https://api.bilinclituketim.com/media/proofs/3d6dc948f601a532.webp"
+   ],
+   "metin": "Pizza Hut, 7 Ekim 2023’te başlayan süreç sonrası, sosyal medya hesaplarından yapmış olduğu paylaşım ile İsrail ordusuna ücretsiz pizza dağıtımında bulunduğunu açıklamıştır. Ayrıca Batı Şeria ve Doğu Kudüs'teki gayrimeşru İsrail yerleşimlerinde şubeler işletmektedir. İsrail ordusuna doğrudan ayni destek sağlamak ve işgal bölgelerinde faaliyet göstermek üç çarpılı boykot sebebidir.",
+   "url": "https://bilinclituketim.com/brand/pizza-hut"
+  },
+  "90": {
+   "ad": "Aveda",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/aveda"
+  },
+  "91": {
+   "ad": "Bobbi Brown",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/bobbi-brown"
+  },
+  "92": {
+   "ad": "Clinique",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/clinique"
+  },
+  "93": {
+   "ad": "Darphin",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/darphin"
+  },
+  "94": {
+   "ad": "Dr. Jart",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/dr-jart"
+  },
+  "95": {
+   "ad": "Glam Glow",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/glam-glow"
+  },
+  "96": {
+   "ad": "Jo Malone",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/jo-malone"
+  },
+  "97": {
+   "ad": "La Mer",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/la-mer"
+  },
+  "98": {
+   "ad": "MAC",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/mac"
+  },
+  "99": {
+   "ad": "Origins",
+   "cati": "Estée Lauder",
+   "ek": {
+    "sitede": "Evet"
+   },
+   "hukum": "3 Çarpılı Şirket",
+   "kapsam": true,
+   "metin": "Estee Lauder'in alt markasıdır.",
+   "url": "https://bilinclituketim.com/brand/origins"
+  }
+ },
+ "kaynak": "bt",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2026-10-18), 2026-10-20T15:14:30+03:00"
+ },
+ "parmak_izi": "d7459d80a7f7a3a9",
+ "tarih": "2026-10-18"
+}

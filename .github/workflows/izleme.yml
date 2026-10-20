@@ -1,0 +1,79 @@
+name: Kaynak izleme
+
+# Kaynak listeleri düzenli olarak kontrol eder; değişiklik varsa raporu izleme/raporlar/ altına yazar ve
+# "izleme" etiketli açık Issue'ya yorum ekler (açık Issue yoksa yenisini açar). Ayrıntı: izleme/README.md
+on:
+  schedule:
+    - cron: "17 4 * * *"   # her gün 07:17 (TSİ): hızlı kaynaklar
+    - cron: "47 4 * * 1"   # pazartesi 07:47 (TSİ): tüm kaynaklar (Boykot Dedektifi ve Kolay Boykot taraması dahil)
+  workflow_dispatch:
+    inputs:
+      kapsam:
+        description: "hizli, tam ya da virgülle kaynaklar (bykt,bt,bd,kb,eb,wp,afsc,dbio,inv,ak)"
+        default: hizli
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: kaynak-izleme
+  cancel-in-progress: false
+
+jobs:
+  izle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılıklar
+        run: pip install requests==2.32.3 beautifulsoup4==4.12.3
+
+      - name: Kaynakları kontrol et
+        id: izle
+        continue-on-error: true
+        env:
+          BILDIRIM: ${{ runner.temp }}/bildirim.md
+          BILDIRIM_KISI: "@hninan24"
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "${{ github.event.schedule }}" = "47 4 * * 1" ]; then K=tam; else K=hizli; fi
+          else
+            K="${{ inputs.kapsam }}"
+          fi
+          python izleme/izle.py "$K"
+
+      - name: Anlık görüntüleri ve raporu kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add izleme
+          if ! git diff --cached --quiet; then
+            git commit -m "İzleme $(TZ=Europe/Istanbul date +%F): ${{ steps.izle.outputs.ozet }}"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Issue'ya bildir
+        if: steps.izle.outputs.degisiklik == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create izleme --color 1d5d55 --description "Kaynak izleme raporları" --force
+          N=$(gh issue list --label izleme --state open --limit 1 --json number --jq '.[0].number')
+          if [ -n "$N" ]; then
+            gh issue comment "$N" --body-file "${{ runner.temp }}/bildirim.md"
+          else
+            gh issue create --title "Kaynak listelerindeki değişiklikler" --label izleme --body-file "${{ runner.temp }}/bildirim.md"
+          fi
+
+      - name: Kontrol edilemeyen kaynak varsa çalışmayı hatalı say
+        if: steps.izle.outcome == 'failure'
+        run: |
+          echo "Bir ya da daha fazla kaynak kontrol edilemedi; ayrıntı 'Kaynakları kontrol et' adımında."
+          exit 1

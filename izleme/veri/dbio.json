@@ -1,0 +1,29 @@
+{
+ "ad": "DBIO",
+ "kayitlar": {
+  "Creditor_data-251119-1.csv": {
+   "ad": "Creditor_data-251119-1.csv",
+   "ek": {
+    "boyut": 27969,
+    "sha256": "6f537cabbfd0cdf0bdd4cdf8b6474ea35a1534ab4261562b28332c0bdc3860fa"
+   },
+   "kapsam": true,
+   "url": "https://dontbuyintooccupation.org/wp-content/uploads/2025/11/Creditor_data-251119-1.csv"
+  },
+  "Investor_data-fixed.csv": {
+   "ad": "Investor_data-fixed.csv",
+   "ek": {
+    "boyut": 813452,
+    "sha256": "0c1eaba509e4a516205c30cc74f5b89cdbcff8fb20e1791f6a93b3dbc72b49f3"
+   },
+   "kapsam": true,
+   "url": "https://dontbuyintooccupation.org/wp-content/uploads/2025/11/Investor_data-fixed.csv"
+  }
+ },
+ "kaynak": "dbio",
+ "meta": {
+  "tohum": "yerel dışa aktarım (2026-10-05), 2026-10-20T15:14:30+03:00"
+ },
+ "parmak_izi": "7113c27ae328f22d4a31b419ed4e5f657f819b3543f2008853faee7b5988ea58",
+ "tarih": "2026-10-05"
+}

@@ -1,0 +1,62 @@
+{
+ "afsc": {
+  "durum": "tohum",
+  "parmak_izi": "bb8636835005fc2918486af694aa034c5fedd78322aa7b4741ca503693a2a4cd",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-05"
+ },
+ "ak": {
+  "durum": "tohum",
+  "parmak_izi": "a2906b66c5b7fa43d3be43b2d79ada09f754d5a824ddcfac5878d291311d3ca5",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-02"
+ },
+ "bd": {
+  "durum": "tohum",
+  "parmak_izi": "c8de35a684eb03fecc3131a46bfede5e621e596c17acb93b93830a13b8e0f472",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-07"
+ },
+ "bt": {
+  "durum": "tohum",
+  "parmak_izi": "d7459d80a7f7a3a9",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-18"
+ },
+ "bykt": {
+  "durum": "tohum",
+  "parmak_izi": "U5gaQkSykOZGqH910t4Edg==",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-20"
+ },
+ "dbio": {
+  "durum": "tohum",
+  "parmak_izi": "7113c27ae328f22d4a31b419ed4e5f657f819b3543f2008853faee7b5988ea58",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-05"
+ },
+ "eb": {
+  "durum": "tohum",
+  "parmak_izi": "fd7d687aca1f1210659062065bc2264db4d9e9c21d4cfbd980f142a0af479bc7",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-19"
+ },
+ "inv": {
+  "durum": "tohum",
+  "parmak_izi": "f397e83c71017f944e72e059c0aee87175e75ab59e49d235ca28d14fbdaf1022",
+  "son_kontrol": null,
+  "veri_tarihi": "2025-07"
+ },
+ "kb": {
+  "durum": "tohum",
+  "parmak_izi": "a13552491cc1371ced112921812c7192e2832bd2259aee09c02861823a296aa5",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-19"
+ },
+ "wp": {
+  "durum": "tohum",
+  "parmak_izi": "ab1a6d5a0b9973e31e3d2ae5f3c9851607a4173b35e66b20fc7a2d408b7678d9",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-19"
+ }
+}

@@ -1,0 +1,312 @@
+"""Kaynak listeleri kontrol eder, bir önceki anlık görüntüyle karşılaştırır ve Türkçe değişiklik raporu yazar.
+
+Kullanım:
+    python izleme/izle.py hizli          # günlük kaynaklar (bykt, BT, Eczanede Boykot, WP, AFSC, DBIO, Investigate, A&K)
+    python izleme/izle.py tam            # hepsi (Boykot Dedektifi ve Kolay Boykot taraması dahil)
+    python izleme/izle.py bykt,bd        # yalnız verilen kaynaklar
+
+Dosyalar (izleme/ altında):
+    veri/<kaynak>.json      kaynağın son anlık görüntüsü (normalleştirilmiş kayıtlar)
+    durum.json              her kaynağın son kontrol zamanı, son değişikliği ve durumu
+    raporlar/<tarih>.md     değişiklik bulunan her çalışmanın raporu
+Ortam değişkenleri: BILDIRIM=<yol> verilirse kısa bildirim metni (GitHub Issue yorumu) oraya yazılır; GITHUB_OUTPUT
+varsa degisiklik / ozet / rapor çıktıları eklenir. Bir kaynak kontrol edilemezse çıkış kodu 1 olur (diğerleri işlenir).
+"""
+import datetime as dt
+import difflib
+import json
+import os
+import re
+import sys
+import traceback
+import unicodedata
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from kaynaklar import KAYNAKLAR  # noqa: E402
+
+KOK = Path(__file__).resolve().parent
+VERI, RAPOR, DURUM = KOK / "veri", KOK / "raporlar", KOK / "durum.json"
+SITE = KOK.parent / "index.html"
+TSI = dt.timezone(dt.timedelta(hours=3))
+ALANLAR = ("ad", "hukum", "kapsam", "cati", "metin", "kaynaklar", "url", "ek")
+ETIKET = {"ad": "Ad", "hukum": "Hüküm", "cati": "Çatı", "metin": "Gerekçe metni", "kaynaklar": "Kaynak bağlantıları",
+          "url": "Sayfa adresi", "ek": "Diğer alanlar"}
+BILDIRIM_SINIR = 25          # bildirimde kaynak başına gösterilen en fazla madde
+
+
+def oku(p, vars=None):
+    try:
+        return json.loads(Path(p).read_text("utf-8"))
+    except FileNotFoundError:
+        return vars
+
+
+def yaz(p, d):
+    Path(p).parent.mkdir(parents=True, exist_ok=True)
+    Path(p).write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n", "utf-8")
+
+
+# ------------------------------------------------------------------ veritabanıyla eşleştirme
+def anahtar(s):
+    s = unicodedata.normalize("NFKD", (s or "").replace("İ", "I").replace("ı", "i"))
+    return re.sub(r"[^a-z0-9]+", "", s.encode("ascii", "ignore").decode().lower())
+
+
+def veritabani():
+    """Sitedeki (index.html) kuruluşlar: ad anahtarı → (görünen ad, çatı adı)."""
+    try:
+        t = SITE.read_text("utf-8")
+        d = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', t, re.S).group(1))
+    except Exception:  # noqa: BLE001
+        return {}
+    E = d["E"]
+    cati = {}
+    for i, e in enumerate(E):
+        for j in e.get("ch") or []:
+            cati[j] = e["n"]
+    out = {}
+    for i, e in enumerate(E):
+        for n in [e["n"]] + list(e.get("a") or []):
+            out.setdefault(anahtar(n), (e["n"], cati.get(i)))
+    return out
+
+
+# ------------------------------------------------------------------ fark
+def fark(eski, yeni):
+    out = []
+    for i in sorted(yeni.keys() - eski.keys()):
+        out.append(dict(tur="yeni", id=i, a=None, b=yeni[i], alanlar=[]))
+    for i in sorted(eski.keys() - yeni.keys()):
+        out.append(dict(tur="kalkan", id=i, a=eski[i], b=None, alanlar=[]))
+    for i in sorted(eski.keys() & yeni.keys()):
+        a, b = eski[i], yeni[i]
+        al = [f for f in ALANLAR if a.get(f) != b.get(f)]
+        if al:
+            out.append(dict(tur="degisti", id=i, a=a, b=b, alanlar=al))
+    return out
+
+
+def etkili(d):
+    return bool((d["a"] or {}).get("kapsam") or (d["b"] or {}).get("kapsam"))
+
+
+def baslik(d):
+    a, b = d["a"] or {}, d["b"] or {}
+    if d["tur"] == "yeni":
+        return "Yeni kayıt"
+    if d["tur"] == "kalkan":
+        return "Listeden kalktı"
+    if a.get("kapsam") != b.get("kapsam"):
+        return "Kapsama girdi" if b.get("kapsam") else "Kapsamdan çıktı"
+    for f in ("hukum", "cati", "ad", "metin", "kaynaklar", "url", "ek"):
+        if f in d["alanlar"]:
+            return ETIKET[f] + " değişti"
+    return "Değişti"
+
+
+SIRA = ["Yeni kayıt", "Kapsama girdi", "Kapsamdan çıktı", "Listeden kalktı", "Hüküm değişti", "Çatı değişti",
+        "Ad değişti", "Gerekçe metni değişti", "Kaynak bağlantıları değişti", "Sayfa adresi değişti",
+        "Diğer alanlar değişti", "Değişti"]
+
+
+def kac(s):
+    """Markdown işaretlerini kaçırır (metin parçaları biçimi bozmasın)."""
+    return re.sub(r"([\\`*_~\[\]<>|#])", r"\\\1", s or "")
+
+
+def kirp(s, n):
+    s = re.sub(r"\s+", " ", s or "").strip()
+    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+
+
+def metin_farki(a, b, baglam=70, en=350):
+    """Değişen bölümü bağlamıyla gösterir: ~~silinen~~ / **eklenen**."""
+    a, b = re.sub(r"\s+", " ", a or "").strip(), re.sub(r"\s+", " ", b or "").strip()
+    sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
+    ops = [o for o in sm.get_opcodes() if o[0] != "equal"]
+    if not ops:
+        return "Yalnız boşluk/biçim farkı."
+    i1, j1 = ops[0][1], ops[0][3]
+    i2, j2 = ops[-1][2], ops[-1][4]
+    while i1 > 0 and j1 > 0 and not a[i1 - 1].isspace():           # sınırları kelime başına/sonuna genişlet
+        i1, j1 = i1 - 1, j1 - 1
+    while i2 < len(a) and j2 < len(b) and not a[i2].isspace():
+        i2, j2 = i2 + 1, j2 + 1
+    on = ("…" if i1 > baglam else "") + kac(a[max(0, i1 - baglam):i1])
+    son = kac(a[i2:i2 + baglam]) + ("…" if len(a) - i2 > baglam else "")
+    sil, ekl = kac(kirp(a[i1:i2], en)), kac(kirp(b[j1:j2], en))
+    eski = f"Eski: {on}{'~~' + sil + '~~' if sil else ''}{son}"
+    yeni = f"Yeni: {on}{'**' + ekl + '**' if ekl else ''}{son}"
+    return f"> {eski}\n>\n> {yeni}"
+
+
+def ayrinti(d, k, db):
+    a, b = d["a"] or {}, d["b"] or {}
+    r = b or a
+    parcalar = []
+    if d["tur"] == "yeni":
+        parcalar.append(", ".join(x for x in (r.get("hukum"), f"çatı: {r['cati']}" if r.get("cati") else None) if x))
+    elif d["tur"] == "kalkan":
+        parcalar.append(", ".join(x for x in (a.get("hukum"), f"çatı: {a['cati']}" if a.get("cati") else None) if x))
+    else:
+        for f in ("hukum", "cati", "ad", "url"):
+            if f in d["alanlar"]:
+                parcalar.append(f"{ETIKET[f]}: {a.get(f) or '—'} → {b.get(f) or '—'}")
+        if "kaynaklar" in d["alanlar"]:
+            ea, eb = set(a.get("kaynaklar") or []), set(b.get("kaynaklar") or [])
+            parcalar.append(f"bağlantı +{len(eb - ea)} / −{len(ea - eb)}")
+        if "ek" in d["alanlar"]:
+            ea, eb = a.get("ek") or {}, b.get("ek") or {}
+            parcalar.append("; ".join(f"{x}: {kirp(str(ea.get(x) or '—'), 40)} → {kirp(str(eb.get(x) or '—'), 40)}"
+                                      for x in sorted(set(ea) | set(eb)) if ea.get(x) != eb.get(x)))
+    if not (k in ("dbio", "inv") or d["id"] == "_liste" or d["id"].startswith("/tr")):   # dosyalar ve ilaç ürünleri hariç
+        hit = db.get(anahtar(r.get("ad")))
+        parcalar.append(f"veritabanında: {hit[0]}" + (f" (çatı: {hit[1]})" if hit and hit[1] else "") if hit
+                        else "veritabanında yok")
+    return " · ".join(p for p in parcalar if p)
+
+
+def madde(d, k, db, metinli=True):
+    r = d["b"] or d["a"]
+    ad = kac(r.get("ad") or d["id"])
+    ad = f"[{ad}]({r['url']})" if r.get("url") else ad
+    s = f"- **{baslik(d)}:** {ad}"
+    a = ayrinti(d, k, db)
+    if a:
+        s += f" — {a}"
+    if metinli and "metin" in d["alanlar"]:
+        s += "\n  <details><summary>Metin farkı</summary>\n\n" + "\n".join(
+            "  " + x for x in metin_farki((d["a"] or {}).get("metin"), (d["b"] or {}).get("metin")).split("\n")) + \
+             "\n\n  </details>"
+    return s
+
+
+def bolum(k, farklar, db, sinir=None, metinli=True):
+    K = KAYNAKLAR[k]
+    et = [d for d in farklar if etkili(d)]
+    dis = [d for d in farklar if not etkili(d)]
+    et.sort(key=lambda d: (SIRA.index(baslik(d)), ((d["b"] or d["a"]).get("ad") or "").casefold()))
+    satir = [f"## {K['ad']}: {len(farklar)} değişiklik" + (f" ({len(et)} tanesi veritabanının kapsamında)" if dis else ""),
+             f"Kapsam: {K['kapsam']}. Kaynak: {K['site']}", ""]
+    gos = et if sinir is None else et[:sinir]
+    satir += [madde(d, k, db, metinli) for d in gos]
+    if sinir is not None and len(et) > sinir:
+        satir.append(f"- … ve {len(et) - sinir} değişiklik daha (tam rapora bakın)")
+    if dis:
+        ozet = {}
+        for d in dis:
+            ozet[baslik(d)] = ozet.get(baslik(d), 0) + 1
+        satir += ["", f"<details><summary>Kapsam dışı {len(dis)} değişiklik: "
+                  + ", ".join(f"{v} {x.lower()}" for x, v in sorted(ozet.items(), key=lambda kv: SIRA.index(kv[0])))
+                  + "</summary>", ""]
+        satir += [madde(d, k, db, False) for d in (dis if sinir is None else dis[:sinir])]
+        satir += ["", "</details>"]
+    return "\n".join(satir)
+
+
+# ------------------------------------------------------------------ çalıştırma
+def secim(arg):
+    if arg in ("tam", "hepsi"):
+        return list(KAYNAKLAR)
+    if arg in ("hizli", "gunluk", ""):
+        return [k for k, v in KAYNAKLAR.items() if v["siklik"] == "gunluk"]
+    ks = [x.strip() for x in arg.split(",") if x.strip()]
+    bilinmeyen = [x for x in ks if x not in KAYNAKLAR]
+    if bilinmeyen:
+        sys.exit(f"bilinmeyen kaynak: {bilinmeyen} (seçenekler: {', '.join(KAYNAKLAR)})")
+    return ks
+
+
+def main():
+    ks = secim(sys.argv[1] if len(sys.argv) > 1 else "hizli")
+    simdi = dt.datetime.now(TSI)
+    zaman = simdi.isoformat(timespec="seconds")
+    durum = oku(DURUM, {})
+    sonuc, hatalar, uyarilar = {}, {}, {}
+    for k in ks:
+        K = KAYNAKLAR[k]
+        onceki = oku(VERI / f"{k}.json", {})
+        dk = durum.setdefault(k, {})
+        print(f"[{k}] {K['ad']} kontrol ediliyor…", flush=True)
+        try:
+            r = K["cek"](onceki)
+        except Exception as e:  # noqa: BLE001
+            traceback.print_exc()
+            hatalar[k] = str(e) or type(e).__name__
+            dk.update(son_kontrol=zaman, durum="hata: " + hatalar[k])
+            continue
+        dk.update(son_kontrol=zaman, durum="ok", parmak_izi=r["parmak_izi"])
+        if r.get("degismedi"):
+            print(f"[{k}] değişmedi", flush=True)
+            continue
+        if r.get("uyarilar"):
+            uyarilar[k] = r["uyarilar"]
+        f = fark(onceki.get("kayitlar") or {}, r["kayitlar"]) if onceki else []
+        if onceki and not f:                      # kayıtlar aynı: anlık görüntü yeniden yazılmaz
+            print(f"[{k}] değişmedi", flush=True)
+            continue
+        yaz(VERI / f"{k}.json", {"kaynak": k, "ad": K["ad"], "tarih": zaman, "parmak_izi": r["parmak_izi"],
+                                  "meta": r.get("meta") or {}, "kayitlar": r["kayitlar"]})
+        if not onceki:
+            print(f"[{k}] ilk anlık görüntü kaydedildi ({len(r['kayitlar'])} kayıt)", flush=True)
+            continue
+        if f:
+            dk["son_degisiklik"] = zaman
+            sonuc[k] = f
+        print(f"[{k}] {len(f)} değişiklik ({sum(map(etkili, f))} kapsamda)", flush=True)
+    yaz(DURUM, durum)
+
+    db = veritabani()
+    tarih = simdi.strftime("%Y-%m-%d %H:%M")
+    kisa = ", ".join(f"{KAYNAKLAR[k]['ad']} {len(v)}" for k, v in sonuc.items())
+    ust = [f"Kontrol edilen kaynaklar: {', '.join(KAYNAKLAR[k]['ad'] for k in ks)}."]
+    if sonuc:
+        ust.append(f"Değişiklik bulunan: {kisa}.")
+    else:
+        ust.append("Değişiklik yok.")
+    if hatalar:
+        ust.append("Kontrol edilemeyen: " + "; ".join(f"{KAYNAKLAR[k]['ad']} ({v})" for k, v in hatalar.items()) + ".")
+    for k, v in uyarilar.items():
+        ust.append(f"{KAYNAKLAR[k]['ad']}: " + "; ".join(v) + ".")
+    aciklama = ("“Veritabanında” notu, kaydın adının sitedeki (index.html) bir kuruluşun adıyla ya da diğer adlarından "
+                "biriyle eşleşip eşleşmediğini gösterir; eşleşme yalnız yazıma bakar. Değişiklikler veritabanına "
+                "kendiliğinden işlenmez.")
+    rapor_yolu = None
+    if sonuc or hatalar:
+        RAPOR.mkdir(parents=True, exist_ok=True)
+        rapor_yolu = RAPOR / f"{simdi.strftime('%Y-%m-%d-%H%M')}.md"
+        govde = [f"# Kaynak izleme raporu: {tarih} (TSİ)", "", *ust, "", aciklama, ""]
+        govde += [bolum(k, v, db) + "\n" for k, v in sonuc.items()]
+        rapor_yolu.write_text("\n".join(govde), "utf-8")
+        print("rapor:", rapor_yolu.relative_to(KOK.parent), flush=True)
+
+    # kısa bildirim (Issue yorumu) ve GitHub çıktıları
+    if os.environ.get("BILDIRIM") and rapor_yolu:
+        depo = os.environ.get("GITHUB_REPOSITORY")
+        link = (f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{depo}/blob/main/"
+                f"{rapor_yolu.relative_to(KOK.parent).as_posix()}") if depo else rapor_yolu.name
+        b = [f"### Kaynak izleme: {tarih} (TSİ)", "", *ust, "", f"Tam rapor: {link}", ""]
+        b += [bolum(k, v, db, sinir=BILDIRIM_SINIR) + "\n" for k, v in sonuc.items()]
+        if os.environ.get("BILDIRIM_KISI"):
+            b.append(f"cc {os.environ['BILDIRIM_KISI']}")
+        metin = "\n".join(b)
+        if len(metin) > 60000:                       # Issue yorum sınırı 65536 karakter
+            b = [f"### Kaynak izleme: {tarih} (TSİ)", "", *ust, "", f"Değişiklikler çok olduğu için yalnız tam rapor: {link}"]
+            metin = "\n".join(b)
+        Path(os.environ["BILDIRIM"]).write_text(metin, "utf-8")
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+            fh.write(f"degisiklik={1 if sonuc else 0}\n")
+            fh.write(f"hata={1 if hatalar else 0}\n")
+            fh.write(f"ozet={kirp(kisa or 'değişiklik yok', 120)}\n")
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+            fh.write("\n".join([f"## Kaynak izleme: {tarih} (TSİ)", "", *ust, ""])
+                     + "\n".join(bolum(k, v, db, sinir=BILDIRIM_SINIR, metinli=False) for k, v in sonuc.items()))
+    print("\n".join(ust))
+    return 1 if hatalar else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
