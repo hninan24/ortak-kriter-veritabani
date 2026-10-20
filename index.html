@@ -223,6 +223,12 @@ select.sel { width: 100%; padding: 6px 8px; border: 1px solid var(--line); borde
 .obl-xl:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 86%, var(--fg)); }
 .obl-xl:disabled { opacity: .5; cursor: default; }
 .obl-xl-n { margin-top: 8px; font-size: 12px; }
+.obl-ctl { display: grid; gap: 8px; justify-items: end; align-content: start; }
+.obl-rates { display: flex; gap: 8px; }
+.obl-rate { display: grid; gap: 2px; font: 600 10.5px/1.2 var(--font-d); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.obl-rate select { min-width: 110px; padding: 5px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--muted); font: 500 12.5px var(--font-b); text-transform: none; letter-spacing: 0; cursor: pointer; }
+.obl-rate select.set { border-color: var(--accent); background: var(--accent-weak); color: var(--fg); font-weight: 600; }
+.obl-rate select:disabled { cursor: default; opacity: .75; }
 .obl-empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 8px; padding: 28px 22px; color: var(--muted); }
 .obl-empty b { color: var(--fg); }
 .toast { position: fixed; z-index: 60; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); width: max-content; max-width: calc(100% - 32px); display: flex; align-items: center; gap: 14px; background: var(--fg); color: var(--bg); border-radius: 8px; padding: 10px 14px; box-shadow: var(--shadow); font-size: 13px; }
@@ -374,6 +380,8 @@ a.kvw:hover, a.kvw:focus-visible { color: var(--accent); text-decoration-style: 
 @media (max-width: 600px) {
   .row.ob { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
   .row.ob > .obl-btn { justify-self: start; }
+  .obl-ctl { justify-items: start; }
+  .obl-rates { flex-wrap: wrap; }
 }
 @media (max-width: 420px) { .tab { padding: 9px 8px 11px; font-size: 13.5px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -573,7 +581,7 @@ const S = { q: '', qn: '', codes: new Set(), mode: 'any', src: { own: true, inh:
   lists: new Set(), minLists: 1, bykt: new Set(), bt: new Set(), bd: new Set(), kb: new Set(), types: new Set([0, 1, 2, 3]), country: '', hideEmpty: false,
   hideObl: false, sort: 'lists', limit: 60, open: {} };
 // Öncelikli Boykot Listesi: seçilen markalar (seeds: belge no → {key, n, root, rootN, at}); roots: çatı no → {at, seeds, docs}
-const OBL = { on: !!D.obl, ready: false, mode: '', ro: false, db: null, uid: null, seeds: new Map(), roots: new Map(), miss: [] };
+const OBL = { on: !!D.obl, ready: false, mode: '', ro: false, db: null, uid: null, seeds: new Map(), roots: new Map(), miss: [], rates: new Map(), rateBy: new Map() };
 const inObl = e => OBL.roots.has(e.root);
 // Güncellemeler: kaynak izlemenin olay kaydı (D.olaylar; GitHub Pages'te izleme/olaylar.json'dan güncel olaylar da eklenir)
 const GU = { on: !!D.olaylar, rows: (D.olaylar || []).slice(), q: '', qn: '', l: '', y: '', p: '', limit: 200, canli: false };
@@ -781,7 +789,7 @@ function rowHTML(e, m, ctx, note) {
       ${sub ? `<div class="r2">${sub}</div>` : ''}
       <div class="badges">${listBadges(e)}</div>
       ${m.size ? `<div class="chips">${chipsFor(m, ctx === 'obl' ? new Set() : S.codes)}</div>` : ''}
-    </div>${oblBtn(e, ctx)}</article>`;
+    </div>${ctx === 'obl' ? oblCtl(e) : oblBtn(e, ctx)}</article>`;
 }
 function renderActive() {
   const a = [];
@@ -1031,7 +1039,7 @@ function pairFilter(a, b) {
 // ---------- Öncelikli Boykot Listesi
 // Kayıt: yayınlanmış sayfada artifact'in ortak veritabanı (db, "obl" koleksiyonu; seçilen her marka bir belge),
 // yerel dosyada tarayıcı belleği. Belgeler kararlı anahtarı (kk) ve adı taşır; veritabanı yeniden üretilince de eşleşir.
-const OBL_LS = 'okv.obl.v';
+const OBL_LS = 'okv.obl.v', OBL_RLS = 'okv.obl.r';
 const OS = { q: '', qn: '', sort: 'at', limit: 60 };
 const KEYIDX = new Map(), NAMEIDX = new Map();
 E.forEach(e => { if (e.kk) KEYIDX.set(e.kk, e.id); const k = norm(e.n); if (!NAMEIDX.has(k)) NAMEIDX.set(k, e.id); });
@@ -1052,6 +1060,56 @@ function oblRecompute() {
     const x = OBL.roots.get(r);
     x.seeds.push(j); x.docs.push(id);
     if (d.at && (!x.at || d.at < x.at)) x.at = d.at;
+  }
+  oblRateMap();
+}
+// Günlük Yaygınlığı ve Muadil Varlığı: çatı satırı başına iki derece (Yüksek, Orta, Düşük). Ayrı "oblr" koleksiyonunda,
+// çatı başına bir belge: {key, n, g, m, at, by}; g ve m boşsa atanmamış. Çatı listeden çıkarılsa da dereceler saklanır.
+const RATES = ['Yüksek', 'Orta', 'Düşük'];
+const RATE_F = [['g', 'Günlük Yaygınlığı'], ['m', 'Muadil Varlığı']];
+function oblRateMap() {
+  OBL.rateBy = new Map();
+  for (const [id, d] of OBL.rates) { const j = oblFind(d); if (j >= 0) OBL.rateBy.set(j, [id, d]); }
+}
+const rateOf = (rid, f) => { const r = OBL.rateBy.get(rid); return (r && r[1][f]) || ''; };
+function oblCtl(e) {
+  const dis = !OBL.ready || OBL.ro ? ' disabled' : '';
+  const sels = RATE_F.map(([f, lab]) => {
+    const cur = rateOf(e.id, f);
+    return `<label class="obl-rate"><span>${lab}</span><select data-rate="${f}" data-rid="${e.id}" class="${cur ? 'set' : ''}"${dis} aria-label="${lab}: ${esc(e.n)}">` +
+      `<option value=""${cur ? '' : ' selected'}>Seçilmedi</option>${RATES.map(v => `<option value="${v}"${v === cur ? ' selected' : ''}>${v}</option>`).join('')}</select></label>`;
+  }).join('');
+  return `<div class="obl-ctl"><div class="obl-rates">${sels}</div>${oblBtn(e, 'obl')}</div>`;
+}
+function oblRatesShow() {      // açılır menüleri yerinde güncelle (odak ve kaydırma bozulmasın)
+  document.querySelectorAll('#oblList select[data-rate]').forEach(sel => {
+    const v = rateOf(+sel.dataset.rid, sel.dataset.rate);
+    if (sel.value !== v) sel.value = v;
+    sel.classList.toggle('set', !!v);
+    sel.disabled = !OBL.ready || OBL.ro;
+  });
+}
+function oblRatesChanged() { oblRateMap(); oblRatesShow(); }
+function oblRateSaveLocal() { try { localStorage.setItem(OBL_RLS, JSON.stringify([...OBL.rates])); } catch (_) {} }
+async function oblRate(rid, f, v) {
+  if (!OBL.ready || OBL.ro || !RATE_F.some(x => x[0] === f) || (v && !RATES.includes(v))) return;
+  const e = E[rid], cur = OBL.rateBy.get(rid);
+  const did = cur ? cur[0] : oblDocId(e.kk || e.n), old = OBL.rates.get(did);
+  if (old && (old[f] || '') === v) return;
+  const at = new Date().toISOString(), patch = { [f]: v, at };
+  if (OBL.uid) patch.by = OBL.uid;
+  const nd = old ? { ...old, ...patch } : { key: e.kk || '', n: e.n, g: '', m: '', ...patch };
+  const prev = new Map(OBL.rates);
+  OBL.rates.set(did, nd); oblRatesChanged();
+  if (OBL.mode !== 'db') { oblRateSaveLocal(); return; }
+  try {
+    const doc = OBL.db.collection('oblr').doc(did);
+    await oblOnce(() => old ? doc.update(patch) : doc.set(nd));
+  } catch (err) {
+    OBL.rates = prev; oblRatesChanged();
+    const c = err && err.code;
+    if (c === 'invalid_argument' || c === 'not_granted' || c === 'revoked') { OBL.ro = true; oblRatesShow(); toast('Bu listeyi değiştirme yetkiniz yok. Liste yalnızca görüntülenebilir.'); }
+    else toast('Derece kaydedilemedi. Bağlantınızı kontrol edip yeniden deneyin.');
   }
 }
 function oblBtn(e, ctx) {
@@ -1189,6 +1247,7 @@ async function oblInit() {
   if (!db) {
     OBL.mode = 'local';
     try { const v = JSON.parse(localStorage.getItem(OBL_LS) || '[]'); if (Array.isArray(v)) OBL.seeds = new Map(v); } catch (_) {}
+    try { const v = JSON.parse(localStorage.getItem(OBL_RLS) || '[]'); if (Array.isArray(v)) OBL.rates = new Map(v); } catch (_) {}
     OBL.ready = true; oblChanged(); return;
   }
   OBL.mode = 'db'; OBL.db = db;
@@ -1207,6 +1266,13 @@ async function oblInit() {
     oblChanged();
   });
   sub();
+  const subR = () => db.collection('oblr').limit(1000).onSnapshot(snap => {
+    OBL.rates = new Map(snap.docs.map(d => [d.id, d.data()]));
+    oblRatesChanged();
+  }, err => {
+    if (err && err.code === 'unavailable') setTimeout(subR, 1500);
+  });
+  subR();
 }
 
 // ---------- Excel (.xlsx) yazıcı: dış kütüphane yok; satır içi metin hücreleri, sabit stiller, köprüler, zip (deflate varsa sıkıştırılmış)
@@ -1406,7 +1472,7 @@ function oblSheets() {
   // 1. Çatılar: listedeki her aile tek satır
   const s1 = { name: 'Çatılar', freeze: [2, 1], rows: [], cols: [{ h: 'Sıra', w: 6 }, { h: 'Kuruluş', w: 30 }, { h: 'Tür', w: 16 }, { h: 'Ülke', w: 12 },
     { h: 'Sektör', w: 24, wrap: true }, { h: 'Diğer adlar', w: 22, wrap: true }, { h: 'Alt marka ve şirket (bütün düzeyler)', w: 13 }, { h: 'Seçilen marka', w: 22, wrap: true },
-    { h: 'Eklenme', w: 16 }, { h: 'Listeler', w: 30, wrap: true }, { h: 'Liste sayısı', w: 8 }, ...lcols,
+    { h: 'Eklenme', w: 16 }, { h: 'Günlük yaygınlığı', w: 13 }, { h: 'Muadil varlığı', w: 13 }, { h: 'Listeler', w: 30, wrap: true }, { h: 'Liste sayısı', w: 8 }, ...lcols,
     { h: 'Alt markalar listelerde', w: 50, wrap: true }, ...codeCols, ...(NOC ? [] : [{ h: 'Alt markalardan gelen kodlar', w: 20, wrap: true }])] };
   // 2. Tüm kuruluşlar: çatı ve bütün alt markaları ağaç sırasıyla (düzey 0 = çatı)
   const s2 = { name: 'Tüm kuruluşlar', freeze: [2, 1], rows: [], hi: new Set(), cols: [{ h: 'Çatı', w: 26 }, { h: 'Kuruluş', w: 30 }, { h: 'Düzey', w: 7 },
@@ -1422,7 +1488,7 @@ function oblSheets() {
     const tree = famTree(e.id);
     all += tree.length;
     const seeds = new Set(x.seeds);
-    s1.rows.push([i + 1, e.n, ...base(e), tree.length - 1 || '', [...new Set(x.seeds.map(j => E[j].n))].join(', '), atStr(x.at),
+    s1.rows.push([i + 1, e.n, ...base(e), tree.length - 1 || '', [...new Set(x.seeds.map(j => E[j].n))].join(', '), atStr(x.at), rateOf(e.id, 'g'), rateOf(e.id, 'm'),
       listNames(e), e.lf.length, ...LISTS.map((_, l) => lvText(e, l)), famSummary(tree), ...(NOC ? [] : [codeStr(e.k), codeStr(e.u)])]);
     tree.forEach(([j, d]) => {
       const k = E[j];
@@ -1439,7 +1505,7 @@ function oblSheets() {
   const info = [
     ['Liste', 'Öncelikli Boykot Listesi'], ['Kaynak site', document.title], ['Dışa aktarma', atStr(now.toISOString())], ['Veri tarihi', D.date || ''],
     ['Listedeki çatı ve bağımsız kuruluş', roots.length], ['Alt markalarla birlikte kuruluş', all], ['Açıklama kaydı', s3.rows.length], ['Sıralama', sortLab],
-    ['Nasıl okunur', 'Bir marka listeye eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. “Çatılar” sayfasında her aile tek satırdır; “Seçilen marka” listeye eklenirken tıklanan markadır. “Tüm kuruluşlar” sayfasında çatı ve bütün alt markaları ağaç sırasıyla yer alır (Düzey 0 = çatı, vurgulu satır). “Açıklamalar” sayfasında her kuruluşun her listedeki kaydı hüküm, gerekçe metni, bağlantı ve kanıt linkleriyle verilir.'],
+    ['Nasıl okunur', 'Bir marka listeye eklendiğinde çatı şirketi ve çatının bütün alt markaları da listeye girer. “Çatılar” sayfasında her aile tek satırdır; “Seçilen marka” listeye eklenirken tıklanan markadır; “Günlük yaygınlığı” ve “Muadil varlığı” listede çatı satırına atanan derecelerdir (Yüksek, Orta, Düşük; boş = atanmamış). “Tüm kuruluşlar” sayfasında çatı ve bütün alt markaları ağaç sırasıyla yer alır (Düzey 0 = çatı, vurgulu satır). “Açıklamalar” sayfasında her kuruluşun her listedeki kaydı hüküm, gerekçe metni, bağlantı ve kanıt linkleriyle verilir.'],
   ];
   if (OBL.miss.length) info.push(['Veritabanında bulunamayan seçimler', OBL.miss.map(([, d]) => d.n).join(', ')]);
   info.push(['Atıf', 'Who Profits metinleri: Who Profits Research Center (whoprofits.org). Investigate ve AFSC metinleri: Reproduced with permission of American Friends Service Committee.']);
@@ -1831,8 +1897,10 @@ document.addEventListener('click', ev => {
   const ob = ev.target.closest('[data-obl]'); if (ob) { if (!ob.disabled) oblAdd(+ob.dataset.obl); return; }
   const orm = ev.target.closest('[data-oblrm]'); if (orm) { oblRemove(+orm.dataset.oblrm); return; }
   const o = ev.target.closest('button[data-ent]'); if (o) { ev.preventDefault(); open(+o.dataset.ent, !$('#drawer').hidden); return; }
+  if (ev.target.closest('.obl-rate')) return;     // açılır menü seçimi ayrıntı panelini açmaz
   const r = ev.target.closest('.row'); if (r) open(+r.dataset.id, false);
 });
+document.addEventListener('change', ev => { const sl = ev.target.closest && ev.target.closest('select[data-rate]'); if (sl) oblRate(+sl.dataset.rid, sl.dataset.rate, sl.value); });
 document.addEventListener('keydown', ev => {
   if (ev.key === 'Escape' && !$('#drawer').hidden) closeDrawer();
   if (ev.key === 'Enter' && ev.target.classList && ev.target.classList.contains('row')) open(+ev.target.dataset.id, false);
