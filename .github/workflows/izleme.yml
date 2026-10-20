@@ -11,6 +11,10 @@ on:
       kapsam:
         description: "hizli, tam ya da virgülle kaynaklar (bykt,bt,bd,kb,eb,wp,afsc,dbio,inv,ak)"
         default: hizli
+      zorla:
+        description: "Kayıtların yarısından fazlası değişse de anlık görüntüyü güncelle (site gerçekten toplu değiştiyse)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -40,6 +44,7 @@ jobs:
         env:
           BILDIRIM: ${{ runner.temp }}/bildirim.md
           BILDIRIM_KISI: "@hninan24"
+          IZLEME_ZORLA: ${{ inputs.zorla && '1' || '' }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             if [ "${{ github.event.schedule }}" = "47 4 * * 1" ]; then K=tam; else K=hizli; fi

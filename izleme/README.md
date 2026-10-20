@@ -70,4 +70,4 @@ Veritabanı bu depoda değil, yerel çalışma klasöründe üretilir (`listeler
 - Who Profits ve Abbott & Keefer'da yalnız eklenen ve çıkan kayıtlar izlenir. Şirket metinlerindeki ya da etiketlerdeki değişiklikler görünmez.
 - DBIO ve Investigate'te yalnız veri dosyasının değişip değişmediğine bakılır. Değişirse yeni dosya elle incelenir.
 - Boykot Dedektifi Cloudflare arkasındadır. GitHub'ın sunucularını engellerse haftalık tarama hata verir. Bu durumda tarama yerelde çalıştırılır: `python izleme/izle.py bd`, ardından değişen dosyalar gönderilir.
-- Bir sitenin sayfa yapısı değişirse ayrıştırıcı kayıtları okuyamaz. Okunan kayıt sayısı önceki kontrole göre çok düşükse kaynak “kontrol edilemedi” sayılır.
+- Bir sitenin sayfa yapısı değişirse ayrıştırıcı kayıtları okuyamaz ya da yanlış okur. Okunan kayıt sayısı önceki kontrole göre çok düşükse ya da kayıtların yarısından fazlası birden değişmiş görünüyorsa kaynak “kontrol edilemedi” sayılır ve anlık görüntüsü güncellenmez. Değişiklik gerçekse iş akışı **zorla** kutusu işaretlenerek yeniden çalıştırılır. Ayrıştırıcı bozulduysa `izleme/kaynaklar.py` düzeltilir.

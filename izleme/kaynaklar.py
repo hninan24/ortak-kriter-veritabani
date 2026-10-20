@@ -53,6 +53,11 @@ def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
     raise KaynakHatasi(f"{url}: {son}")
 
 
+def sayfa_metni(url, **kw):
+    """Sayfanın metni; satır sonları \\n'e çevrilir (yerel dışa aktarımlar dosyadan okunduğu için öyle)."""
+    return al(url, **kw).text.replace("\r\n", "\n").replace("\r", "\n")
+
+
 def sha(b):
     return hashlib.sha256(b if isinstance(b, bytes) else b.encode("utf-8")).hexdigest()
 
@@ -214,7 +219,7 @@ def cek_bd(onceki, isci=3):
             try:
                 r = oturum().get(BD + p, timeout=60)
                 if r.status_code == 200 and "<main" in r.text:
-                    rec = bd_ayristir(r.text, p.split("/b/", 1)[1].replace("/", "_"))
+                    rec = bd_ayristir(r.text.replace("\r\n", "\n").replace("\r", "\n"), p.split("/b/", 1)[1].replace("/", "_"))
                     with kilit:
                         recs.append(rec)
                     time.sleep(0.3 + random.random() * 0.4)
@@ -271,7 +276,7 @@ def _kb_kartlar(h):
         m = re.search(r'href="https://www\.kolayboykot\.com/marka/([^"]+)"', parca)
         if not m:
             continue
-        etiket = re.search(r'<div class="on-sale-item[^"]*">\s*([^<]*?)\s*</div>', parca)
+        etiket = re.search(r'<div class="on-sale-item[^"]*"[^>]*>\s*([^<]*?)\s*</div>', parca)
         ad = re.search(r'class="title link">\s*([^<]*?)\s*</a>', parca)
         out.append((m.group(1), etiket.group(1) if etiket else "", H.unescape(ad.group(1)) if ad else ""))
     return out
@@ -296,7 +301,7 @@ def cek_kb(onceki):
     for cid, slug in KB_KATEGORI.items():
         s = 1
         while True:
-            h = al(f"{KB}{slug}-c-{cid}?s={s}").text
+            h = sayfa_metni(f"{KB}{slug}-c-{cid}?s={s}")
             k = _kb_kartlar(h)
             if not k:
                 break
@@ -314,7 +319,7 @@ def cek_kb(onceki):
 
     def getir(ms):
         r = al(f"{KB}marka/{ms}")
-        d = kb_marka(r.text) if r.status_code == 200 else {}
+        d = kb_marka(r.text.replace("\r\n", "\n").replace("\r", "\n")) if r.status_code == 200 else {}
         return dict(slug=ms, ad=fil[ms], seviye=seviye.get(ms, ""), url=f"{KB}marka/{ms}", **d)
 
     with ThreadPoolExecutor(3) as ex:
@@ -384,7 +389,7 @@ def normalle_eb(firmalar, urunler, liste_tarihi):
 
 def cek_eb(onceki):
     def sayfa(url):
-        t = al(url).text
+        t = sayfa_metni(url)
         time.sleep(1)
         return t
 
@@ -472,7 +477,7 @@ def normalle_afsc(t):
 
 
 def cek_afsc(onceki):
-    yeni = normalle_afsc(al(AFSC).text)
+    yeni = normalle_afsc(sayfa_metni(AFSC))
     if len(yeni) < 20:
         raise KaynakHatasi(f"AFSC: sayfada yalnız {len(yeni)} şirket okundu")
     return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)),

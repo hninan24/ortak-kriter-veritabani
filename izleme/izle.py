@@ -246,6 +246,14 @@ def main():
         if onceki and not f:                      # kayıtlar aynı: anlık görüntü yeniden yazılmaz
             print(f"[{k}] değişmedi", flush=True)
             continue
+        n0 = len(onceki.get("kayitlar") or {})
+        if n0 >= 20 and len(f) > 0.5 * n0 and not os.environ.get("IZLEME_ZORLA"):
+            # kayıtların yarısından fazlası birden: büyük olasılıkla site yapısı değişti ve ayrıştırıcı bozuldu
+            hatalar[k] = (f"{n0} kaydın {len(f)} tanesi birden değişti; site yapısı değişmiş olabilir. Anlık görüntü "
+                          f"güncellenmedi (değişiklik gerçekse iş akışını 'zorla' seçeneğiyle yeniden çalıştırın)")
+            dk.update(durum="hata: toplu değişiklik")
+            print(f"[{k}] {hatalar[k]}", flush=True)
+            continue
         yaz(VERI / f"{k}.json", {"kaynak": k, "ad": K["ad"], "tarih": zaman, "parmak_izi": r["parmak_izi"],
                                   "meta": r.get("meta") or {}, "kayitlar": r["kayitlar"]})
         if not onceki:
