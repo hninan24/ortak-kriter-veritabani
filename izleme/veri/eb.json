@@ -5253,10 +5253,8 @@
   },
   "_liste": {
    "ad": "Sitedeki liste güncelleme tarihi",
-   "ek": {
-    "tarih": "2026-09-10"
-   },
    "kapsam": true,
+   "tarih": "2026-09-10",
    "url": "https://eczanedeboykot.com/tr"
   },
   "firma:Bayer": {
@@ -5318,8 +5316,18 @@
  },
  "kaynak": "eb",
  "meta": {
-  "tohum": "yerel dışa aktarım (2026-10-19), 2026-10-20T15:14:30+03:00"
+  "uretici": [
+   "BAYER",
+   "JOHNSON & JOHNSON",
+   "MERCK",
+   "MSD",
+   "NOVARTİS",
+   "ORGANON",
+   "PFİZER",
+   "TEVA"
+  ],
+  "urun": 750
  },
- "parmak_izi": "fd7d687aca1f1210659062065bc2264db4d9e9c21d4cfbd980f142a0af479bc7",
- "tarih": "2026-10-19"
+ "parmak_izi": "8ba620b68577111cfc4373e6c829d5826b64705e0086d5c5fd3a6655928d3e0d",
+ "tarih": "2026-10-21T12:23:16+03:00"
 }

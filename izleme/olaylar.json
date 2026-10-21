@@ -1,5 +1,183 @@
 [
  {
+  "id": "2026-10-21|eb|_liste|bilgi",
+  "tespit": "2026-10-21",
+  "liste": "eb",
+  "kimlik": "_liste",
+  "marka": "Sitedeki liste güncelleme tarihi",
+  "cati": null,
+  "tur": "bilgi",
+  "url": "https://eczanedeboykot.com/tr",
+  "onceki": "tarih: 2026-09-10",
+  "sonraki": "tarih: —",
+  "tarih": "2026-09-10"
+ },
+ {
+  "id": "2026-10-21|bykt|jGVX5g4Z0ZIlIgs8JRbT|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "jGVX5g4Z0ZIlIgs8JRbT",
+  "marka": "Stanley",
+  "cati": "Stanley Black & Decker",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/stanley",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Stanley, hırdavat sektöründe faaliyet gösteren ve el aletleri üreten bir markadır. Marka, ABD merkezli endüstriyel el aletleri ve donanım üreticisi Stanley Black & Decker çatısı altında faaliyet göstermektedir. Şirket, İsrail'de güvenlik ve kilit sistemleri alanında üretim tesisleri işletmekte ve İsrail savunma sanayiine ile askeri inşaat altyapısına doğrudan endüstriyel ekipman tedarik etmektedir. Bu doğrudan askeri ve altyapı desteği sebebiyle marka \"Kesin Boykot\" kategorisindedir. Tüketicilerin hırdavat alanında bu markanın yerine yerli ve temiz sermayeli bağımsız alternatifleri tercih etm…"
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|SvborGHYhviNHrTIYMRW|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "SvborGHYhviNHrTIYMRW",
+  "marka": "Sana (Margarin)",
+  "cati": "Flora Food",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/sana-margarin",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Sana (Margarin), gıda sektöründe faaliyet gösteren bir markadır. Mülkiyeti Flora Food bünyesinde bulunmaktadır. Bu çatı kuruluşun küresel pazardaki İsrail yanlısı sermaye fonları ve işgal ekonomisine destek veren çok uluslu finansal ortaklıkları bulunmaktadır. Şirketin kârları bu çatı havuza aktarıldığından, sivil boykot standartları ve şemsiye sermaye kuralı uyarınca \"Kesin Boykot\" listesinde yer almaktadır."
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|mE96td6fgr047DnNk8PI|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "mE96td6fgr047DnNk8PI",
+  "marka": "Pringles",
+  "cati": "Mars Inc.",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/pringles",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Pringles, gıda sektöründe faaliyet gösteren ve cips markası üreten bir markadır. Marka, küresel gıda, şekerleme ve evcil hayvan beslenmesi alanlarında tekel olan Mars Inc. bünyesinde yer almaktadır. Çatı holding Mars Inc., İsrail'de Jerusalem Venture Partners (JVP) ile resmi stratejik ortaklık kurarak gıda teknolojileri (FoodTech) ve Ar-Ge alanında İsrail inovasyon ekosistemini doğrudan fonlamaktadır. Şirketin küresel satışlarından elde edilen yüksek ciro, İsrail işgal ekonomisine ve bu ekosistemi destekleyen uluslararası finansal fon havuzuna aktarılmaktadır. Ayrıca Mars grubu, küresel ölçek…"
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|8bolEUja7l0SovaG4r17|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "8bolEUja7l0SovaG4r17",
+  "marka": "President",
+  "cati": "Lactalis Grup",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/president",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "President, gıda sektöründe faaliyet gösteren ve süt ve süt ürünleri üreten bir markadır. Mülkiyeti Lactalis Grup bünyesinde bulunmaktadır. Türkiye'de Ak Gıda operasyonları üzerinden boykotlu küresel fast food zincirlerine (McDonald's vb.) B2B peynir ve süt tedariki sağlamakta; Fransa merkezinde ise İsrail pazarı ile ticari ilişkilerini sürdürmektedir. Bu dolaylı ve B2B ticari bağlar nedeniyle marka \"Kesin Boykot\" değerlendirmesinde yer almaktadır. Tüketicilerin gıda alanında bu markanın yerine yerli ve temiz sermayeli bağımsız alternatifleri tercih etmesi tavsiye edilir."
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|ACHSm4FQJ0ZjJKo9FD2r|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "ACHSm4FQJ0ZjJKo9FD2r",
+  "marka": "İçim",
+  "cati": "Lactalis Grup",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/i%C3%A7im",
+  "fark": {
+   "p": [
+    [
+     "=",
+     "… süt ve süt ürünleri üreten bir markadır. Mülkiyeti"
+    ],
+    [
+     "-",
+     "Lactalis Grup bünyesinde bulunmaktadır."
+    ],
+    [
+     "=",
+     "Fransa merkezli küresel süt devi"
+    ],
+    [
+     "-",
+     "Lactalis mülkiyetinde"
+    ],
+    [
+     "+",
+     "Lactalis'de"
+    ],
+    [
+     "=",
+     "bulunmaktadır. Türkiye'de Ak Gıda operasyonları üzerinden boykotlu küresel … Bu dolaylı ve B2B ticari bağlar nedeniyle marka"
+    ],
+    [
+     "-",
+     "Kesin Boykot / İnsafa Bağlı değerlendirmesinde"
+    ],
+    [
+     "+",
+     "\"Kesin Boykot\" kategorisinde"
+    ],
+    [
+     "=",
+     "yer almaktadır. Tüketicilerin gıda alanında bu markanın yerine …"
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|pEmNTwqHSlGktwLHcWrh|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "pEmNTwqHSlGktwLHcWrh",
+  "marka": "Doğadan",
+  "cati": "Coca-Cola",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/do%C4%9Fadan",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Doğadan, gıda sektöründe faaliyet gösteren ve çay üretimi ve satışı üreten bir markadır. Marka, ABD merkezli The Coca-Cola Company bünyesinde yer alan küresel bir markadır. Coca-Cola, İsrail'deki ana imtiyaz sahibi Central Bottling Company (CBC) aracılığıyla uluslararası hukuka göre yasadışı kabul edilen işgal altındaki Doğu Kudüs Atarot sanayi bölgesinde fabrika ve dağıtım depoları işletmektedir. Gasp edilmiş Filistin topraklarında kurulan bu tesisler aracılığıyla işgal rejimine doğrudan vergi, istihdam ve altyapı desteği sağlanmaktadır. Yasadışı yerleşimlerin meşrulaştırılmasına ve sömürge…"
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
+  "id": "2026-10-21|bykt|W1qCkxgeetEdZOz2SbVt|metin",
+  "tespit": "2026-10-21",
+  "liste": "bykt",
+  "kimlik": "W1qCkxgeetEdZOz2SbVt",
+  "marka": "Dolap",
+  "cati": "Trendyol",
+  "tur": "metin",
+  "url": "https://bykt.org/marka/dolap",
+  "fark": {
+   "p": [
+    [
+     "+",
+     "Dolap, e-ticaret sektöründe faaliyet gösteren ve i̇kinci el ürün satış platformu sunan bir markadır. Mülkiyeti Trendyol bünyesinde bulunmaktadır. Bağlı olduğu çatı kuruluşun İsrail'de yaptığı yatırımlar markanın \"Kesin Boykot\" kategorisinde olmasına neden olmuştur."
+    ]
+   ]
+  },
+  "tarih": "2026-10-21"
+ },
+ {
   "id": "2026-10-20|wp|3788|cikarma",
   "tespit": "2026-10-20",
   "liste": "wp",
