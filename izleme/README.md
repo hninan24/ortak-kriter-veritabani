@@ -40,7 +40,7 @@ BM OHCHR listesi (A/HRC/63/20) yıllık bir rapor olduğu için izlenmez.
 - **Anlık görüntü:** `veri/<kaynak>.json`, her kaynağın son okunan hâli. Git geçmişi aynı zamanda değişiklik arşividir.
 - **Durum:** `durum.json`, her kaynağın son kontrol zamanı, son değişikliği ve durumu.
 
-Bir kaynak okunamazsa (site kapalıysa ya da erişimi engellediyse) diğerleri yine işlenir. O çalışma hatalı (kırmızı) görünür, GitHub da iş akışını son değiştirene e-posta gönderir. Bu durumda okunamayan kaynağın önceki anlık görüntüsü korunur. Kısmi okuma “kalkan marka” diye raporlanmaz.
+Bir kaynak okunamazsa (site kapalıysa ya da sayfa yapısı değiştiyse) diğerleri yine işlenir. O çalışma hatalı (kırmızı) görünür, GitHub da iş akışını son değiştirene e-posta gönderir. Okunamayan kaynağın önceki anlık görüntüsü korunur; kısmi okuma “kalkan marka” diye raporlanmaz. Bazı siteler GitHub'ın sunucu adreslerinden gelen isteklere zaman zaman bot doğrulama sayfası döndürür (DBIO'nun barındığı SiteGround'un HTTP 202'si gibi). Bu durum son başarılı kontrolden bu yana 7 günden kısa sürüyorsa geçici sayılır: çalışma yeşil kalır, özette “geçici olarak okunamayan” diye not edilir. 7 günü aşarsa hata verir. DBIO ve Investigate'in veri sayfası engellenirse bilinen veri dosyaları doğrudan indirilip kontrol edilir.
 
 ## Rapor nasıl okunur
 

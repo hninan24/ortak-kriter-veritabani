@@ -32,6 +32,14 @@ class KaynakHatasi(Exception):
     pass
 
 
+class EngelHatasi(KaynakHatasi):
+    """Site isteği bot korumasıyla geri çevirdi: SiteGround'un HTTP 202 doğrulama sayfası, Cloudflare'in 403/503 sayfası.
+    Çoğunlukla GitHub'ın sunucu adreslerine özgü ve geçicidir (aynı sayfa başka yerden açılır)."""
+
+
+ENGEL_IZI = ("sgcaptcha", "cf-chl", "challenge-platform", "Just a moment", "cf_chl")
+
+
 def oturum():
     if not hasattr(_yerel, "s"):
         _yerel.s = requests.Session()
@@ -41,16 +49,21 @@ def oturum():
 
 def al(url, deneme=5, bekle=5, kabul=(200,), **kw):
     """GET; geçici hatalarda artan beklemeyle yeniden dener. 404 gibi kabul edilen kodlar dışındakilerde hata verir."""
-    son = None
+    son, engel = None, False
     for i in range(deneme):
         try:
             r = oturum().get(url, timeout=60, **kw)
             if r.status_code in kabul or r.status_code == 404:
                 return r
             son = f"HTTP {r.status_code}"
+            engel = r.status_code == 202 or (r.status_code in (403, 429, 503) and any(x in r.text[:20000] for x in ENGEL_IZI))
+            if engel and i >= 1:           # doğrulama sayfası: bir kez daha denenir, sonra uzun beklemeden bırakılır
+                break
         except requests.RequestException as e:
-            son = type(e).__name__
+            son, engel = type(e).__name__, False
         time.sleep(min(120, bekle * 2 ** i))
+    if engel:
+        raise EngelHatasi(f"{url}: {son}, sitenin bot koruması")
     raise KaynakHatasi(f"{url}: {son}")
 
 
@@ -503,16 +516,29 @@ def dosya_kaydi(ad, icerik, url):
     return kayit(ad, None, True, None, None, (), url, sha256=sha(icerik), boyut=len(icerik))
 
 
-def cek_dbio(onceki):
-    t = al(DBIO).text
-    urls = tekil(re.findall(r'sourceFile\s*=\s*"([^"]+\.csv)"', t))
-    if not urls:
-        raise KaynakHatasi("DBIO: veri sayfasında CSV bağlantısı bulunamadı")
+def dosyalar(onceki, sayfa, bul, ad):
+    """Veri dosyası kaynakları (DBIO, Investigate): dosya bağlantıları sayfadan okunur. Sayfa bot korumasına takılırsa
+    önceki kontroldeki dosyalar doğrudan indirilir; sayfaya yeni dosya eklendiyse sayfa açıldığı ilk gün görülür."""
+    uyari = []
+    try:
+        urls = bul(al(sayfa).text)
+        if not urls:
+            raise KaynakHatasi(f"{ad}: sayfada veri dosyası bağlantısı bulunamadı")
+    except EngelHatasi:
+        urls = [r["url"] for r in (onceki.get("kayitlar") or {}).values() if r.get("url")]
+        if not urls:
+            raise
+        uyari.append("veri sayfası sitenin bot korumasına takıldı; bilinen veri dosyaları doğrudan kontrol edildi")
     yeni = {}
     for u in urls:
-        ad = u.rsplit("/", 1)[-1]
-        yeni[ad] = dosya_kaydi(ad, al(u).content, u)
-    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True)), "meta": {"dosya": len(yeni)}}
+        n = u.rsplit("/", 1)[-1]
+        yeni[n] = dosya_kaydi(n, al(u).content, u)
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True)), "meta": {"dosya": len(yeni)},
+            "uyarilar": uyari}
+
+
+def cek_dbio(onceki):
+    return dosyalar(onceki, DBIO, lambda t: tekil(re.findall(r'sourceFile\s*=\s*"([^"]+\.csv)"', t)), "DBIO")
 
 
 # ===================================================================== AFSC Investigate
@@ -520,15 +546,7 @@ INV = "https://investigate.info/downloads"
 
 
 def cek_inv(onceki):
-    t = al(INV).text
-    urls = tekil(re.findall(r'href="(https?://[^"]+\.(?:xlsx|csv|zip))"', t))
-    if not urls:
-        raise KaynakHatasi("Investigate: indirme sayfasında veri dosyası bulunamadı")
-    yeni = {}
-    for u in urls:
-        ad = u.rsplit("/", 1)[-1]
-        yeni[ad] = dosya_kaydi(ad, al(u).content, u)
-    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True)), "meta": {"dosya": len(yeni)}}
+    return dosyalar(onceki, INV, lambda t: tekil(re.findall(r'href="(https?://[^"]+\.(?:xlsx|csv|zip))"', t)), "Investigate")
 
 
 # ===================================================================== Abbott & Keefer

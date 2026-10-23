@@ -26,7 +26,7 @@ concurrency:
 
 jobs:
   izle:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # sabit sürüm: ubuntu-latest Ubuntu 26'ya geçiyor
     timeout-minutes: 120
     env:
       PYTHONDONTWRITEBYTECODE: "1"

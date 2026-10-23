@@ -23,7 +23,7 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kaynaklar import KAYNAKLAR  # noqa: E402
+from kaynaklar import KAYNAKLAR, EngelHatasi  # noqa: E402
 import olaylar  # noqa: E402
 
 KOK = Path(__file__).resolve().parent
@@ -34,6 +34,7 @@ ALANLAR = ("ad", "hukum", "kapsam", "cati", "metin", "kaynaklar", "url", "ek")
 ETIKET = {"ad": "Ad", "hukum": "Hüküm", "cati": "Çatı", "metin": "Gerekçe metni", "kaynaklar": "Kaynak bağlantıları",
           "url": "Sayfa adresi", "ek": "Diğer alanlar"}
 BILDIRIM_SINIR = 25          # bildirimde kaynak başına gösterilen en fazla madde
+ENGEL_GUN = 7                # sitenin bot koruması bu kadar gün sürerse çalışma hatalı sayılır (daha kısası geçici sayılır)
 
 
 def oku(p, vars=None):
@@ -211,7 +212,7 @@ def main():
     simdi = dt.datetime.now(TSI)
     zaman = simdi.isoformat(timespec="seconds")
     durum = oku(DURUM, {})
-    sonuc, hatalar, uyarilar, yeni_olay = {}, {}, {}, []
+    sonuc, hatalar, uyarilar, engeller, yeni_olay = {}, {}, {}, {}, []
     for k in ks:
         K = KAYNAKLAR[k]
         onceki = oku(VERI / f"{k}.json", {})
@@ -220,11 +221,22 @@ def main():
         try:
             r = K["cek"](onceki)
         except Exception as e:  # noqa: BLE001
+            msg = str(e) or type(e).__name__
+            if isinstance(e, EngelHatasi):
+                # site bot korumasıyla geri çevirdi: son başarılı kontrolden bu yana ENGEL_GUN geçmediyse geçici sayılır
+                sb = dk.get("son_basari")
+                gun = (simdi - dt.datetime.fromisoformat(sb)).days if sb else None
+                if gun is not None and gun < ENGEL_GUN:
+                    engeller[k] = f"{msg}; son başarılı kontrol {sb[:10]}"
+                    dk.update(son_kontrol=zaman, durum="engel: " + msg)
+                    print(f"[{k}] geçici olarak okunamadı: {engeller[k]}", flush=True)
+                    continue
+                msg += f"; {gun} gündür okunamıyor" if gun is not None else "; hiç okunamadı"
             traceback.print_exc()
-            hatalar[k] = str(e) or type(e).__name__
-            dk.update(son_kontrol=zaman, durum="hata: " + hatalar[k])
+            hatalar[k] = msg
+            dk.update(son_kontrol=zaman, durum="hata: " + msg)
             continue
-        dk.update(son_kontrol=zaman, durum="ok", parmak_izi=r["parmak_izi"])
+        dk.update(son_kontrol=zaman, son_basari=zaman, durum="ok", parmak_izi=r["parmak_izi"])
         if r.get("degismedi"):
             print(f"[{k}] değişmedi", flush=True)
             continue
@@ -265,6 +277,9 @@ def main():
         ust.append("Değişiklik yok.")
     if hatalar:
         ust.append("Kontrol edilemeyen: " + "; ".join(f"{KAYNAKLAR[k]['ad']} ({v})" for k, v in hatalar.items()) + ".")
+    if engeller:
+        ust.append("Geçici olarak okunamayan (sitenin bot koruması, önceki anlık görüntü korundu): "
+                   + "; ".join(f"{KAYNAKLAR[k]['ad']} ({v})" for k, v in engeller.items()) + ".")
     for k, v in uyarilar.items():
         ust.append(f"{KAYNAKLAR[k]['ad']}: " + "; ".join(v) + ".")
     aciklama = ("“Veritabanında” notu, kaydın adının sitedeki (index.html) bir kuruluşun adıyla ya da diğer adlarından "
