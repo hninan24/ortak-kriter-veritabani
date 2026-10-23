@@ -39,12 +39,14 @@ Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik b
 
 1. Siteyi açın. **Kuruluşlar** sekmesinde bir markanın sağındaki **“Öncelikli Boykot Listesine Ekle”** düğmesine basın. Marka, çatı şirketi ve çatının bütün alt markalarıyla birlikte listeye girer.
 2. **Öncelikli Boykot Listesi** sekmesinde yalnızca çatı şirketler görünür; alt markalar kuruluşa tıklayınca açılan panelde listelenir. Yanlış eklediğiniz bir kuruluşu **“Listeden çıkar”** ile kaldırabilirsiniz.
-3. Seçimleriniz **yalnızca kendi tarayıcınızda** saklanır. Başka bir tarayıcıda ya da cihazda görünmez. Tarayıcı verisini silerseniz liste de silinir.
-4. Listeniz bitince ÖBL sekmesindeki **“Excel olarak dışa aktar”** düğmesine basın. Dosyayı gruba gönderin; listeler sonra birleştirilir.
+3. Kampanya önceliği vermek istediğiniz çatının sağındaki **yıldıza** basın. Yıldız kırmızıya döner ve kuruluş listenin başındaki “Kampanya önceliği” bölümüne geçer. Yıldızsızlar, suçu sabit olduğu hâlde günlük tüketimde olmadığı için aşağıda kalır. Yıldızı kaldırmak için yeniden basın.
+4. Seçimleriniz **yalnızca kendi tarayıcınızda** saklanır. Başka bir tarayıcıda ya da cihazda görünmez. Tarayıcı verisini silerseniz liste de silinir.
+5. Listeniz bitince ÖBL sekmesindeki **“Excel olarak dışa aktar”** düğmesine basın. Dosyayı gruba gönderin; listeler sonra birleştirilir.
 
 Excel dosyasında şu sayfalar var:
 
-- **Çatılar:** her çatı için listelerin hükmü ve seçtiğiniz marka.
+- **Kampanya:** yıldızladığınız çatılar, alt markalarının adlarıyla.
+- **Çatılar:** her çatı için listelerin hükmü, seçtiğiniz marka ve kampanya önceliği.
 - **Tüm kuruluşlar:** çatılar ve bütün alt markaları.
 - **Açıklamalar:** listelerin metinleri ve bağlantıları.
 - **Bilgi**
