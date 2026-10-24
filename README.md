@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 11 listeden toplanan 5.351 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 12 listeden toplanan 5.433 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -24,12 +24,15 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 | Eczanede Boykot (ilaçlar, kök marka) | 316 |
 | Bilinçli Tüketim | 296 |
 | BM OHCHR A/HRC/63/20 (Liste A) | 219 |
+| Boycat — uygulamadaki “En iyi markalar” (Watermelon) | 199 |
 | Investigate (AFSC) | 187 |
 | AFSC — Gazze soykırımı şirketleri | 58 |
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 20 Ekim 2026. bykt 20 Ekim, Bilinçli Tüketim 18 Ekim verisine geçirildi: Lefties, Derimod ve Philips eklendi, 27 bykt gerekçesi güncellendi. Who Profits'in kaldırdığı Aldo ve SEMI kayıtları “geri çekildi” olarak işaretlendi.
+Son güncelleme: 24 Ekim 2026. Boycat uygulamasının “En iyi markalar” listesi (199 marka) eklendi: uygulamadaki seviye (Official BDS Priority Campaign, Level 2, Level 3), research.boycat.io'daki gerekçe metni ve şirket sayfası; 116'sı mevcut kuruluşlara bağlandı, 82'si yeni. Ayrıntı panelinde çatının alt markalarından ve alt markanın çatısından devraldığı listeler de gösteriliyor. bykt'nin listeden çıkardığı Damla Minera “geri çekildi” olarak işaretlendi.
+
+20 Ekim 2026: bykt 20 Ekim, Bilinçli Tüketim 18 Ekim verisine geçirildi: Lefties, Derimod ve Philips eklendi, 27 bykt gerekçesi güncellendi. Who Profits'in kaldırdığı Aldo ve SEMI kayıtları “geri çekildi” olarak işaretlendi.
 
 ## Kaynak izleme
 
