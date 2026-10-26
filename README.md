@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 13 listeden toplanan 5.462 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 14 listeden toplanan 6.693 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -16,6 +16,7 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 | Liste | Kayıt |
 |---|---:|
 | Boykot Dedektifi (boykotdedektifi.com) | 2.556 |
+| No Thanks — uygulamanın Level 1 ve Level 2 kayıtları | 2.188 |
 | DBIO — Don't Buy Into Occupation (2025) | 1.218 |
 | bykt.org | 1.167 |
 | Boykot.co (yalnız “Boykot” durumundakiler) | 934 |
@@ -31,7 +32,9 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 26 Ekim 2026. Boykot.co'nun “Boykot” durumundaki 934 markası eklendi (24 Ekim taraması; “Boykot değil” markalar alınmadı): sitedeki gerekçe metni, marka sayfası ve kanıt bağlantısı; 865'i mevcut kuruluşlara bağlandı, 29'u yeni. Metinler sitenin kendi metinleridir ve kaynak sayfasıyla birlikte verilir.
+Son güncelleme: 26 Ekim 2026. No Thanks uygulamasının 2.188 boykot kaydı eklendi (iOS uygulamasının 26 Ekim verisi): seviye (Level 1: Strong Connection to Israel, Level 2: Indirect Support for Israel), BDS işareti, uygulamadaki gerekçe metni ve kaynak bağlantıları. “Level 3: No Known Connection to Israel” markaları (3) alınmadı. Uygulamanın marka sayfası ve çatı alanı yok; 917 marka mevcut kuruluşlara bağlandı, 1.231'i yeni. Aynı adı taşıyan farklı markalar ayrı tutuldu (ör. Silk (Danone), Brisa (Coca-Cola), Tic Tac).
+
+Aynı gün Boykot.co'nun “Boykot” durumundaki 934 markası eklendi (24 Ekim taraması; “Boykot değil” markalar alınmadı): sitedeki gerekçe metni, marka sayfası ve kanıt bağlantısı; 865'i mevcut kuruluşlara bağlandı, 29'u yeni. Metinler sitenin kendi metinleridir ve kaynak sayfasıyla birlikte verilir.
 
 24 Ekim 2026: Boycat uygulamasının “En iyi markalar” listesi (199 marka) eklendi: uygulamadaki seviye (Official BDS Priority Campaign, Level 2, Level 3), research.boycat.io'daki gerekçe metni ve şirket sayfası; 116'sı mevcut kuruluşlara bağlandı, 82'si yeni. Ayrıntı panelinde çatının alt markalarından ve alt markanın çatısından devraldığı listeler de gösteriliyor. bykt'nin listeden çıkardığı Damla Minera “geri çekildi” olarak işaretlendi.
 
@@ -39,7 +42,7 @@ Son güncelleme: 26 Ekim 2026. Boykot.co'nun “Boykot” durumundaki 934 markas
 
 ## Kaynak izleme
 
-Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi ve Kolay Boykot'u her pazartesi) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/ortak-kriter-veritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
+Listelerin çoğu canlı sitelerde değişiyor. `izleme/` klasöründeki betik bu siteleri GitHub Actions üzerinden her gün (Boykot Dedektifi, Kolay Boykot ve Boykot.co'yu her pazartesi) kontrol eder. Bir önceki kontrolden bu yana eklenen, çıkan, hükmü ya da gerekçesi değişen kayıtları raporlar ve [`izleme` etiketli Issue](https://github.com/hninan24/ortak-kriter-veritabani/issues?q=label%3Aizleme)'ya yazar. Her değişiklik olay kaydına (`izleme/olaylar.json`) da girer ve sitenin **Güncellemeler** sekmesinde marka, liste, değişiklik türü ve tarihiyle görünür. Bir listenin geri çektiği kanıt silinmez, “geri çekildi” diye işaretlenir. Yeni veri veritabanına kendiliğinden işlenmez. Ayrıntı: [izleme/README.md](izleme/README.md).
 
 ## Öncelikli Boykot Listesi (ÖBL) nasıl hazırlanır
 
