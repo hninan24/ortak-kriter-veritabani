@@ -17,6 +17,7 @@ import random
 import re
 import threading
 import time
+import unicodedata
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
@@ -575,6 +576,200 @@ def cek_ak(onceki):
     return {"kayitlar": yeni, "parmak_izi": sha(",".join(urls)), "meta": {"marka": len(urls)}}
 
 
+# ===================================================================== Boykot.co
+# Sunucu tarafında üretilen PHP. Kategori sayfaları (/c/<ad>-<id>) yalnız boykottaki markaları listeler; "Boykot değil"
+# markalar yalnız marka sayfalarının "Diğer … markaları" kartlarında (göreli /d/ bağlantıları) geçer. Kanıt bağlantısı
+# /r/<id> sayfasının "refresh: 0; url=…" başlığındadır. Bazı marka sayfaları sürekli 500 verir: bunlar kategori satırı ya
+# da yan kart bilgisiyle (ad, durum, kısa metin) kaydedilir. Ayrıştırma, yerel dışa aktarımı üreten
+# listeler/Boykot.co/kod/build.py ile aynıdır (ilk anlık görüntü o dosyadan kuruldu).
+BCO = "https://www.boykot.co"
+BCO_KATEGORI = {1: "Otomotiv", 2: "Giyim - Tekstil", 3: "Kahve", 4: "İşletme", 5: "Kozmetik", 6: "İçecek", 7: "Enerji",
+                8: "Medya / Eğlence", 9: "Moda", 10: "Finans", 11: "Gıda", 12: "Sağlık", 13: "Temizlik", 14: "Sigorta",
+                15: "Lüks", 16: "Üretici Firma", 17: "İlaç", 18: "Siyaset", 19: "Süpermarket", 20: "Teknoloji",
+                21: "Silah", 25: "Kişisel Bakım", 26: "Konaklama", 27: "Oyuncak", 28: "Hurma", 29: "Kırtasiye"}
+_BCO_SATIR = re.compile(r'<h6 class="mb-0 ms-lg-3 mt-2 mt-lg-0">\s*<a href="https://www\.boykot\.co/d/([^"]+)">([^<]*)</a>')
+_BCO_LINK = re.compile(r'href="(?:https://www\.boykot\.co)?/d/([^"\s]+)"')
+_BCO_KART = re.compile(r'<a href="/d/([^"]+)" class="text-dark[^"]*">([^<]*)</a></h5>\s*<span>(.*?)</span>\s*'
+                       r'<span class="badge ([^"]+)"', re.S)
+
+
+def _bco_metin(fragment):
+    s = re.sub(r"<script.*?</script>|<style.*?</style>|<!--.*?-->", "", fragment, flags=re.S)
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"<li[^>]*>", "\n• ", s, flags=re.I)
+    s = re.sub(r"</(p|h[1-6]|li|ul|ol|div|tr)>|<(p|h[1-6]|ul|ol|div|tr)[^>]*>", "\n", s, flags=re.I)
+    s = H.unescape(re.sub(r"<[^>]+>", "", s)).replace("\xa0", " ")
+    s = re.sub(r"[ \t]+", " ", s)
+    s = re.sub(r" *\n *", "\n", s)
+    return re.sub(r"\n{2,}", "\n\n", s).strip()
+
+
+def bco_marka(html, slug):
+    """Marka sayfası → kayıt sözlüğü (build.py'nin marka() işleviyle aynı alanlar); başlık yoksa None."""
+    h1 = re.search(r'<h1 class="(text-[a-z]+)">(.*?)</h1>', html, re.S)
+    if not h1:
+        return None
+    renk, ic = h1.groups()
+    ad = H.unescape(re.split(r"<i ", ic)[0]).strip()
+    son = re.search(r"Boykot ediliyor mu\?\s*<strong>(.*?)</strong>", html, re.S)
+    cumle = _bco_metin(son.group(1)) if son else ""
+    if "boykot ediliyor!" in cumle.lower() or renk == "text-danger":
+        durum = "Boykot"
+    elif "boykot edilmiyor" in cumle.lower() or renk == "text-success":
+        durum = "Boykot değil"
+    else:
+        durum = cumle or renk
+    sonra = html[h1.end():]
+    tanim = re.match(r"\s*<p>(.*?)</p>", sonra, re.S)
+    kat = re.findall(r'<a href="(https://www\.boykot\.co/c/[^"]+)" class="btn btn-primary ml-0">([^<]+)</a>', sonra[:3000])
+    bas, bit = sonra.find("<hr>"), sonra.find("Boykot ediliyor mu?")
+    gerekce = _bco_metin(sonra[bas + 4:bit]) if bas >= 0 and bit > bas else ""
+    gerekce = re.sub(r"\n*<hr>\s*$", "", gerekce)
+    rid = re.search(r'href="https://www\.boykot\.co/r/(\d+)"', html)
+    return {"slug": slug, "ad": ad, "durum": durum, "tanim": _bco_metin(tanim.group(1)) if tanim else "",
+            "kategoriler": [H.unescape(k[1]).strip() for k in kat], "gerekce": gerekce,
+            "kanit_id": rid.group(1) if rid else "", "kanit": "", "url": f"{BCO}/d/{slug}", "not": ""}
+
+
+def bco_kartlar(html):
+    """Sayfadaki "Diğer … markaları" kartları: {slug: (ad, kısa metin, durum, kategori)}."""
+    out = {}
+    for bolum in re.split(r"<h5>Diğer ", html)[1:]:
+        kat = bolum.split(" Markaları</h5>")[0]
+        for slug, ad, ozet, rozet in _BCO_KART.findall(bolum):
+            d = "Boykot" if "danger" in rozet else "Boykot değil" if "success" in rozet else rozet
+            out.setdefault(slug, (H.unescape(ad).strip(), _bco_metin(ozet), d, kat))
+    return out
+
+
+def normalle_bco(markalar):
+    """Hem yerel dışa aktarım (boykotco_<tarih>.json "markalar") hem canlı çekim aynı alanları kullanır.
+    Kapsam: sitede "Boykot" durumundakiler (veritabanı "Boykot değil" markaları almaz)."""
+    return {r["slug"]: kayit(r["ad"], r["durum"], r["durum"] == "Boykot", None, r.get("gerekce") or r.get("tanim"),
+                             [r["kanit"]] if (r.get("kanit") or "").startswith("http") else [], r.get("url"),
+                             kategori=", ".join(r.get("kategoriler") or []), kanit_id=r.get("kanit_id"),
+                             sayfa="açılmıyor" if r.get("not") else None)
+            for r in markalar}
+
+
+def cek_bco(onceki, isci=3):
+    eski = onceki.get("kayitlar") or {}
+    home = sayfa_metni(BCO + "/")
+    linked = {int(i): f"/c/{s}-{i}" for s, i in re.findall(r'href="https://www\.boykot\.co/c/([a-z0-9-]+)-(\d+)"', home)}
+    kat_satir = {}                                   # slug → (ad, kategori) kategori sayfalarından (hepsi "Boykot")
+    for i, ad in BCO_KATEGORI.items():
+        yol = linked.get(i) or f"/c/{_slug_tr(ad)}-{i}"
+        r = al(BCO + yol)
+        if r.status_code != 200:
+            continue
+        for s, n in _BCO_SATIR.findall(r.text):
+            kat_satir.setdefault(s, (H.unescape(n).strip(), ad))
+        time.sleep(0.3)
+    eski_boykot = sum(1 for v in eski.values() if v.get("hukum") == "Boykot")
+    if len(kat_satir) < 0.8 * max(eski_boykot, 500):
+        raise KaynakHatasi(f"Boykot.co: kategori sayfalarında yalnız {len(kat_satir)} marka (önceki {eski_boykot})")
+    sayfalar, kartlar, bozuk, yok, alinamayan = {}, {}, set(), set(), set()
+    kilit = threading.Lock()
+
+    def getir(s):
+        for i in range(4):
+            try:
+                r = oturum().get(f"{BCO}/d/{s}", timeout=60)
+                if r.status_code == 200:
+                    h = r.text.replace("\r\n", "\n").replace("\r", "\n")
+                    with kilit:
+                        sayfalar[s] = h
+                    time.sleep(0.3 + random.random() * 0.4)
+                    return
+                if r.status_code == 404 and i >= 1:             # sayfa kaldırılmış
+                    with kilit:
+                        yok.add(s)
+                    return
+                if r.status_code == 500 and i >= 1:             # sitede kalıcı bozuk sayfa (örn. /d/colorado hep 500)
+                    with kilit:
+                        bozuk.add(s)
+                    return
+            except requests.RequestException:
+                pass
+            time.sleep(min(60, 5 * 2 ** i))
+        with kilit:
+            alinamayan.add(s)
+
+    # önceki anlık görüntüdeki markalar da her seferinde doğrudan okunur: "Boykot değil" markalar yalnız rastgele seçilen yan
+    # kartlarda geçtiği için, yalnız kartlardan gidilirse her tarama farklı bir alt kümeyi bulur
+    kuyruk, gorulen = list(kat_satir) + [s for s in eski if s not in kat_satir], set()
+    while kuyruk:                                     # dalga dalga: yeni sayfalardaki kart bağlantıları sonraki dalga
+        dalga = [s for s in dict.fromkeys(kuyruk) if s not in gorulen]
+        gorulen.update(dalga)
+        with ThreadPoolExecutor(isci) as ex:
+            list(ex.map(getir, dalga))
+        kuyruk = []
+        for s in dalga:
+            h = sayfalar.get(s)
+            if h:
+                kartlar.update({k: v for k, v in bco_kartlar(h).items() if k not in kartlar})
+                kuyruk += [x for x in _BCO_LINK.findall(h) if x not in gorulen]
+    if len(alinamayan) > 0.05 * max(len(gorulen), 1):
+        raise KaynakHatasi(f"Boykot.co: {len(alinamayan)}/{len(gorulen)} marka sayfası alınamadı")
+    markalar = []
+    for s in sorted(gorulen):
+        if s in sayfalar:
+            r = bco_marka(sayfalar[s], s)
+            if r:
+                markalar.append(r)
+                continue
+        k = kat_satir.get(s)
+        c = kartlar.get(s)
+        if not (k or c):
+            if s in eski and s not in yok:           # okunamadı, hiçbir kartta da yok: önceki kaydı korunur (aşağıda)
+                alinamayan.add(s)
+            continue
+        ad, ozet, durum, kat = (k[0], (c[1] if c else ""), "Boykot", k[1]) if k else c
+        markalar.append({"slug": s, "ad": ad, "durum": durum, "tanim": ozet, "kategoriler": [kat] if kat else [],
+                         "gerekce": "", "kanit_id": "", "kanit": "", "url": f"{BCO}/d/{s}",
+                         "not": "Marka sayfası açılmıyor (sunucu hatası 500)"})
+
+    def kanit(m):                                     # kanıt adresi: kimlik değişmediyse önceki anlık görüntüden
+        if not m["kanit_id"]:
+            return
+        e = eski.get(m["slug"]) or {}
+        if (e.get("ek") or {}).get("kanit_id") == m["kanit_id"] and e.get("kaynaklar"):
+            m["kanit"] = e["kaynaklar"][0]
+            return
+        try:
+            r = oturum().get(f"{BCO}/r/{m['kanit_id']}", timeout=60, allow_redirects=False,
+                             headers={"Referer": m["url"]})
+            u = re.match(r"\s*\d+\s*;\s*url=(.*)$", r.headers.get("refresh") or "", re.I)
+            m["kanit"] = u.group(1).strip() if u else ""
+            time.sleep(0.3)
+        except requests.RequestException:
+            m["kanit"] = (e.get("kaynaklar") or [""])[0]
+
+    with ThreadPoolExecutor(isci) as ex:
+        list(ex.map(kanit, markalar))
+    yeni = normalle_bco(markalar)
+    uyari = []
+    if alinamayan:                                    # alınamayan sayfaların önceki kaydı korunur (kalkmış sayılmaz)
+        for s in alinamayan:
+            if s in eski:
+                yeni[s] = eski[s]
+        uyari.append(f"{len(alinamayan)} marka sayfası alınamadı; önceki kayıtları korundu")
+    for s in bozuk:                                   # sayfası bozuk ama önceki kaydı tam olan marka: önceki metin korunur
+        if s in yeni and s in eski and not (eski[s].get("ek") or {}).get("sayfa"):
+            yeni[s] = eski[s]
+    if bozuk:
+        uyari.append(f"{len(bozuk)} marka sayfası sitede açılmıyor (500); kategori satırı ya da yan kart bilgisiyle alındı")
+    return {"kayitlar": yeni, "parmak_izi": sha(json.dumps(yeni, sort_keys=True, ensure_ascii=False)),
+            "meta": {"marka": len(yeni), "boykot": sum(1 for v in yeni.values() if v.get("hukum") == "Boykot")},
+            "uyarilar": uyari}
+
+
+def _slug_tr(s):
+    s = s.replace("ı", "i").replace("İ", "I").replace("/", " ")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
 # ===================================================================== kayıt defteri
 # siklik: "gunluk" kaynaklar her gün, "haftalik" olanlar yalnız tam taramada (pazartesi) kontrol edilir.
 # birim: raporda kayıtların adı.
@@ -587,6 +782,8 @@ KAYNAKLAR = {
                kapsam="Boykot, İkincil Boykot ve Şüpheli"),
     "kb": dict(ad="Kolay Boykot (Filistin İçin)", site="https://www.kolayboykot.com/filistin-icin-c-843", cek=cek_kb,
                siklik="haftalik", birim="marka", kapsam="listenin tamamı"),
+    "bco": dict(ad="Boykot.co", site="https://www.boykot.co", cek=cek_bco, siklik="haftalik", birim="marka",
+                kapsam="“Boykot” durumundaki markalar (“Boykot değil” markalar da izlenir)"),
     "eb": dict(ad="Eczanede Boykot", site="https://eczanedeboykot.com/tr", cek=cek_eb, siklik="gunluk", birim="ilaç",
                kapsam="boykot firmaları ve ürünleri"),
     "wp": dict(ad="Who Profits", site="https://www.whoprofits.org", cek=cek_wp, siklik="gunluk", birim="şirket",

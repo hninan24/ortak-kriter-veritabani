@@ -24,6 +24,7 @@ DERECE = {
     "bykt": {"Alınabilir": 1, "İnsafa Bağlı": 2, "Kesin Boykot": 3},
     "bt": {"Listede değil (0)": 0, "Derecesiz": 0, "1 Çarpılı Şirket": 1, "2 Çarpılı Şirket": 2, "3 Çarpılı Şirket": 3},
     "bd": {"Uygun": 0, "Araştırılıyor": 0, "Ahlaken Boykot": 0, "Şüpheli": 1, "İkincil Boykot": 2, "Boykot": 3},
+    "bco": {"Boykot değil": 0, "Boykot": 1},
 }
 DOSYA = {"dbio", "inv"}          # kayıtları veri dosyası olan kaynaklar
 

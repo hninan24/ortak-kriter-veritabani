@@ -13,6 +13,12 @@
   "son_kontrol": "2026-10-25T12:10:16+03:00",
   "veri_tarihi": "2026-10-02"
  },
+ "bco": {
+  "durum": "tohum",
+  "parmak_izi": "dd01e2d5784dc422463df261d898664a952a3b7c41cfdbab339c6111ee6b0322",
+  "son_kontrol": null,
+  "veri_tarihi": "2026-10-24"
+ },
  "bd": {
   "durum": "ok",
   "parmak_izi": "c8de35a684eb03fecc3131a46bfede5e621e596c17acb93b93830a13b8e0f472",
