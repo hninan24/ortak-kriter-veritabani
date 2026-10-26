@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 14 listeden toplanan 6.693 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 14 listeden toplanan 6.695 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -16,7 +16,7 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 | Liste | Kayıt |
 |---|---:|
 | Boykot Dedektifi (boykotdedektifi.com) | 2.556 |
-| No Thanks — uygulamanın Level 1 ve Level 2 kayıtları | 2.188 |
+| No Thanks (iOS uygulaması, üç seviye) | 2.191 |
 | DBIO — Don't Buy Into Occupation (2025) | 1.218 |
 | bykt.org | 1.167 |
 | Boykot.co (yalnız “Boykot” durumundakiler) | 934 |
@@ -32,7 +32,7 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 26 Ekim 2026. No Thanks uygulamasının 2.188 boykot kaydı eklendi (iOS uygulamasının 26 Ekim verisi): seviye (Level 1: Strong Connection to Israel, Level 2: Indirect Support for Israel), BDS işareti, uygulamadaki gerekçe metni ve kaynak bağlantıları. “Level 3: No Known Connection to Israel” markaları (3) alınmadı. Uygulamanın marka sayfası ve çatı alanı yok; 917 marka mevcut kuruluşlara bağlandı, 1.231'i yeni. Aynı adı taşıyan farklı markalar ayrı tutuldu (ör. Silk (Danone), Brisa (Coca-Cola), Tic Tac).
+Son güncelleme: 26 Ekim 2026. No Thanks uygulamasının 2.191 kaydı eklendi (iOS uygulamasının 26 Ekim verisi): seviye (Level 1: Strong Connection to Israel, Level 2: Indirect Support for Israel, Level 3: No Known Connection to Israel), BDS işareti, uygulamadaki gerekçe metni ve kaynak bağlantıları. Level 3'teki üç marka (Temu, Dr. Bronner's, Ecostore) uygulamada “bilinen bağlantısı yok” seviyesinde ama gerekçe metinleri eleştirel; sitede nötr renkle gösterilir. Uygulamanın marka sayfası ve çatı alanı yok; 918 marka mevcut kuruluşlara bağlandı, 1.233'ü yeni. Aynı adı taşıyan farklı markalar ayrı tutuldu (ör. Silk (Danone), Brisa (Coca-Cola), Tic Tac).
 
 Aynı gün Boykot.co'nun “Boykot” durumundaki 934 markası eklendi (24 Ekim taraması; “Boykot değil” markalar alınmadı): sitedeki gerekçe metni, marka sayfası ve kanıt bağlantısı; 865'i mevcut kuruluşlara bağlandı, 29'u yeni. Metinler sitenin kendi metinleridir ve kaynak sayfasıyla birlikte verilir.
 
