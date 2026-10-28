@@ -2,14 +2,15 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 14 listeden toplanan 6.695 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 15 listeden toplanan 6.698 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
 - kaynak bağlantısı,
-- çatı şirket ilişkisi.
+- çatı şirket ilişkisi,
+- kategori (listelerin kendi kategorilerinden).
 
-Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne göre ayrılır.
+Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrılır.
 
 ## Listeler
 
@@ -28,17 +29,34 @@ Kriter kodu yoktur. Bu sürümde kuruluşlar yalnızca listelerin hükmüne gör
 | BM OHCHR A/HRC/63/20 (Liste A) | 219 |
 | Boycat — uygulamadaki “En iyi markalar” (Watermelon) | 199 |
 | Investigate (AFSC) | 187 |
+| Boykot Rehberi — Filistin İnisiyatifi'nin “Market Ürünleri Boykot Listesi” kitapçığı | 160 |
 | AFSC — Gazze soykırımı şirketleri | 58 |
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 26 Ekim 2026. No Thanks uygulamasının 2.191 kaydı eklendi (iOS uygulamasının 26 Ekim verisi): seviye (Level 1: Strong Connection to Israel, Level 2: Indirect Support for Israel, Level 3: No Known Connection to Israel), BDS işareti, uygulamadaki gerekçe metni ve kaynak bağlantıları. Level 3'teki üç marka (Temu, Dr. Bronner's, Ecostore) uygulamada “bilinen bağlantısı yok” seviyesinde ama gerekçe metinleri eleştirel; sitede nötr renkle gösterilir. Uygulamanın marka sayfası ve çatı alanı yok; 918 marka mevcut kuruluşlara bağlandı, 1.233'ü yeni. Aynı adı taşıyan farklı markalar ayrı tutuldu (ör. Silk (Danone), Brisa (Coca-Cola), Tic Tac).
+Son güncelleme: 28 Ekim 2026. İki değişiklik var:
+
+- **Kategori.** Her kuruluşa listelerin kendi kategori alanlarından devralınan bir ana kategori verildi (aşağıda **Kategoriler**). Sitede Kategori filtresi var; ayrıntı panelinde hangi listenin hangi etiketi verdiği görünüyor; ÖBL'nin Excel dosyasındaki “Sektör” sütunu “Kategori” oldu. Kategori kontrolünde aynı adı taşıyan üç farklı marka ayrıldı: American Heritage Dergisi (Mars'ın çikolatası değil), Giotto Boya Kalemleri (Ferrero'nun gofreti değil), Bambi (Coca-Cola HBC) (Türk ayakkabı markası değil).
+- **Boykot Rehberi.** Filistin İnisiyatifi'nin kitapçığı ([sayfalar](https://cetinkayakoc.net/earc/BoykotRehberi/)) 15. liste olarak eklendi: 9 çatı ve 151 marka, hepsi veritabanında zaten vardı. Markalar kitapçığın “Boykottaki üreticiler ve markaları” sayfalarında yazıldıkları çatıya bağlandı; kategori sayfalarının başlıkları (İçecekler, Yiyecekler, Kozmetik ve Kişisel Bakım, Temizlik, Bebek Ürünleri) kategori etiketi oldu. Kitapçıkta tek seviye (“Boykot”) var ve marka başına gerekçe yok; açıklama, rehberin markayla ilgili söylediklerinden (sayfa, kategori, çatı) derlendi ve bağlantı markanın geçtiği kitapçık sayfası.
+
+26 Ekim 2026: No Thanks uygulamasının 2.191 kaydı eklendi (iOS uygulamasının 26 Ekim verisi): seviye (Level 1: Strong Connection to Israel, Level 2: Indirect Support for Israel, Level 3: No Known Connection to Israel), BDS işareti, uygulamadaki gerekçe metni ve kaynak bağlantıları. Level 3'teki üç marka (Temu, Dr. Bronner's, Ecostore) uygulamada “bilinen bağlantısı yok” seviyesinde ama gerekçe metinleri eleştirel; sitede nötr renkle gösterilir. Uygulamanın marka sayfası ve çatı alanı yok; 918 marka mevcut kuruluşlara bağlandı, 1.233'ü yeni. Aynı adı taşıyan farklı markalar ayrı tutuldu (ör. Silk (Danone), Brisa (Coca-Cola), Tic Tac).
 
 Aynı gün Boykot.co'nun “Boykot” durumundaki 934 markası eklendi (24 Ekim taraması; “Boykot değil” markalar alınmadı): sitedeki gerekçe metni, marka sayfası ve kanıt bağlantısı; 865'i mevcut kuruluşlara bağlandı, 29'u yeni. Metinler sitenin kendi metinleridir ve kaynak sayfasıyla birlikte verilir.
 
 24 Ekim 2026: Boycat uygulamasının “En iyi markalar” listesi (199 marka) eklendi: uygulamadaki seviye (Official BDS Priority Campaign, Level 2, Level 3), research.boycat.io'daki gerekçe metni ve şirket sayfası; 116'sı mevcut kuruluşlara bağlandı, 82'si yeni. Ayrıntı panelinde çatının alt markalarından ve alt markanın çatısından devraldığı listeler de gösteriliyor. bykt'nin listeden çıkardığı Damla Minera “geri çekildi” olarak işaretlendi.
 
 20 Ekim 2026: bykt 20 Ekim, Bilinçli Tüketim 18 Ekim verisine geçirildi: Lefties, Derimod ve Philips eklendi, 27 bykt gerekçesi güncellendi. Who Profits'in kaldırdığı Aldo ve SEMI kayıtları “geri çekildi” olarak işaretlendi.
+
+## Kategoriler
+
+Kategoriler listelerden devralınır; elle kategori uydurulmaz. Ana kategori sayısı 22'dir: Gıda & İçecek, Kozmetik & Kişisel Bakım, Temizlik & Ev Bakımı, Giyim & Aksesuar, Teknoloji & Elektronik, Sağlık & İlaç, Anne-Bebek & Oyuncak, Evcil Hayvan, Ev & Yaşam, Market & Perakende, Otomotiv, Ulaşım, Turizm & Lojistik, Medya & Eğlence, Finans & Sigorta, Enerji, İnşaat, Yapı & Emlak, Sanayi & Kimya, Savunma & Güvenlik, Tarım, Kırtasiye & Kitap, Tütün, Hizmet & Danışmanlık.
+
+1. Her listenin kategori etiketi bir eşleme tablosuyla ana kategoriye bağlandı (ör. Boykot.co “Kişisel Bakım” ve No Thanks “Personal Care” → Kozmetik & Kişisel Bakım). Sektör bildirmeyen ya da birbirinden farklı şeyleri toplayan etiketler (“Şirket”, “Holding”, “Other”, “İşletme”) kategori vermez.
+2. Kategori alanı olmayan listelerde listenin yapısı kullanıldı: Eczanede Boykot'un ilaçları Sağlık & İlaç, DBIO'nun finans kuruluşları Finans & Sigorta.
+3. Kendi etiketi olmayan çatı şirket, alt markalarının kategorilerini alır.
+4. Listeler bir kuruluşa birbiriyle ilgisiz kategoriler veriyorsa (ör. bir şampuana “Gıda”) kontrol listesiyle karar verildi; komşu kategoriler (ör. Kozmetik ile Sağlık) birlikte kalır.
+
+Sonuç: 4.551 kuruluşun kategorisi kendi etiketinden, 1.403'ünün listenin yapısından, 308 çatının alt markalarından geliyor. Açık bir etiketi olmayan 436 kuruluş “Kategorisiz”. Bir kuruluş birden çok kategoride olabilir.
 
 ## Kaynak izleme
 
