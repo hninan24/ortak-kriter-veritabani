@@ -49,14 +49,16 @@ Aynı gün Boykot.co'nun “Boykot” durumundaki 934 markası eklendi (24 Ekim 
 
 ## Kategoriler
 
-Kategoriler listelerden devralınır; elle kategori uydurulmaz. Ana kategori sayısı 22'dir: Gıda & İçecek, Kozmetik & Kişisel Bakım, Temizlik & Ev Bakımı, Giyim & Aksesuar, Teknoloji & Elektronik, Sağlık & İlaç, Anne-Bebek & Oyuncak, Evcil Hayvan, Ev & Yaşam, Market & Perakende, Otomotiv, Ulaşım, Turizm & Lojistik, Medya & Eğlence, Finans & Sigorta, Enerji, İnşaat, Yapı & Emlak, Sanayi & Kimya, Savunma & Güvenlik, Tarım, Kırtasiye & Kitap, Tütün, Hizmet & Danışmanlık.
+Kategoriler önce listelerin kendi etiketlerinden devralınır. Ana kategori sayısı 23'tür: Gıda & İçecek, Kozmetik & Kişisel Bakım, Temizlik & Ev Bakımı, Giyim & Aksesuar, Teknoloji & Elektronik, Sağlık & İlaç, Anne-Bebek & Oyuncak, Evcil Hayvan, Ev & Yaşam, Market & Perakende, Otomotiv, Ulaşım, Turizm & Lojistik, Medya & Eğlence, Finans & Sigorta, Enerji, İnşaat, Yapı & Emlak, Sanayi & Kimya, Savunma & Güvenlik, Tarım, Kırtasiye & Kitap, Tütün, Hizmet & Danışmanlık, Lobi, Dernek & Kurum.
 
 1. Her listenin kategori etiketi bir eşleme tablosuyla ana kategoriye bağlandı (ör. Boykot.co “Kişisel Bakım” ve No Thanks “Personal Care” → Kozmetik & Kişisel Bakım). Sektör bildirmeyen ya da birbirinden farklı şeyleri toplayan etiketler (“Şirket”, “Holding”, “Other”, “İşletme”) kategori vermez.
 2. Kategori alanı olmayan listelerde listenin yapısı kullanıldı: Eczanede Boykot'un ilaçları Sağlık & İlaç, DBIO'nun finans kuruluşları Finans & Sigorta.
 3. Kendi etiketi olmayan çatı şirket, alt markalarının kategorilerini alır.
 4. Listeler bir kuruluşa birbiriyle ilgisiz kategoriler veriyorsa (ör. bir şampuana “Gıda”) kontrol listesiyle karar verildi; komşu kategoriler (ör. Kozmetik ile Sağlık) birlikte kalır.
+5. Listelerde kullanılabilir etiketi olmayan kuruluşların her biri için bir web araması yapıldı. Bulunan kategori sitede “web araması” kaynağıyla, gerekçesi ve kaynak bağlantısıyla görünür. Aramanın bir şey bulmadığı kuruluşlara ve bazı başka kuruluşlara kategoriyi çalışma grubu verdi (“çalışma grubu kararı”).
+6. Ticari olmayan kuruluşlar (siyasi lobiler ve PAC'ler, dernek, vakıf ve hayır kurumları, üniversiteler, devlet kurumları) “Lobi, Dernek & Kurum” kategorisinde toplanır.
 
-Sonuç: 4.551 kuruluşun kategorisi kendi etiketinden, 1.403'ünün listenin yapısından, 308 çatının alt markalarından geliyor. Açık bir etiketi olmayan 436 kuruluş “Kategorisiz”. Bir kuruluş birden çok kategoride olabilir.
+Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünün listenin yapısından, bir kısmının da alt markalarından geliyor. 350 kuruluşun kategorisi web aramasından, 88'inin kategorisi çalışma grubu kararından geliyor. “Kategorisiz” kuruluş kalmadı. Bir kuruluş birden çok kategoride olabilir.
 
 ## Kaynak izleme
 
