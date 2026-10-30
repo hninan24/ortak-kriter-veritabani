@@ -57,8 +57,9 @@ Kategoriler önce listelerin kendi etiketlerinden devralınır. Ana kategori say
 4. Listeler bir kuruluşa birbiriyle ilgisiz kategoriler veriyorsa (ör. bir şampuana “Gıda”) kontrol listesiyle karar verildi; komşu kategoriler (ör. Kozmetik ile Sağlık) birlikte kalır.
 5. Listelerde kullanılabilir etiketi olmayan kuruluşların her biri için bir web araması yapıldı. Bulunan kategori sitede “web araması” kaynağıyla, gerekçesi ve kaynak bağlantısıyla görünür. Aramanın bir şey bulmadığı kuruluşlara ve bazı başka kuruluşlara kategoriyi çalışma grubu verdi (“çalışma grubu kararı”).
 6. Ticari olmayan kuruluşlar (siyasi lobiler ve PAC'ler, dernek, vakıf ve hayır kurumları, üniversiteler, devlet kurumları) “Lobi, Dernek & Kurum” kategorisinde toplanır.
+7. Her kategori kendi içinde tek tek gözden geçirildi. Kategoriyi tek bir listenin etiketinden alan ama kategoriye uymayan kuruluşlar o kategoriden çıkarıldı ya da doğru kategoriye taşındı (ör. No Thanks'in “Food & Beverages” etiketindeki kedi-köpek mamaları Evcil Hayvan'a, Bilinçli Tüketim'in “Temizlik” etiketindeki şampuan ve deodorantlar yalnız Kozmetik & Kişisel Bakım'a). Kullanılmayan etiket ayrıntı panelinde görünür.
 
-Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünün listenin yapısından, bir kısmının da alt markalarından geliyor. 350 kuruluşun kategorisi web aramasından, 88'inin kategorisi çalışma grubu kararından geliyor. “Kategorisiz” kuruluş kalmadı. Bir kuruluş birden çok kategoride olabilir.
+Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünün listenin yapısından, bir kısmının da alt markalarından geliyor. 350 kuruluşun kategorisi web aramasından, bir kısmının kategorisi de çalışma grubu kararından geliyor. “Kategorisiz” kuruluş kalmadı. Bir kuruluş birden çok kategoride olabilir.
 
 ## Kaynak izleme
 
