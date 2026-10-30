@@ -2,7 +2,7 @@
 
 İsrail boykot listelerinin marka bazında birleştirilmiş veritabanı. Site: **https://hninan24.github.io/ortak-kriter-veritabani/**
 
-Veritabanında 15 listeden toplanan 6.698 kuruluş var. Her kuruluş için şunlar gösterilir:
+Veritabanında 16 listeden toplanan 6.827 kuruluş var. Her kuruluş için şunlar gösterilir:
 
 - listelerin hükmü,
 - açıklama metni,
@@ -29,12 +29,23 @@ Kriter kodu yoktur. Kuruluşlar listelerin hükmüne ve kategoriye göre ayrıl�
 | BM OHCHR A/HRC/63/20 (Liste A) | 219 |
 | Boycat — uygulamadaki “En iyi markalar” (Watermelon) | 199 |
 | Investigate (AFSC) | 187 |
+| FDH — “Kolay Boykot” PDF kitapçığı, Türkçe rehberin “Utanç Listesi” ve çatı şirket görselleri (yalnız boykot tarafı) | 581 |
 | Boykot Rehberi — Filistin İnisiyatifi'nin “Market Ürünleri Boykot Listesi” kitapçığı | 160 |
 | AFSC — Gazze soykırımı şirketleri | 58 |
 
 Metinler ve hükümler ilgili listelere aittir. Her kaydın yanında kaynağına giden bağlantı vardır.
 
-Son güncelleme: 28 Ekim 2026. İki değişiklik var:
+Son güncelleme: 30 Ekim 2026. **FDH** 16. liste olarak eklendi: 11 çatı ve 570 marka; 452'si veritabanında zaten vardı, 129'u yeni (çoğu çatı görsellerindeki Kellogg's, General Mills, Kraft, Mondelēz, Nestlé markaları; General Mills yeni çatı). FDH üç görsel kaynaktan elle yazıya geçirildi:
+
+- “Kolay Boykot” adlı PDF kitapçığın ALMA / AL sayfaları. Bu kitapçığın kolayboykot.com sitesiyle ilgisi yok.
+- Türkçe rehberin “Utanç Listesi” sayfaları.
+- Çatı şirketleri alt markalarıyla gösteren kampanya görselleri ve posteri.
+
+Yalnız boykot tarafı alındı; kitapçığın önerdiği yerli alternatifler alınmadı. Dört seviye var: “Boykot”, “Tam boykot değil” (“tam boykot değildir ancak yine de kullanmayalım”), “Mümkünse alma” ve “Tavsiye edilmiyor” (kitapçığın “tavsiye etmiyoruz” ya da “yerli değil” notuyla andıkları). Sitede bir FDH seviyesi filtresi var. Kaynaklar internette yayımlanmadığı için kayıtlarda bağlantı yok.
+
+Markalar görsellerdeki çatıya, veritabanındaki çatıyla aynıysa ya da kuruluşun veritabanında çatısı yoksa bağlandı. Farklıysa bağlanmadı ve açıklamada yazıyor; örneğin görseller KFC'yi PepsiCo, L'Oréal markalarını Nestlé altında gösteriyor. Görseller kısmen eski. Satıldığı bilinen markalar (Ferrero'ya geçen Butterfinger ve Wonka şekerlemeleri, Hormel'e geçen Planters gibi) eski çatıya bağlanmadı. Kitapçığın sayfa başlıkları (Kahve, Şampuan, Araba, Bankacılık…) kategori etiketi oldu. Görsellerden gelen ve etiketi olmayan 112 yeni markanın kategorisi web aramasından geldi; ikisi (Just for Me, Ombrelle) kategorisiz kaldı.
+
+28 Ekim 2026'da iki değişiklik yapıldı:
 
 - **Kategori.** Her kuruluşa listelerin kendi kategori alanlarından devralınan bir ana kategori verildi (aşağıda **Kategoriler**). Sitede Kategori filtresi var; ayrıntı panelinde hangi listenin hangi etiketi verdiği görünüyor; ÖBL'nin Excel dosyasındaki “Sektör” sütunu “Kategori” oldu. Kategori kontrolünde aynı adı taşıyan üç farklı marka ayrıldı: American Heritage Dergisi (Mars'ın çikolatası değil), Giotto Boya Kalemleri (Ferrero'nun gofreti değil), Bambi (Coca-Cola HBC) (Türk ayakkabı markası değil).
 - **Boykot Rehberi.** Filistin İnisiyatifi'nin kitapçığı ([sayfalar](https://cetinkayakoc.net/earc/BoykotRehberi/)) 15. liste olarak eklendi: 9 çatı ve 151 marka, hepsi veritabanında zaten vardı. Markalar kitapçığın “Boykottaki üreticiler ve markaları” sayfalarında yazıldıkları çatıya bağlandı; kategori sayfalarının başlıkları (İçecekler, Yiyecekler, Kozmetik ve Kişisel Bakım, Temizlik, Bebek Ürünleri) kategori etiketi oldu. Kitapçıkta tek seviye (“Boykot”) var ve marka başına gerekçe yok; açıklama, rehberin markayla ilgili söylediklerinden (sayfa, kategori, çatı) derlendi ve bağlantı markanın geçtiği kitapçık sayfası.
@@ -59,7 +70,7 @@ Kategoriler önce listelerin kendi etiketlerinden devralınır. Ana kategori say
 6. Ticari olmayan kuruluşlar (siyasi lobiler ve PAC'ler, dernek, vakıf ve hayır kurumları, üniversiteler, devlet kurumları) “Lobi, Dernek & Kurum” kategorisinde toplanır.
 7. Her kategori kendi içinde tek tek gözden geçirildi. Kategoriyi tek bir listenin etiketinden alan ama kategoriye uymayan kuruluşlar o kategoriden çıkarıldı ya da doğru kategoriye taşındı (ör. No Thanks'in “Food & Beverages” etiketindeki kedi-köpek mamaları Evcil Hayvan'a, Bilinçli Tüketim'in “Temizlik” etiketindeki şampuan ve deodorantlar yalnız Kozmetik & Kişisel Bakım'a). Kullanılmayan etiket ayrıntı panelinde görünür.
 
-Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünün listenin yapısından, bir kısmının da alt markalarından geliyor. 350 kuruluşun kategorisi web aramasından, bir kısmının kategorisi de çalışma grubu kararından geliyor. “Kategorisiz” kuruluş kalmadı. Bir kuruluş birden çok kategoride olabilir.
+Sonuç: kuruluşların çoğunun kategorisi kendi liste etiketinden, 1.403'ünün listenin yapısından, bir kısmının da alt markalarından geliyor. 460 kuruluşun kategorisi web aramasından, bir kısmının kategorisi de çalışma grubu kararından geliyor. İki kuruluş kategorisiz (Just for Me, Ombrelle). Bir kuruluş birden çok kategoride olabilir.
 
 ## Kaynak izleme
 
